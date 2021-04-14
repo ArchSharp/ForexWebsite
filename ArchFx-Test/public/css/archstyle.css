@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
+.home{
+    display: flex;
+    background: url("../images/fxlogo-745x353.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.login_home{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container .row .txt{
+    text-align: justify;
+}
+/*.navbar-light .navbar-nav .nav-link {
+    color: crimson;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link .active {
+    color: crimson;
+}*/
+.home .row .column .typing{
+    color: white;
+    font-weight: 500;
+}
+.about{
+    font-family: 'Ubuntu', sans-serif;
+}
+.user{
+    font-family: 'Ubuntu', sans-serif;
+}
+.contact{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container .row .col-5 i{
+    font-size: 25px;
+    color: blue;
+}
+/*contact us*/
