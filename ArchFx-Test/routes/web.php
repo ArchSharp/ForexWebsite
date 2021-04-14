@@ -22,10 +22,17 @@ Route::get('/', function () {
     return view('register');
 })->name('gotoRegPage');
 // from register page direct to login page
-Route::get('/register', function () {
-    return view('home');
+Route::get('/register/login', function () {
+    return view('login');
 })->name('gotoLoginPage');
 
+Route::get('/register', function () {
+    return view('home');
+})->name('home');
+// from login page direct to register page
+Route::get('/login', function () {
+    return view('register');
+})->name('gotoRegPage');
 
 Route::get('home', [contactController::class, 'index']);
 Route::post('store-form', [contactController::class, 'store']);

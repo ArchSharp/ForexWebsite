@@ -42,34 +42,68 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                <h1 class="dropdown-header">Learn</h5>
+                  <a class="dropdown-item" href="#">Forex</a>
+                  <a class="dropdown-item" href="#">MQL4</a>
+                <h1 class="dropdown-header">Freelance</h5>
+                  <a class="dropdown-item" href="#">indicators</a>
+                  <a class="dropdown-item" href="#">Expert advisors</a>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonies">Testimonies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactUs">Support</a>
+            </li>
           </ul>
         </div>
   </div>
 </nav>
 
-            <!--                    home section                -->
-<section id="home">
-  <div class="container-fluid login_home">
-    <div class="row">
-      <div class="column ms-5" style="margin-top:200px;">
-        
+<section style="margin-top: 200px;">
+  <div class="container card my-5" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title text-center">Login</h5>
+          <form action="" class="mt-5 form-inline" name="home" id="home" method="post" action="{{url('store-forms')}}">
+            @csrf
+            <div class="form-group">
+              <input type="text" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror" placeholder="Enter Email/Username" id="name" name="name" required>
+              @error('title')
+                <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+              @enderror
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror" placeholder="Enter Password" id="password" name="password" required>
+              @error('title')
+                <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+              @enderror
+            </div>
+            <button class=" btn btn-primary">Login</button>
+            <p class="mt-3"> Don't have an account, <a href="{{ route('gotoRegPage') }}">Sign Up</a></p>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-
-<!-- <main class="container-fluid">
-
-  <div class="starter-template text-center py-5 px-3">
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-  </div>
-
-</main>/.container -->
-
-
 <!-- footer section start -->
-<footer class="footer mt-auto py-3 bg-light">
+<footer class="footer mt-5 py-3 bg-light">
   <div class="container">
     <div class="row">
       <div class="col offset-3">

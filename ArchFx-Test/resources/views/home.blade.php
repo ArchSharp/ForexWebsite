@@ -48,12 +48,12 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
               <ul class="dropdown-menu" aria-labelledby="dropdown10">
-                <h1 class="dropdown-header">Learn</h5>
+                <h1 class="dropdown-header">Learn</h1>
                   <a class="dropdown-item" href="{{ route('gotoRegPage') }}">Forex</a>
-                  <a class="dropdown-item" href="#">MQL4</a>
-                <h1 class="dropdown-header">Freelance</h5>
-                  <a class="dropdown-item" href="#">indicators</a>
-                  <a class="dropdown-item" href="#">Expert advisors</a>
+                  <a class="dropdown-item" href="{{ route('gotoRegPage') }}">MQL4</a>
+                <h1 class="dropdown-header">Freelance</h1>
+                  <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Indicator" disabled>indicators</a>
+                  <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Expert Advisor" disabled>Expert advisors</a>
               </ul>
             </li>
             <li class="nav-item">
@@ -69,6 +69,36 @@
         </div>
   </div>
 </nav>
+
+<!--              Modal                     -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name" disabled>
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--              End of Modal                     -->
 
             <!--                    home section                -->
 <section id="home">
@@ -107,7 +137,7 @@
   <div class="starter-template text-center py-5 px-3">
     <h1>Bootstrap starter template</h1>
     <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-    <?php makeAPICall('https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///'); ?>
+    <?php //makeAPICall('https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///'); ?>
     
     <!-- 
 
