@@ -110,6 +110,8 @@
     <?php makeAPICall('https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///'); ?>
     
     <!-- 
+
+      https://www.myfxbook.com/api/login.xml?email=elvis@yahoo.com&password=letsboogie
       my session is zrqN7QMXubatiSRbIrN31985378
       https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///
       https://www.myfxbook.com/api/get-my-accounts.json?session=DSL07vu14QxHWErTIAFrH40 
@@ -120,26 +122,19 @@
         
 </div>
 
-        <?php 
+            <?php
               function makeAPICall($url){
-
-                  
                   $handle = curl_init();
-
-                  
                   // Set the url
                     curl_setopt($handle, CURLOPT_URL, $url);
                   // Set the result output to be a string.
                   curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
-                  
                   $output = curl_exec($handle);
-                  
                   curl_close($handle);
-                  
                   echo $output;
-               return $output;
+                  return $output;
               }
-        ?>
+            ?>
 
 
 <!-- end of testing api -->
