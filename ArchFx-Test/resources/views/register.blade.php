@@ -31,46 +31,23 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="logos.jpg" alt="LOGO"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="container collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto mb-2 mb-md-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-              <ul class="dropdown-menu" aria-labelledby="dropdown10">
-                <h1 class="dropdown-header">Learn</h5>
-                  <a class="dropdown-item" href="#">Forex</a>
-                  <a class="dropdown-item" href="#">MQL4</a>
-                <h1 class="dropdown-header">Freelance</h5>
-                  <a class="dropdown-item" href="#">indicators</a>
-                  <a class="dropdown-item" href="#">Expert advisors</a>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#products">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonies">Testimonies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contactUs">Support</a>
             </li>
           </ul>
         </div>
   </div>
 </nav>
 
-<section style="margin-top: 200px;">
+<section style="margin-top: 100px;">
   <div class="container card my-5" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
@@ -79,22 +56,40 @@
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title text-center">Register</h5>
-          <form action="" class="mt-5 form-inline" name="home" id="home" method="post" action="{{url('store-forms')}}">
+          <form action="" class="mt-5 form-inline" name="home" id="home" method="post" action="{{url('createUser')}}">
             @csrf
             <div class="form-group">
-              <input type="text" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror" placeholder="Enter Email/Username" id="name" name="name" required>
+              <input type="text" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror border-start-0 border-end-0 border-top-0" placeholder="Enter First Name" id="firstname" name="firstname" required>
               @error('title')
                 <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
               @enderror
             </div>
             <div class="form-group">
-              <input type="password" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror" placeholder="Enter Password" id="password" name="password" required>
+              <input type="text" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror border-start-0 border-end-0 border-top-0" placeholder="Enter Last Name" id="lastname" name="lastname" required>
+              @error('title')
+                <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+              @enderror
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror border-start-0 border-end-0 border-top-0" placeholder="Enter Email" id="email" name="email" required>
+              @error('title')
+                <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+              @enderror
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror border-start-0 border-end-0 border-top-0" placeholder="Enter Password" id="password" name="password" required>
+              @error('title')
+                <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+              @enderror
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control mb-2 mr-sm-2 @error('title') is-invalid @enderror border-start-0 border-end-0 border-top-0" placeholder="Confirm Password" id="password" name="ConfirmPassword" required>
               @error('title')
                 <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
               @enderror
             </div>
             <button class=" btn btn-primary">Sign Up</button>
-            <p class="mt-3"> Already have an account, <a href="{{ route('gotoLoginPage') }}">Sign In</a></p>
+            <p class="mt-3"> Already have an account <a href="{{ route('gotoLoginPage') }}">Sign In</a></p>
           </form>
         </div>
       </div>
@@ -103,7 +98,7 @@
 </section>
 
 <!-- footer section start -->
-<footer class="footer mt-5 py-3 bg-light">
+<footer class="footer mt-1 py-1 bg-light">
   <div class="container">
     <div class="row">
       <div class="col offset-3">

@@ -31,7 +31,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder">
   <div class="container-fluid">
     <a class="navbar-brand" href="#" id="home"><img src="logos.jpg" alt="LOGO"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,8 +52,8 @@
                   <a class="dropdown-item" href="{{ route('gotoRegPage') }}">Forex</a>
                   <a class="dropdown-item" href="{{ route('gotoRegPage') }}">MQL4</a>
                 <h1 class="dropdown-header">Freelance</h1>
-                  <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Indicator" disabled>indicators</a>
-                  <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Expert Advisor" disabled>Expert advisors</a>
+                  <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Indicator">indicators</a>
+                  <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Expert Advisor">Expert advisors</a>
               </ul>
             </li>
             <li class="nav-item">
@@ -144,7 +144,7 @@
       https://www.myfxbook.com/api/login.xml?email=elvis@yahoo.com&password=letsboogie
       my session is zrqN7QMXubatiSRbIrN31985378
       https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///
-      https://www.myfxbook.com/api/get-my-accounts.json?session=DSL07vu14QxHWErTIAFrH40 
+      https://www.myfxbook.com/api/get-my-accounts.json?session=DSL07vu14QxHWErTIAFrH40
       
     -->
 
@@ -156,12 +156,14 @@
               function makeAPICall($url){
                   $handle = curl_init();
                   // Set the url
-                    curl_setopt($handle, CURLOPT_URL, $url);
+                  curl_setopt($handle, CURLOPT_URL, $url);
                   // Set the result output to be a string.
+                  curl_setopt($handle, CURLOPT_SSL_VERIFYPEER, false);
                   curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
                   $output = curl_exec($handle);
-                  curl_close($handle);
                   echo $output;
+                  curl_close($handle);
+                  
                   return $output;
               }
             ?>

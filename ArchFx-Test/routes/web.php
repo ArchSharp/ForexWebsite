@@ -34,6 +34,9 @@ Route::get('/login', function () {
     return view('register');
 })->name('gotoRegPage');
 
+Route::get('home', [registerController::class, 'index']);
+Route::post('createUser', [registerController::class, 'create']);
+
 Route::get('home', [contactController::class, 'index']);
 Route::post('store-form', [contactController::class, 'store']);
 /*<!--Auth::routes();
