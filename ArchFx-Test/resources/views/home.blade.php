@@ -49,8 +49,8 @@
               <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
               <ul class="dropdown-menu" aria-labelledby="dropdown10">
                 <h1 class="dropdown-header">Learn</h1>
-                  <a class="dropdown-item" href="{{ route('gotoRegPage') }}">Forex</a>
-                  <a class="dropdown-item" href="{{ route('gotoRegPage') }}">MQL4</a>
+                  <a class="dropdown-item" href="{{ route('auth.register') }}">Forex</a>
+                  <a class="dropdown-item" href="{{ route('auth.register') }}">MQL4</a>
                 <h1 class="dropdown-header">Freelance</h1>
                   <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Indicator">indicators</a>
                   <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Expert Advisor">Expert advisors</a>

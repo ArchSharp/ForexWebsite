@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\contactController;
+use App\Http\Controllers\MainController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,30 +13,26 @@ use App\Http\Controllers\contactController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*
 Route::get('/', function () {
     return view('home');
 });
+*/
 
-// from home page direct to register page
-Route::get('/', function () {
-    return view('register');
-})->name('gotoRegPage');
-// from register page direct to login page
-Route::get('/register/login', function () {
-    return view('login');
-})->name('gotoLoginPage');
+Route::get('/register', [MainController::class, 'home'])->name('home');
+Route::post('/auth/save', [MainController::class, 'save'])->name('auth.save');
+Route::post('/auth/check', [MainController::class, 'check'])->name('auth.check');
+Route::get('/auth/logout', [MainController::class, 'logout'])->name('auth.logout');
 
-Route::get('/register', function () {
-    return view('home');
-})->name('home');
-// from login page direct to register page
-Route::get('/login', function () {
-    return view('register');
-})->name('gotoRegPage');
+Route::get('home', [contactController::class, 'index']);
+Route::post('store-form', [contactController::class, 'store']);
 
-Route::get('home', [registerController::class, 'index']);
-Route::post('createUser', [registerController::class, 'create']);
+
+Route::group(['middleware'=>['AuthCheck']], function(){
+    Route::get('/auth/login', [MainController::class, 'login'])->name('auth.login');
+    Route::get('/auth/register', [MainController::class, 'register'])->name('auth.register');
+    Route::get('/admin/dashboard', [MainController::class, 'dashboard'])->name('admin.dashboard');
+});
 
 Route::get('home', [contactController::class, 'index']);
 Route::post('store-form', [contactController::class, 'store']);
