@@ -137,7 +137,7 @@
   <div class="starter-template text-center py-5 px-3">
     <h1>Bootstrap starter template</h1>
     <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-    <?php //makeAPICall('https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///'); ?>
+    <?php //makeAPICall("https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///"); ?>
     
     <!-- 
 
@@ -195,7 +195,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
@@ -204,7 +204,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
@@ -213,7 +213,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
             </div>
@@ -227,7 +227,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
@@ -236,7 +236,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
@@ -245,7 +245,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
             </div>
@@ -259,7 +259,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
@@ -268,7 +268,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
@@ -277,7 +277,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary">See Results</a></small></p>
+                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/saraphea613/8274046" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
             </div>
