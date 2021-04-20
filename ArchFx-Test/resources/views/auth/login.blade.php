@@ -74,7 +74,7 @@
               <span class="text-danger">@error('password'){{ $message }} @enderror</span>
             </div>
             <button type="submit" class="btn btn-primary">Login</button>
-            <p class="mt-3"> Don't have an account <a href="{{ route('auth.register') }}">Sign Up</a></p>
+            <p class="mt-3"> Don't have an account? <a href="{{ route('auth.register') }}">Sign Up</a></p>
           </form>
         </div>
       </div>

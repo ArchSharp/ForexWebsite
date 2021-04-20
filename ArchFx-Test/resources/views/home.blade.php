@@ -135,7 +135,8 @@
  <main class="container-fluid">
 
   <div class="starter-template text-center py-5 px-3">
-    <h1>Bootstrap starter template</h1>
+    <h1>Recommended Broker</h1>
+    <h4 class="underline text-primary fw-bold text-decoration-underline">FXTM</h4>
     <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
     <?php //makeAPICall("https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///"); ?>
     
