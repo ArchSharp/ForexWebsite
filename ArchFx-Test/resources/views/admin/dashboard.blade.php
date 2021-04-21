@@ -42,19 +42,22 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">{{ $LoggedUserInfo['firstname'] }}</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{{ route('auth.logout') }}">Log Out</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">{{ $LoggedUserInfo['firstname'] }}</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                <a class="dropdown-item" aria-current="page" href="{{ route('auth.logout') }}">Log Out</a>
+                <a class="dropdown-item" aria-current="page" href="{{ route('auth.logout') }}">Reset Password</a>
+              </ul>
             </li>
           </ul>
         </div>
   </div>
 </nav>
 
-<!-- fixed sidebar -->
 
+
+<!-- fixed sidebar -->
+<section>
 <div class="container-fluid" style="margin-top: 80px;">
   <div class="row">
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
@@ -69,7 +72,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="file"></span>
-              -Orders
+              - Definition
             </a>
           </li>
           <li class="nav-item">
@@ -96,15 +99,6 @@
               Integrations
             </a>
           </li>
-        </ul>
-
-        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-          <span>Saved reports</span>
-          <a class="link-secondary" href="#" aria-label="Add a new report">
-            <span data-feather="plus-circle"></span>
-          </a>
-        </h6>
-        <ul class="nav flex-column mb-2">
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="file-text"></span>
@@ -129,18 +123,16 @@
               Year-end sale
             </a>
           </li>
-
-          <!-- added to see scrolling sidebar -->
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">
               <span data-feather="home"></span>
-              Dashboard
+              Forex
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="file"></span>
-              Orders
+              - Definition
             </a>
           </li>
           <li class="nav-item">
@@ -167,15 +159,6 @@
               Integrations
             </a>
           </li>
-        </ul>
-
-        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-          <span>Saved reports</span>
-          <a class="link-secondary" href="#" aria-label="Add a new report">
-            <span data-feather="plus-circle"></span>
-          </a>
-        </h6>
-        <ul class="nav flex-column mb-2">
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="file-text"></span>
@@ -203,9 +186,34 @@
         </ul>
       </div>
     </nav>
+
+    
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <div>
+          <div class="d-flex justify-content-center">
+            <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+            </iframe>
+          </div><br>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+        </div>
+      </div>
+    </main>
   </div>
 </div>
-    <!-- end of fixed sidebar -->
+</section>
 
 <!-- footer section start -->
 <footer class="footer mt-5 py-3 bg-light">
@@ -226,6 +234,8 @@
 </footer>
 
 <script src="archjs.js"></script>
+<script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
 <!--<script src="bootstrap5/js/bootstrap.js"></script>-->
 </body>
 </html>
