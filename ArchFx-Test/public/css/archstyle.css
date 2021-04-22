@@ -101,3 +101,9 @@
     font-size: .75rem;
     text-transform: uppercase;
   }
+
+ .other {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

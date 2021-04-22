@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArchFX - Ease your Forex trading</title>
-    <!--<link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
-    <link rel="stylesheet" href="archstyle.css">-->
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
+    <link rel="stylesheet" href="archstyle.css">
     
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <script>
+      function show(shown, hidden) {
+        document.getElementById(shown).style.display='block';
+        document.getElementById(hidden).style.display='none';
+        //var value = JSON.String(document.getElementById(shown));    //to convert object to string
+        return false;
+      }
+    </script>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <!--<script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script>-->
+    <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script>
     
     <link rel="stylesheet" href="{{ URL::asset('css/archstyle.css') }}" >
     
@@ -64,19 +71,19 @@
       <div class="position-sticky pt-3 border-end navbar-nav-scroll">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link active" aria-current="page" href="#" onclick="return show('Page1','Page2');">
               <span data-feather="home"></span>
               Forex
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#" onclick="return show('Page2','Page1');">
               <span data-feather="file"></span>
               - Definition
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#" onclick="return show('Page3',value);">
               <span data-feather="shopping-cart"></span>
               Products
             </a>
@@ -191,23 +198,124 @@
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <div>
-          <div class="d-flex justify-content-center">
-            <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
-            </iframe>
-          </div><br>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint possimus nam nisi porro velit assumenda fugit adipisci, ex voluptatem incidunt, animi repellendus eos in eaque veniam voluptatibus corporis magni error?
+          
+          <div id="Page1">
+            <div class="d-flex justify-content-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam voluptatem voluptate possimus, deleniti delectus perspiciatis tenetur vitae nesciunt hic illum excepturi magnam! Eos sequi ad accusamus facilis facere repellendus non?
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
+            </p>
+          </div>
+
+          <div id="Page2" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
+              <a href="#" onclick="return show('Page3','Page2');">Show page 3</a>
+            </p>
+          </div>
+
+          <div id="Page3" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page2','Page3');">Show page 2</a>
+              <a href="#" onclick="return show('Page4','Page3');">Show page 4</a>
+            </p>
+          </div>
+
+          <div id="Page4" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page3','Page4');">Show page 3</a>
+              <a href="#" onclick="return show('Page5','Page4');">Show page 5</a>
+            </p>
+          </div>
+
+          <div id="Page5" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page4','Page5');">Show page 4</a>
+              <a href="#" onclick="return show('Page6','Page5');">Show page 6</a>
+            </p>
+          </div>
+
+          <div id="Page6" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page5','Page6');">Show page 5</a>
+              <a href="#" onclick="return show('Page7','Page6');">Show page 7</a>
+            </p>
+          </div>
+
+          <div id="Page7" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page6','Page7');">Show page 6</a>
+              <a href="#" onclick="return show('Page8','Page7');">Show page 9</a>
+            </p>
+          </div>
+
+          <div id="Page8" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page7','Page8');">Show page 7</a>
+              <a href="#" onclick="return show('Page9','Page8');">Show page 9</a>
+            </p>
+          </div>
+
+          <div id="Page9" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page8','Page9');">Show page 8</a>
+              <a href="#" onclick="return show('Page10','Page9');">Show page 10</a>
+            </p>
+          </div>
+
+          <div id="Page10" style="display:none">
+            <div class="d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos mollitia aliquid perferendis quos quasi sequi ducimus quam illum ratione tenetur repudiandae dolorem saepe, libero ea? Maiores natus voluptatem dicta!
+              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+              </iframe> -->
+            </div>
+            <p>
+              <a href="#" onclick="return show('Page9','Page10');">Show page 9</a>
+            </p>
+          </div>
         </div>
       </div>
     </main>
@@ -216,7 +324,7 @@
 </section>
 
 <!-- footer section start -->
-<footer class="footer mt-5 py-3 bg-light">
+<footer class="footer other mt-auto py-3 bg-light">
   <div class="container">
     <div class="row">
       <div class="col offset-3">

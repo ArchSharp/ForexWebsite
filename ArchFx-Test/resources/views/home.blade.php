@@ -49,8 +49,15 @@
               <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
               <ul class="dropdown-menu" aria-labelledby="dropdown10">
                 <h1 class="dropdown-header">Learn</h1>
-                  <a class="dropdown-item" href="{{ route('auth.register') }}">Forex</a>
-                  <a class="dropdown-item" href="{{ route('auth.register') }}">MQL4</a>
+                
+                  @if(isset( $LoggedUserInfo['firstname']))
+                      <a class="dropdown-item" href="{{ route('admin.dashboard') }}">Forex</a>
+                      <a class="dropdown-item" href="{{ route('admin.dashboard') }}">MQL4</a>
+                  @elseif(!isset($LoggedUserInfo['firstname']))
+                      <a class="dropdown-item" href="{{ route('auth.register') }}">Forex</a>
+                      <a class="dropdown-item" href="{{ route('auth.register') }}">MQL4</a>
+                  @endif
+                                  
                 <h1 class="dropdown-header">Freelance</h1>
                   <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Indicator">indicators</a>
                   <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Expert Advisor">Expert advisors</a>
@@ -65,6 +72,11 @@
             <li class="nav-item">
               <a class="nav-link" href="#contactUs">Support</a>
             </li>
+            @isset($LoggedUserInfo['firstname'])
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('admin.dashboard') }}">Dasboard</a>
+              </li>    
+            @endisset
           </ul>
         </div>
   </div>

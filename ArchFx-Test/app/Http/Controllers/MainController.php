@@ -10,7 +10,8 @@ class MainController extends Controller
 {
     //Go to home
     function home(){
-        return view('home');
+        $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
+        return view('home', $data);
     }
     //
     function login(){

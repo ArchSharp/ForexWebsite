@@ -84,7 +84,7 @@
 </section>
 
 <!-- footer section start -->
-<footer class="footer mt-5 py-3 bg-light">
+<footer class="footer other mt-5 py-3 bg-light">
   <div class="container">
     <div class="row">
       <div class="col offset-3">

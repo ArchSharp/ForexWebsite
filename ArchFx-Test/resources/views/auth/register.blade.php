@@ -101,7 +101,7 @@
 </section>
 
 <!-- footer section start -->
-<footer class="footer mt-1 py-1 bg-light">
+<footer class="footer other mt-1 py-1 bg-light">
   <div class="container">
     <div class="row">
       <div class="col offset-3">

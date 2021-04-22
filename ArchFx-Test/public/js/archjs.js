@@ -56,7 +56,13 @@ $(document).ready(function(){
 
     modalTitle.textContent = 'New message to ' + recipient
     modalBodyInput.value = recipient
-})
+});
+
+function show(shown, hidden) {
+    document.getElementById(shown).style.display='block';
+    document.getElementById(hidden).style.display='none';
+    return false;
+}
 
 
 });
