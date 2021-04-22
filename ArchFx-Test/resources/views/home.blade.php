@@ -31,7 +31,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder onlyhome">
   <div class="container-fluid">
     <a class="navbar-brand" href="#" id="home"><img src="logos.jpg" alt="LOGO"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,9 +39,21 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          @if(isset( $LoggedUserInfo['firstname']))
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">{{ $LoggedUserInfo['firstname'] }}</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                  <a class="dropdown-item" aria-current="page" href="{{ route('admin.dashboard') }}">Dasboard</a>
+                  <a class="dropdown-item" aria-current="page" href="{{ route('auth.logout') }}">Log Out</a>
+                  <a class="dropdown-item" aria-current="page" href="{{ route('auth.logout') }}">Reset Password</a>
+                </ul>
+            </li>
+          @elseif(!isset($LoggedUserInfo['firstname']))
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
+          @endif
+            
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
@@ -72,11 +84,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#contactUs">Support</a>
             </li>
-            @isset($LoggedUserInfo['firstname'])
-              <li class="nav-item">
-                <a class="nav-link" href="{{ route('admin.dashboard') }}">Dasboard</a>
-              </li>    
-            @endisset
           </ul>
         </div>
   </div>

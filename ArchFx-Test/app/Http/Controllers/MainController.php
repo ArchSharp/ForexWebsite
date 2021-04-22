@@ -41,7 +41,7 @@ class MainController extends Controller
         $save = $admin->save();
 
         if($save){
-            return back()->with('success','Account created successfully');
+            return back()->with('success','Account created successfully.'."\n".'Click the link sent to your email to verify your email address.');
         }else{
             return back()->with('fail','something is missing');
         }
