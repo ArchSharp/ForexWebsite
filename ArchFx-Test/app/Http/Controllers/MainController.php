@@ -30,6 +30,7 @@ class MainController extends Controller
             'lastname'=>'required',
             'email'=>'required|email|unique:admins',
             'password'=>'required|min:5|max:12',
+            'confirm_password'=>'required|same:password',
         ]);
 
         //insert data

@@ -33,7 +33,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="logos.jpg" alt="LOGO"></a>
+  <a class="navbar-brand" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px; ">ArchFxGlobe</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

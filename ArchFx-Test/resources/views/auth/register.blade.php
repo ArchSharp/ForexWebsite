@@ -33,7 +33,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="logos.jpg" alt="LOGO"></a>
+    <a class="navbar-brand" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px; ">ArchFxGlobe</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -89,7 +89,7 @@
               <span class="text-danger">@error('password'){{ $message }} @enderror</span>
             </div>
             <div class="form-group">
-              <input type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm Password" id="password" name="ConfirmPassword" required>
+              <input type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm Password" id="password" name="confirm_password" required>
             </div>
             <button type="submit" class="btn btn-primary">Sign Up</button>
             <p class="mt-3"> Already have an account? <a href="{{ route('auth.login') }}">Sign In</a></p>

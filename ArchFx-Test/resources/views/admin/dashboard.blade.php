@@ -40,7 +40,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder exempt">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="logos.jpg" alt="LOGO"></a>
+  <a class="navbar-brand" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px; ">ArchFxGlobe</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -71,124 +71,192 @@
       <div class="position-sticky pt-3 border-end navbar-nav-scroll">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" onclick="return show('Page1','Page2');">
-              <span data-feather="home"></span>
-              Forex
-            </a>
+            <ul class="nav flex-column">
+              <a class="nav-link text-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#">Forex - Beginners   +</a>
+              <div class="collapse" id="collapseExample1">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page2','Page1');">
+                    Definition
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Forex trading session
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Who trade Forex market?
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Advantages of forex trading
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Effects of Margin in forex trading
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+              </div>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="return show('Page2','Page1');">
-              <span data-feather="file"></span>
-              - Definition
-            </a>
+            <ul class="nav flex-column">
+              <a class="nav-link text-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Forex - Intermediate   +</a>
+              <div class="collapse" id="collapseExample2">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Definition
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Forex trading session
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Who trade Forex market?
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Advantages of forex trading
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+              </div>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="return show('Page3',value);">
-              <span data-feather="shopping-cart"></span>
-              Products
-            </a>
+            <ul class="nav flex-column">
+              <a class="nav-link text-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Forex - Advanced   +</a>
+              <div class="collapse" id="collapseExample3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Definition
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Forex trading session
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Who trade Forex market?
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Advantages of forex trading
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+              </div>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="users"></span>
-              Customers
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="bar-chart-2"></span>
-              Reports
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="layers"></span>
-              Integrations
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Current month
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Last quarter
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Social engagement
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Year-end sale
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-              <span data-feather="home"></span>
-              Forex
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file"></span>
-              - Definition
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="shopping-cart"></span>
-              Products
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="users"></span>
-              Customers
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="bar-chart-2"></span>
-              Reports
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="layers"></span>
-              Integrations
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Current month
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Last quarter
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Social engagement
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Year-end sale
-            </a>
+            <ul class="nav flex-column">
+              <a class="nav-link text-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Our strategy   +</a>
+              <div class="collapse" id="collapseExample4">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Definition
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Forex trading session
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Who trade Forex market?
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    Advantages of forex trading
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                    How to trade forex profitably
+                  </a>
+                </li>
+              </div>
+            </ul>
           </li>
         </ul>
       </div>
@@ -199,15 +267,18 @@
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <div>
           
-          <div id="Page1">
-            <div class="d-flex justify-content-center">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam voluptatem voluptate possimus, deleniti delectus perspiciatis tenetur vitae nesciunt hic illum excepturi magnam! Eos sequi ad accusamus facilis facere repellendus non?
-              <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
-              </iframe> -->
+          <div class="container" id="Page1">
+            <div class="row">
+              <h4>What is Forex?</h4>
+              <div class="col d-flex justify-content-center text-center">
+                <p>The foreign exchange market, which is usually known as “forex” or “FX,” is the largest financial market in the world.</p>
+                <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
+                </iframe> -->
+              </div>
+              <p>
+                <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
+              </p>
             </div>
-            <p>
-              <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
-            </p>
           </div>
 
           <div id="Page2" style="display:none">

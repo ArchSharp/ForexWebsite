@@ -33,7 +33,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder onlyhome">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#" id="home"><img src="logos.jpg" alt="LOGO"></a>
+  <a class="navbar-brand" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px; ">ArchFxGlobe</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -153,24 +153,17 @@
 <!-- begin testing api -->
  <main class="container-fluid">
 
-  <div class="starter-template text-center py-5 px-3">
-    <h1>Recommended Broker</h1>
-    <h4 class="underline text-primary fw-bold text-decoration-underline">FXTM</h4>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-    <?php //makeAPICall("https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///"); ?>
-    
-    <!-- 
-
-      https://www.myfxbook.com/api/login.xml?email=elvis@yahoo.com&password=letsboogie
-      my session is zrqN7QMXubatiSRbIrN31985378
-      https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///
-      https://www.myfxbook.com/api/get-my-accounts.json?session=DSL07vu14QxHWErTIAFrH40
-      
-    -->
-
-</main>
-        
-</div>
+    <div class="starter-template text-center py-5 px-3">
+      <h1>Recommended Broker</h1>
+      <h4 class="underline text-primary fw-bold text-decoration-underline">FXTM</h4>
+      <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      <?php //makeAPICall("https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///"); ?>
+        <!-- https://www.myfxbook.com/api/login.xml?email=elvis@yahoo.com&password=letsboogie
+        my session is zrqN7QMXubatiSRbIrN31985378
+        https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///
+        https://www.myfxbook.com/api/get-my-accounts.json?session=DSL07vu14QxHWErTIAFrH40-->
+    </div>
+  </main>
 
             <?php
               function makeAPICall($url){
