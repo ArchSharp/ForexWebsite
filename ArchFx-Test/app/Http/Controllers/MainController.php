@@ -5,12 +5,13 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Admin;
 use Carbon\Carbon;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Str;
-use GuzzleHttp\Client;
-use Mail;
-use App\Mail\EmailVerificationMail;
 use App\User;
+use Mail;
+use GuzzleHttp\Client;
+use Illuminate\Support\Str;
+use App\Mail\EmailVerificationMail;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class MainController extends Controller
 {
@@ -70,13 +71,16 @@ class MainController extends Controller
         ]);
 
         $userInfo = Admin::where('email','=',$request->email)->first();
+        $checkverified = Admin::where('email_verified_at','=','NULL');
 
         if(!$userInfo){
             return back()->with('fail','Email address not recognized, Please Sign Up');
         }else{
-            if(Hash::check($request->password, $userInfo->password)){
+            if(Hash::check($request->password, $userInfo->password) && !isset($checkverified)){
                 $request->session()->put('LoggedUser',$userInfo->id);
                 return redirect('admin/dashboard');
+            }elseif(isset($checkverified)){
+                return back()->with('fail', 'Please verify your email to continue');
             }else{
                 return back()->with('fail','Incorrect password');
             }
@@ -101,13 +105,13 @@ class MainController extends Controller
             return redirect()->route('auth.register')->with('fail','INVALID URL');
         }else{
             if($admin->email_verified_at){
-                return redirect()->route('auth.register')->with('fail','Email already verified');
+                return redirect()->route('auth.login')->with('fail','Email already verified');
             }else{
                 $admin->update([
                     'email_verified_at'=>Carbon::now()
                 ]);
 
-                return redirect()->route('auth.register')->with('success','Email successfully verified');
+                return redirect()->route('auth.login')->with('success','Email successfully verified');
             }
         }
     }

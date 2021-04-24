@@ -33,8 +33,9 @@
           <form action="{{ route('auth.check') }}" class="mt-5 form-inline" name="home" id="home" method="post">
             
             @if(Session::get('fail'))
-              <div class="alert alert-danger">
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
                 {{ Session::get('fail') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>
             @endif
             
