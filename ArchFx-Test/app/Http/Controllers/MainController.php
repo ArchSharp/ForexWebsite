@@ -4,7 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Admin;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+use GuzzleHttp\Client;
+use Mail;
+use App\Mail\EmailVerificationMail;
+use App\User;
 
 class MainController extends Controller
 {
@@ -39,7 +45,10 @@ class MainController extends Controller
         $admin->lastname = $request->lastname;
         $admin->email = $request->email;
         $admin->password = Hash::make($request->password);
+        $admin->email_verification_code = Str::random(40);
         $save = $admin->save();
+        
+        Mail::to($request->email)->send(new EmailVerificationMail($admin));
 
         if($save){
             return back()->with('success','Account created successfully.'."\n".'Click the link sent to your email to verify your email address.');
@@ -82,5 +91,22 @@ class MainController extends Controller
     function dashboard(){
         $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
         return view('admin.dashboard', $data);
+    }
+
+    public function verify_email($verification_code){
+        $admin=User::where('email_verified_at',$verification_code)->first();
+        if(!$admin){
+            return redirect()->route('auth.register')->with('error','INVALID URL');
+        }else{
+            if($admin->email_verified_at){
+                return redirect()->route('auth.register')->with('error','Email already verified');
+            }else{
+                $admin->update([
+                    'email_verified_at'=>Carbon::now()
+                ]);
+
+                return redirect()->route('auth.register')->with('success','Email successfully verified');
+            }
+        }
     }
 }

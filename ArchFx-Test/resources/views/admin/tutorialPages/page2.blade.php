@@ -6,6 +6,6 @@
     <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
     </iframe> -->
   </div>
-@stop
+@endsection
                 
                 

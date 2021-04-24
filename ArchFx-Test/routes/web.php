@@ -43,3 +43,5 @@ Route::post('store-form', [contactController::class, 'store']);
 /*<!--Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');*/
+
+Route::get('/auth/verify-email/{verification_code}', [MainController::class, 'verify_email'])->name('verify_email');
