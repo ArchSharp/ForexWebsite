@@ -98,10 +98,10 @@ class MainController extends Controller
         // Also the field is email_verification_code not email_verified_at
         $admin=Admin::where('email_verification_code', $verification_code)->first();
         if(!$admin){
-            return redirect()->route('auth.register')->with('error','INVALID URL');
+            return redirect()->route('auth.register')->with('fail','INVALID URL');
         }else{
             if($admin->email_verified_at){
-                return redirect()->route('auth.register')->with('error','Email already verified');
+                return redirect()->route('auth.register')->with('fail','Email already verified');
             }else{
                 $admin->update([
                     'email_verified_at'=>Carbon::now()
