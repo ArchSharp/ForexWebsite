@@ -24,17 +24,13 @@
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <div class="container" id="Page1">
               <div class="row">
-                <h4>What is Forex?</h4>
-                <div class="col justify-content-center text-center">
-                  <p>The foreign exchange market, which is usually known as “forex” or “FX,” is the largest financial market in the world.</p>
-                  <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
-                  </iframe> -->
-                </div>
+                @yield('content')
+
                 <p>
                 <div class="container-fluid">
                   <div class="row justify-content-between">
                     <div class="col-1">
-                      <a class="bg-light text-decoration-none text-start" href="#">Prev</a>
+                      <a class="bg-light text-decoration-none text-start" href="{{ route('admin.dashboard') }}">Prev</a>
                     </div>
                     <div class="col-1">
                       <a class="bg-light text-decoration-none text-end" href="{{ route('page2') }}">Next</a>
