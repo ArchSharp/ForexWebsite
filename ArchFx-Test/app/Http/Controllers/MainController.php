@@ -47,7 +47,7 @@ class MainController extends Controller
         $admin->password = Hash::make($request->password);
         $admin->email_verification_code = Str::random(40);
         $save = $admin->save();
-        
+
         Mail::to($request->email)->send(new EmailVerificationMail($admin));
 
         if($save){
@@ -57,7 +57,7 @@ class MainController extends Controller
         }
     }
 
-    
+
 
     //login
     function check(Request $request){
@@ -94,7 +94,9 @@ class MainController extends Controller
     }
 
     public function verify_email($verification_code){
-        $admin=User::where('email_verified_at',$verification_code)->first();
+        // You were quering the users table instead of the admins
+        // Also the field is email_verification_code not email_verified_at
+        $admin=Admin::where('email_verification_code', $verification_code)->first();
         if(!$admin){
             return redirect()->route('auth.register')->with('error','INVALID URL');
         }else{
