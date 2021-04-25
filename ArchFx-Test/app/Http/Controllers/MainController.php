@@ -69,17 +69,16 @@ class MainController extends Controller
             'email'=>'required|email',
             'password'=>'required|min:5|max:12'
         ]);
-
+        
         $userInfo = Admin::where('email','=',$request->email)->first();
-        $checkverified = Admin::where('email_verified_at','=','NULL');
-
+        
         if(!$userInfo){
             return back()->with('fail','Email address not recognized, Please Sign Up');
         }else{
-            if(Hash::check($request->password, $userInfo->password) && !isset($checkverified)){
+            if(Hash::check($request->password, $userInfo->password) && $userInfo->email_verified_at != null){
                 $request->session()->put('LoggedUser',$userInfo->id);
                 return redirect('admin/dashboard');
-            }elseif(isset($checkverified)){
+            }elseif($userInfo->email_verified_at == null){
                 return back()->with('fail', 'Please verify your email to continue');
             }else{
                 return back()->with('fail','Incorrect password');
