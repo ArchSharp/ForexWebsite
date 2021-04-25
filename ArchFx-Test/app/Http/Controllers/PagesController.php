@@ -13,7 +13,7 @@ class PagesController extends Controller
 
     public function page2(){
         $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
-        return view('admin.tutorialPages.page2',$data);
+        return view('admin.page2',$data);
     }
 
 }

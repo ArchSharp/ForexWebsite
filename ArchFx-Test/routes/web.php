@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/admin/tutorialPages/page2', [PagesController::class, 'page2'])->name('page2');
+Route::get('/admin/page2', [PagesController::class, 'page2'])->name('page2');
 Route::get('/admin/dashboard', [PagesController::class, 'dashboard'])->name('admin.dashboard');
 
 Route::get('/register', [MainController::class, 'home'])->name('home');
