@@ -35,6 +35,12 @@ class MainController extends Controller
         return view('auth.reset_password');
     }
 
+    function resetpasswordform(){
+        return view('auth.resetpasswordform');
+    }
+
+    
+
     function save(Request $request){
         //return $request->input();
         //validate request
@@ -162,8 +168,10 @@ class MainController extends Controller
                 $userpasstoken->update([
                     'created_at'=>Carbon::now()
                 ]);
+                
 
-                return redirect()->route('auth.resetpassword_form')->with('success','Reset your password');
+                return redirect()->route('auth.resetpasswordform')->with('success','Reset your password');
+                //return view('auth.resetpassword_form');
             }
         }
     }

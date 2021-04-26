@@ -11,7 +11,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">{{ $LoggedUserInfo['firstname'] }}</a>
               <ul class="dropdown-menu" aria-labelledby="dropdown10">
                 <a class="dropdown-item" aria-current="page" href="{{ route('auth.logout') }}">Log Out</a>
-                <a class="dropdown-item" aria-current="page" href="{{ route('auth.resetpass') }}">Reset Password</a>
+                <a class="dropdown-item" aria-current="page" href="{{ route('auth.resetpassword') }}">Reset Password</a>
               </ul>
             </li>
           </ul>

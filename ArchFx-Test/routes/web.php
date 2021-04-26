@@ -22,8 +22,11 @@ Route::get('/', function () {
 
 Route::get('/auth/reset_password', [MainController::class, 'resetpassword'])->name('auth.resetpassword');
 Route::post('/auth/resetpass', [MainController::class, 'resetpass'])->name('auth.resetpass');
-Route::get('/auth/verify-email/{verification_code}', [MainController::class, 'verify_passreset'])->name('verify_passreset');
+Route::get('/auth/verify-passreset/{verification_code}', [MainController::class, 'verify_passreset'])->name('verify_passreset');
 
+//verify email and password reset
+Route::get('/auth/verify-email/{verification_code}', [MainController::class, 'verify_email'])->name('verify_email');
+Route::get('/auth/resetpasswordform', [MainController::class, 'resetpasswordform'])->name('auth.resetpasswordform');
 
 Route::get('/admin/page2', [PagesController::class, 'page2'])->name('page2');
 Route::get('/admin/dashboard', [PagesController::class, 'dashboard'])->name('admin.dashboard');
@@ -49,4 +52,4 @@ Route::post('store-form', [contactController::class, 'store']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');*/
 
-Route::get('/auth/verify-email/{verification_code}', [MainController::class, 'verify_email'])->name('verify_email');
+

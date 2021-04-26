@@ -10,4 +10,5 @@ class Password extends Model
     use HasFactory;
 
     public $table = 'password_resets';
+    public $timestamps = false;
 }
