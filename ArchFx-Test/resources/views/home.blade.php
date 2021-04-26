@@ -19,7 +19,7 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdown10">
                   <a class="dropdown-item" aria-current="page" href="{{ route('admin.dashboard') }}">Dasboard</a>
                   <a class="dropdown-item" aria-current="page" href="{{ route('auth.logout') }}">Log Out</a>
-                  <a class="dropdown-item" aria-current="page" href="{{ route('auth.resetpass') }}">Reset Password</a>
+                  <a class="dropdown-item" aria-current="page" href="{{ route('auth.resetpassword') }}">Reset Password</a>
                 </ul>
             </li>
           @elseif(!isset($LoggedUserInfo['firstname']))

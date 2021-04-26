@@ -30,7 +30,7 @@
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title text-center">Register</h5>
-          <form action="{{ route('auth.resetpass') }}" class="mt-5 form-inline" name="home" id="home" method="post">
+          <form action="{{ route('auth.save') }}" class="mt-5 form-inline" name="home" id="home" method="post">
             
             @if(Session::get('success'))
               <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -49,8 +49,11 @@
 
             @csrf
             <div class="form-group">
-              <input type="text" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Email" id="email" name="email" value="{{ old('email') }}" required>
-              <span class="text-danger">@error('email'){{ $message }} @enderror</span>
+                <input type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="New Password" id="password" name="password" required>
+                <span class="text-danger">@error('password'){{ $message }} @enderror</span>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm New Password" id="password" name="confirm_password" required>
             </div>
             <button type="submit" class="btn btn-primary">Reset Password</button>
           </form>

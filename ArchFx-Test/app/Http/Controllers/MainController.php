@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Admin;
+use App\Models\Password;
 use Carbon\Carbon;
 use App\User;
 use Mail;
 use GuzzleHttp\Client;
 use Illuminate\Support\Str;
 use App\Mail\EmailVerificationMail;
+use App\Mail\PasswordVerificationMail;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
@@ -118,4 +120,52 @@ class MainController extends Controller
             }
         }
     }
+
+    //for reset password
+
+    function resetpass(Request $request){
+        //return $request->input();
+
+        //validate
+        $request->validate([
+            'email'=>'required|email'
+        ]);
+
+        //insert data
+        $user = new Password;
+        $user->email = $request->email;
+        $user->token = Str::random(40);
+        $save = $user->save();
+        
+        $checkUserEmail = Admin::where('email','=',$request->email)->first();
+        
+        if(!$checkUserEmail){
+            return back()->with('fail','Email address not recognized, Please Sign Up');
+        }elseif($save && $checkUserEmail){
+            Mail::to($request->email)->send(new PasswordVerificationMail($user));
+            return back()->with('success','Click the link sent to your email address to change your password.');
+        }
+    }
+
+    //verify password reset
+
+    public function verify_passreset($verification_code){
+        // You were quering the users table instead of the admins
+        // Also the field is email_verification_code not email_verified_at
+        $userpasstoken=Password::where('token', $verification_code)->first();
+        if(!$userpasstoken){
+            return redirect()->route('auth.register')->with('fail','INVALID URL');
+        }else{
+            if($userpasstoken->token){
+                return redirect()->route('auth.login')->with('fail','Password already changed using this link');
+            }else{
+                $userpasstoken->update([
+                    'created_at'=>Carbon::now()
+                ]);
+
+                return redirect()->route('auth.resetpassword_form')->with('success','Reset your password');
+            }
+        }
+    }
+
 }

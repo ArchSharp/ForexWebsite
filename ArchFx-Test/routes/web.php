@@ -20,7 +20,9 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/auth/reset_password', [MainController::class, 'resetpassword'])->name('auth.resetpass');
+Route::get('/auth/reset_password', [MainController::class, 'resetpassword'])->name('auth.resetpassword');
+Route::post('/auth/resetpass', [MainController::class, 'resetpass'])->name('auth.resetpass');
+Route::get('/auth/verify-email/{verification_code}', [MainController::class, 'verify_passreset'])->name('verify_passreset');
 
 
 Route::get('/admin/page2', [PagesController::class, 'page2'])->name('page2');
