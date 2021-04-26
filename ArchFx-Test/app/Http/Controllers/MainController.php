@@ -29,6 +29,10 @@ class MainController extends Controller
         return view('auth.register');
     }
 
+    function resetpassword(){
+        return view('auth.reset_password');
+    }
+
     function save(Request $request){
         //return $request->input();
         //validate request
@@ -36,7 +40,7 @@ class MainController extends Controller
             'firstname'=>'required',
             'lastname'=>'required',
             'email'=>'required|email|unique:admins',
-            'password'=>'required|min:5|max:12',
+            'password'=>'required|min:5|max:18',
             'confirm_password'=>'required|same:password',
         ]);
 
@@ -67,7 +71,7 @@ class MainController extends Controller
         //validate
         $request->validate([
             'email'=>'required|email',
-            'password'=>'required|min:5|max:12'
+            'password'=>'required|min:5|max:18'
         ]);
         
         $userInfo = Admin::where('email','=',$request->email)->first();

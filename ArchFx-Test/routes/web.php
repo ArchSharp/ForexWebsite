@@ -20,6 +20,9 @@ Route::get('/', function () {
 });
 */
 
+Route::get('/auth/reset_password', [MainController::class, 'resetpassword'])->name('auth.resetpass');
+
+
 Route::get('/admin/page2', [PagesController::class, 'page2'])->name('page2');
 Route::get('/admin/dashboard', [PagesController::class, 'dashboard'])->name('admin.dashboard');
 
