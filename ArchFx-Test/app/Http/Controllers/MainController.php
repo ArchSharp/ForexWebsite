@@ -116,13 +116,13 @@ class MainController extends Controller
             return redirect()->route('auth.register')->with('fail','INVALID URL');
         }else{
             if($admin->email_verified_at){
-                return redirect()->route('auth.register')->with('fail','Email already verified');
+                return redirect()->route('auth.login')->with('fail','Email already verified');
             }else{
                 $admin->update([
                     'email_verified_at'=>Carbon::now()
                 ]);
 
-                return redirect()->route('auth.register')->with('success','Email successfully verified');
+                return redirect()->route('auth.login')->with('success','Email successfully verified');
             }
         }
     }
@@ -169,7 +169,6 @@ class MainController extends Controller
                     'created_at'=>Carbon::now()
                 ]);
                 
-
                 return redirect()->route('auth.resetpasswordform')->with('success','Reset your password');
                 //return view('auth.resetpassword_form');
             }
@@ -194,7 +193,8 @@ class MainController extends Controller
             $currentuser->update([
                 'password'=>bcrypt($request->new_password)
             ]);
-            return back()->with('success','Password successfully changed');
+            //return back()->with('success','Password successfully changed');
+            return redirect()->route('auth.login')->with('success','Password successfully changed');
         }
 
         //if(Hash::check($request->password, $userInfo->password))

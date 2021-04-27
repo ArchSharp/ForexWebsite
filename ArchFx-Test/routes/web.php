@@ -22,17 +22,17 @@ Route::get('/', function () {
 
 Route::get('/auth/reset_password', [MainController::class, 'resetpassword'])->name('auth.resetpassword');
 Route::post('/auth/resetpass', [MainController::class, 'resetpass'])->name('auth.resetpass');
-Route::get('/auth/verify-passreset/{verification_code}', [MainController::class, 'verify_passreset'])->name('verify_passreset');
+//route for saving updating new password in database
 Route::post('/auth/savenewpassword', [MainController::class, 'savenewpassword'])->name('auth.savenewpassword');
-
-//verify email and password reset
-Route::get('/auth/verify-email/{verification_code}', [MainController::class, 'verify_email'])->name('verify_email');
+//route for password resetting form
 Route::get('/auth/resetpasswordform', [MainController::class, 'resetpasswordform'])->name('auth.resetpasswordform');
 
-//route for tutorials
-Route::get('/admin/page2', [PagesController::class, 'page2'])->name('page2');
-Route::get('/admin/dashboard', [PagesController::class, 'dashboard'])->name('admin.dashboard');
-//end of tutorial pages
+
+//route for sending verification mail for email address and resetting of password 
+Route::get('/auth/verify-email/{verification_code}', [MainController::class, 'verify_email'])->name('verify_email');
+Route::get('/auth/verify-passreset/{verification_code}', [MainController::class, 'verify_passreset'])->name('verify_passreset');
+
+
 
 //route for new user
 Route::get('/register', [MainController::class, 'home'])->name('home');
@@ -47,6 +47,9 @@ Route::post('store-form', [contactController::class, 'store']);
 Route::group(['middleware'=>['AuthCheck']], function(){
     Route::get('/auth/login', [MainController::class, 'login'])->name('auth.login');
     Route::get('/auth/register', [MainController::class, 'register'])->name('auth.register');
+
+    //only accessible to registered and signed in user
+    Route::get('/admin/page2', [PagesController::class, 'page2'])->name('page2');
     Route::get('/admin/dashboard', [MainController::class, 'dashboard'])->name('admin.dashboard');
 });
 
