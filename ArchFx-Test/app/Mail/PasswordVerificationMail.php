@@ -10,16 +10,17 @@ use Illuminate\Queue\SerializesModels;
 class PasswordVerificationMail extends Mailable
 {
     use Queueable, SerializesModels;
-    public $userpassreset;
+    public $userpassreset, $checkUserEmail;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($userpassreset)
+    public function __construct($userpassreset, $checkUserEmail)
     {
         $this->user=$userpassreset;
+        $this->check=$checkUserEmail;
     }
 
     /**
@@ -30,7 +31,8 @@ class PasswordVerificationMail extends Mailable
     public function build()
     {
         return $this->markdown('emails.auth.password_verification_mail')->with([
-            'user'=>$this->user
+            'user'=>$this->user,
+            'check'=>$this->check
         ]);
     }
 }

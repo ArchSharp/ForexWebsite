@@ -156,7 +156,7 @@ class MainController extends Controller
         if(!$checkUserEmail){
             return back()->with('fail','Email address not recognized, Please Sign Up');
         }elseif($save && $checkUserEmail){
-            Mail::to($request->email)->send(new PasswordVerificationMail($userpassreset));
+            Mail::to($request->email)->send(new PasswordVerificationMail($userpassreset, $checkUserEmail));
             return back()->with('success','Click the link sent to your email address to change your password.');
         }
     }
