@@ -103,6 +103,14 @@ class MainController extends Controller
             return redirect('/auth/login');
         }
     }
+
+    function logoutpass(){
+        if(session()->has('LoggedUser')){
+            session()->pull('LoggedUser');
+            return redirect('/auth/login')->with('success','Password successfully changed');
+        }
+    }
+
     function dashboard(){
         $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
         return view('admin.dashboard', $data);
@@ -195,7 +203,7 @@ class MainController extends Controller
             ]);
             
             //return back()->with('success','Password successfully changed');
-            return redirect()->route('auth.login')->with('success','Password successfully changed');
+            return redirect()->route('auth.logoutpass')->with('success','Password successfully changed');
         }
 
         //if(Hash::check($request->password, $userInfo->password))
