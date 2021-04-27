@@ -59,7 +59,7 @@
             <div class="form-group">
                 <input type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm New Password" id="password" name="confirm_password" required>
             </div>
-            <button type="submit" class="btn btn-primary">Reset Password</button>
+            <button type="submit" class="btn btn-primary" href="{{ route('auth.logout') }}">Reset Password</button>
           </form>
         </div>
       </div>

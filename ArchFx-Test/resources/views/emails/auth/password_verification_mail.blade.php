@@ -1,7 +1,11 @@
 @component('mail::message')
 
 
-Hello {{$user->firstname}},
+Dear @if(isset( $LoggedUserInfo['firstname']))
+        {{ $LoggedUserInfo['firstname'] }}
+     @elseif(!isset($LoggedUserInfo['firstname']))
+        Customer,
+     @endif
 
 @component('mail::button', ['url' => route('verify_passreset',$user->token)])
 Clcik here to verify password change

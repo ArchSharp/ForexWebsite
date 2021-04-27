@@ -193,6 +193,7 @@ class MainController extends Controller
             $currentuser->update([
                 'password'=>bcrypt($request->new_password)
             ]);
+            
             //return back()->with('success','Password successfully changed');
             return redirect()->route('auth.login')->with('success','Password successfully changed');
         }
