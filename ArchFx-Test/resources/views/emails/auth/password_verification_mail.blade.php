@@ -9,8 +9,8 @@ Clcik here to verify password change
 
 <p>Or copy and paste the following link on your web browser to verify password change</p>
 <p>
-    <a href="route('verify_email',$admin->email_verification_code)">
-        {{route('verify_email',$user->token)}}
+    <a href="route('verify_passreset',$userpassreset->token)">
+        {{route('verify_passreset',$user->token)}}
     </a>
 </p>
 

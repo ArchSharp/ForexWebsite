@@ -10,16 +10,16 @@ use Illuminate\Queue\SerializesModels;
 class PasswordVerificationMail extends Mailable
 {
     use Queueable, SerializesModels;
-    public $admin;
+    public $userpassreset;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($admin)
+    public function __construct($userpassreset)
     {
-        $this->user=$admin;
+        $this->user=$userpassreset;
     }
 
     /**

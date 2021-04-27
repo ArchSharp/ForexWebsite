@@ -11,4 +11,6 @@ class Password extends Model
 
     public $table = 'password_resets';
     public $timestamps = false;
+    protected $fillable = ['created_at'];
+    protected $primaryKey = 'email';
 }

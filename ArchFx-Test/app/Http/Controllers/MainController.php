@@ -40,7 +40,7 @@ class MainController extends Controller
     }
 
     
-
+    //register
     function save(Request $request){
         //return $request->input();
         //validate request
@@ -138,17 +138,17 @@ class MainController extends Controller
         ]);
 
         //insert data
-        $user = new Password;
-        $user->email = $request->email;
-        $user->token = Str::random(40);
-        $save = $user->save();
+        $userpassreset = new Password;
+        $userpassreset->email = $request->email;
+        $userpassreset->token = Str::random(40);
+        $save = $userpassreset->save();
         
         $checkUserEmail = Admin::where('email','=',$request->email)->first();
         
         if(!$checkUserEmail){
             return back()->with('fail','Email address not recognized, Please Sign Up');
         }elseif($save && $checkUserEmail){
-            Mail::to($request->email)->send(new PasswordVerificationMail($user));
+            Mail::to($request->email)->send(new PasswordVerificationMail($userpassreset));
             return back()->with('success','Click the link sent to your email address to change your password.');
         }
     }
@@ -162,7 +162,7 @@ class MainController extends Controller
         if(!$userpasstoken){
             return redirect()->route('auth.register')->with('fail','INVALID URL');
         }else{
-            if($userpasstoken->token){
+            if($userpasstoken->created_at != null){
                 return redirect()->route('auth.login')->with('fail','Password already changed using this link');
             }else{
                 $userpasstoken->update([
@@ -174,6 +174,30 @@ class MainController extends Controller
                 //return view('auth.resetpassword_form');
             }
         }
+    }
+
+    //change password in database
+    function savenewpassword(Request $request){
+        //return $request->input();
+        //validate request
+        $request->validate([
+            'email'=>'required|email',
+            'new_password'=>'required|min:5|max:18',
+            'confirm_password'=>'required|same:new_password'
+        ]);
+
+        //insert data
+        $currentuser = Admin::where('email','=',$request->email)->first();
+        if(!$currentuser){
+            return back()->with('fail','Enter your registered email');
+        }elseif($currentuser){
+            $currentuser->update([
+                'password'=>bcrypt($request->new_password)
+            ]);
+            return back()->with('success','Password successfully changed');
+        }
+
+        //if(Hash::check($request->password, $userInfo->password))
     }
 
 }
