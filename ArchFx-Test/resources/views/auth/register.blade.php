@@ -61,13 +61,17 @@
               <span class="text-danger">@error('email'){{ $message }} @enderror</span>
             </div>
             <div class="form-group">
-              <input type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Password" id="password" name="password" required>
+              <input onkeyup="active()" type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Password" id="pswrd_1" name="password" required>
               <span class="text-danger">@error('password'){{ $message }} @enderror</span>
             </div>
-            <div class="form-group">
-              <input type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm Password" id="password" name="confirm_password" required>
+            <div class="input-group">
+              <input onkeyup="active_2()" type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm Password" id="pswrd_2" name="confirm_password" required disabled>
+              <div class="input-group-append">
+                <button class="btn btn-outline-none d-none fw-bold text-primary show" type="button" id="decide">Show</button>
+              </div>
             </div>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <div class="alert-danger text-danger d-none justify-content-center rounded p-2 confPassError"></div>
+            <button onclick="pass1equalpass2()" type="submit" class="btn btn-primary disabled spSignUp">Sign Up</button>
             <p class="mt-3"> Already have an account? <a href="{{ route('auth.login') }}">Sign In</a></p>
           </form>
         </div>
@@ -95,6 +99,62 @@
 </footer>
 
 <script src="archjs.js"></script>
+<script>
+  const pswrd_1 = document.querySelector("#pswrd_1");
+  const pswrd_2 = document.querySelector("#pswrd_2");
+  const confPassError = document.querySelector(".confPassError");
+  const btn = document.querySelector("button");
+  const showBtn = document.querySelector(".show");
+  
+
+function active(){
+    if(pswrd_1.value.length >= 6){
+        $('.spSignUp').removeClass("disabled");
+        pswrd_2.removeAttribute("disabled", "");
+    }else{
+      $('.spSignUp').addClass("disabled");
+      pswrd_2.setAttribute("disabled", "");
+    }
+}
+
+//confPassError.onclick = 
+function pass1equalpass2(){
+  if(pswrd_1.value != pswrd_2.value){
+    $('.confPassError').removeClass("d-none");
+    confPassError.style.display = "block";
+    confPassError.textContent = "Password not matched";
+  }else{
+    $('.confPassError').removeClass("d-none");
+    confPassError.style.display = "block";
+    confPassError.textContent = "Password matched";
+  }
+}
+
+function active_2(){
+  if(pswrd_2.value != ""){
+    $('.show').removeClass("d-none");
+    showBtn.style.display = "block";
+    showBtn.onclick = function(){
+      if((pswrd_1.type == "password") && (pswrd_2.type == "password")){
+        pswrd_1.type = "text";
+        pswrd_2.type = "text";
+        //document.getElementById('decide').innerText = "Hide";
+        this.textContent = "Hide";
+      }else{
+        $('.show').removeClass("d-none");
+        pswrd_1.type = "password";
+        pswrd_2.type = "password";
+        //document.getElementById('decide').innerText = "Show";
+        this.textContent = "Show";
+      }
+    }
+  }else{
+      $('.show').addClass("d-none");
+      showBtn.style.display = "none";
+  }
+}
+
+</script>
 <!--<script src="bootstrap5/js/bootstrap.js"></script>-->
 </body>
 </html>
