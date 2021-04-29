@@ -35,7 +35,7 @@ Route::get('/auth/verify-passreset/{verification_code}', [MainController::class,
 
 
 //route for new user
-Route::get('/register', [MainController::class, 'home'])->name('home');
+Route::get('/', [MainController::class, 'home'])->name('home');
 Route::post('/auth/save', [MainController::class, 'save'])->name('auth.save');
 Route::post('/auth/check', [MainController::class, 'check'])->name('auth.check');
 Route::get('/auth/logout', [MainController::class, 'logout'])->name('auth.logout');

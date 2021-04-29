@@ -48,21 +48,21 @@
 
 
             @csrf
-            <div class="form-group">
+            <div class="input-group">
               <input type="text" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter First Name" id="firstname" name="firstname" value="{{ old('firstname') }}" required>
-              <span class="text-danger">@error('firstname'){{ $message }} @enderror</span>
             </div>
-            <div class="form-group">
+            <div class="alert-danger text-danger d-none justify-content-center rounded p-2 confFNameError">First name cannot be empty</div>
+            <div class="input-group">
               <input type="text" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Last Name" id="lastname" name="lastname" value="{{ old('lastname') }}" required>
-              <span class="text-danger">@error('lastname'){{ $message }} @enderror</span>
             </div>
+            <div class="alert-danger text-danger d-none justify-content-center rounded p-2 confLNameError">Last name cannot be empty</div>
             <div class="form-group">
               <input type="text" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Email" id="email" name="email" value="{{ old('email') }}" required>
               <span class="text-danger">@error('email'){{ $message }} @enderror</span>
             </div>
-            <div class="form-group">
+            <div class="alert-danger text-danger d-none justify-content-center rounded p-2 confemailError">Email cannot be empty</div>
+            <div class="input-group">
               <input onkeyup="active()" type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Password" id="pswrd_1" name="password" required>
-              <span class="text-danger">@error('password'){{ $message }} @enderror</span>
             </div>
             <div class="input-group">
               <input onkeyup="active_2()" type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm Password" id="pswrd_2" name="confirm_password" required disabled>
@@ -102,7 +102,13 @@
 <script>
   const pswrd_1 = document.querySelector("#pswrd_1");
   const pswrd_2 = document.querySelector("#pswrd_2");
+  const firstname = document.querySelector("#firstname");
+  const lastname = document.querySelector("#lastname");
+  const email = document.querySelector("#email");
   const confPassError = document.querySelector(".confPassError");
+  const confFNameError = document.querySelector(".confFNameError");
+  const confLNameError = document.querySelector(".confLNameError");
+  const confemailError = document.querySelector(".confemailError");
   const btn = document.querySelector("button");
   const showBtn = document.querySelector(".show");
   
@@ -121,14 +127,53 @@ function active(){
 function pass1equalpass2(){
   if(pswrd_1.value != pswrd_2.value){
     $('.confPassError').removeClass("d-none");
+    $('.confPassError').removeClass("alert-success");
+    $('.confPassError').addClass("alert-danger");
+    $('.confPassError').addClass("d-flex");
     confPassError.style.display = "block";
     confPassError.textContent = "Password not matched";
-  }else{
+  }else if(pswrd_1.value === pswrd_2.value){
     $('.confPassError').removeClass("d-none");
+    $('.confPassError').removeClass("alert-danger");
+    $('.confPassError').removeClass("text-danger");
+    $('.confPassError').addClass("alert-success");
+    $('.confPassError').addClass("d-flex");
     confPassError.style.display = "block";
     confPassError.textContent = "Password matched";
   }
+  if(firstname.value != ""){
+    $('.confFNameError').addClass("d-none");
+    confFNameError.textContent = "";
+  }else{
+    $('.confFNameError').removeClass("d-none");
+    $('.confFNameError').addClass("alert-danger");
+    $('.confFNameError').addClass("d-flex");
+    confFNameError.textContent = "First name cannot be empty";
+  }
+
+  if(lastname.value != ""){
+    $('.confLNameError').addClass("d-none");
+    confLNameError.textContent = "";
+  }else{
+    $('.confLNameError').removeClass("d-none");
+    $('.confLNameError').addClass("alert-danger");
+    $('.confLNameError').addClass("d-flex");
+    confFNameError.textContent = "Last name cannot be empty";
+  }
+
+  if(email.value != ""){
+    $('.confemailError').addClass("d-none");
+    email.textContent = "";
+  }else{
+    $('.confemailError').removeClass("d-none");
+    $('.confemailError').addClass("alert-danger");
+    $('.confemailError').addClass("d-flex");
+    email.textContent = "Email cannot be empty";
+  }
+  
 }
+
+
 
 function active_2(){
   if(pswrd_2.value != ""){
@@ -146,6 +191,7 @@ function active_2(){
         pswrd_2.type = "password";
         //document.getElementById('decide').innerText = "Show";
         this.textContent = "Show";
+        
       }
     }
   }else{
@@ -153,6 +199,8 @@ function active_2(){
       showBtn.style.display = "none";
   }
 }
+
+
 
 </script>
 <!--<script src="bootstrap5/js/bootstrap.js"></script>-->

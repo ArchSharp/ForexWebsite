@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Admin;
+use App\Models\Job;
 use App\Models\Password;
 use Carbon\Carbon;
 use App\User;
@@ -62,7 +63,7 @@ class MainController extends Controller
         $save = $admin->save();
 
         Mail::to($request->email)->send(new EmailVerificationMail($admin));
-
+        
         if($save){
             return back()->with('success','Account created successfully.'."\n".'Click the link sent to your email to verify your email address.');
         }else{
@@ -207,6 +208,30 @@ class MainController extends Controller
         }
 
         //if(Hash::check($request->password, $userInfo->password))
+    }
+
+
+    //send jobs into Job database
+    function sendJob(Request $request){
+        //return $request->input();
+        //validate request
+        $request->validate([
+            'email'=>'required|email',
+        ]);
+
+        //insert data
+        $job = new Job;
+        $job->email = $request->email;
+        $job->subject = $request->recipient;
+        $job->filename = $request->filename;
+        $job->message = $request->message;
+        $save = $job->save();
+
+        if($save){
+            return back()->with('success','Account created successfully.'."\n".'Click the link sent to your email to verify your email address.');
+        }else{
+            return back()->with('fail','something is missing');
+        }
     }
 
 }
