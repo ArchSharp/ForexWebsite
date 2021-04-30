@@ -75,21 +75,6 @@
       <div class="modal-body">
         <form action="{{ route('auth.sendJob') }}" method="post" enctype="multipart/form-data" id="uploadfile">
 
-            @if(Session::get('success'))
-              <div class="alert alert-success alert-dismissible fade show" role="alert">
-                {{ Session::get('success') }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-              </div>
-            @endif
-
-            @if(Session::get('fail'))
-              <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                {{ Session::get('fail') }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-              </div>
-            @endif
-
-
           @csrf
           <input type="text" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Email" id="email" name="email" value="{{ old('email') }}" required>
           <div class="row g-3">
@@ -119,11 +104,32 @@
 <section id="home">
   <div class="container-fluid home">
     <div class="row">
-      <div class="column ms-5" style="margin-top:200px;">
+      <div class="col ms-5" style="margin-top:200px;">
         <div class="text-1">Hello, my name is</div>
           <div class="text-2">ArchInfinity</div>
           <div class="text-3">I'm a <span class="typing"></span></div>
           <a class="btn btn-primary" href="#">Buy me</a>
+        </div>
+      </div>
+      <div class="col ms-5" style="margin-top:70px;">
+        <form action="{{ route('auth.sendJob') }}" method="post" enctype="multipart/form-data" id="uploadfile">
+  
+          @if(Session::get('success'))
+            <div class="alert alert-success fixed-top-alert alert-dismissible fade show" role="alert">
+              {{ Session::get('success') }}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          @endif
+  
+          @if(Session::get('fail'))
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              {{ Session::get('fail') }}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          @endif
+  
+          @csrf
+        </form>
       </div>
     </div>
   </div>

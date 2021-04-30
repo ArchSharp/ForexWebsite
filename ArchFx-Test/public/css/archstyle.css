@@ -12,6 +12,14 @@
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
+.fixed-top-alert {
+  position: fixed;
+  top: 10;
+  right: 0;
+  left: 50%;
+  width: 30%;
+  z-index: 1030;
+}
 .login_home{
     color: black;
     font-family: 'Ubuntu', sans-serif;
