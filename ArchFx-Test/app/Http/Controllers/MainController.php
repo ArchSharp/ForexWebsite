@@ -223,27 +223,26 @@ class MainController extends Controller
         ]);
 
         if($request->hasFile('filename')) {
-            
-            //$Test = 
-            //dd('testing');
-            
-            foreach($request->filename as $file){
-                $exactname = time() . '-' . $file->getClientOriginalName();
+            $collatefiles = $request->file('filename');
+            foreach($collatefiles as $file){
+                $exactname = $file->getClientOriginalName();
                 $file->move(public_path('images'),$exactname);
-
-                $job = new Job;
-                $job->email = $request->email;
-                $job->subject = $request->subject;
-                $job->filename = $exactname;
-                $job->message = $request->description;
-                $save = $job->save();
-
-                if($save){
-                    return back()->with('success','Your job has been sent to the technical department');
-                }else{
-                    return back()->with('fail','something is missing');
-                }
-            }
+                $data[] = $exactname;
+             }
+             $job = new Job;
+             $job->email = $request->email;
+             $job->subject = $request->subject;
+             $job->filename = json_encode($data);
+             $job->message = $request->description;
+             $save = $job->save();
+            //  echo "<pre>";
+            //  Print_r($data);
+            //  die;
+             if($save){
+                return back()->with('success','Your job has been sent to the technical department');
+             }else{
+                return back()->with('fail','something is missing');
+             }
         }
     }
 }
