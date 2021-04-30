@@ -214,21 +214,49 @@ class MainController extends Controller
     //send jobs into Job database
     function sendJob(Request $request){
         //return $request->input();
+
+        //methods that can use request considering image
+        //$test = $request->file('filename')->guessExtention()
+        //dd($test)    for testing
+
+        //getMimeType()
+        //store()
+        //asStore()
+        //storePublicly()
+        //move()
+        //getClientOriginalName()
+        //getClientMimeType()
+        //getClientExtension()
+        //getSize()
+        //getError()
+        //isValid()
+
         //validate request
         $request->validate([
             'email'=>'required|email',
+            'subject'=>'required',
+            'filename'=>'required|mimes:ex4,ex5,mq4,mq5,jpg,png|max:500000',
+            'description'=>'required'
         ]);
 
+        //$newImageName = time() . '-' . $request->filename . '.' . $request->filename->extension();
+
+
+        $newImageName = time() . '-' . $request->file('filename')->getClientOriginalName();
+
+        $request->filename->move(public_path('images'), $newImageName);
+
+        //dd($newImageName);
         //insert data
         $job = new Job;
         $job->email = $request->email;
-        $job->subject = $request->recipient;
-        $job->filename = $request->filename;
-        $job->message = $request->message;
+        $job->subject = $request->subject;
+        $job->filename = $request->file('filename')->getClientOriginalName();
+        $job->message = $request->description;
         $save = $job->save();
 
         if($save){
-            return back()->with('success','Account created successfully.'."\n".'Click the link sent to your email to verify your email address.');
+            return back()->with('success','Your job has been sent to the technical department');
         }else{
             return back()->with('fail','something is missing');
         }

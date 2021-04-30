@@ -60,4 +60,7 @@ Route::post('store-form', [contactController::class, 'store']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');*/
 
+//routes for uploading
+Route::post('/auth/sendJob', [MainController::class, 'sendJob'])->name('auth.sendJob');
+
 

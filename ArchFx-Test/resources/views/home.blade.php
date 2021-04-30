@@ -73,25 +73,42 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form action="sendJob.php" method="post" enctype="multipart/form-data">
+        <form action="{{ route('auth.sendJob') }}" method="post" enctype="multipart/form-data" id="uploadfile">
+
+            @if(Session::get('success'))
+              <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ Session::get('success') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            @endif
+
+            @if(Session::get('fail'))
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                {{ Session::get('fail') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            @endif
+
+
+          @csrf
           <input type="text" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Email" id="email" name="email" value="{{ old('email') }}" required>
           <div class="row g-3">
             <div class="col">
-              <input type="text" class="form-control subject" id="recipient-name" disabled>
+              <input type="text" class="form-control subject" id="recipient-name" name="subject" readonly="readonly" onfocus="blur();">
             </div>
             <div class="col">
-              <input type="file" name="fileToUpload" id="fileToUpload">
+              <input type="file" name="filename" id="fileToUpload" >
             </div>
           </div>
           <div class="mb-3">
             <label for="message-text" class="col-form-label">Strategy Description:</label>
-            <textarea class="form-control" id="message-text"></textarea>
+            <textarea class="form-control" id="message-text" name="description"></textarea>
           </div>
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary" name="submit">Send Job</button>
+        <button type="submit" form="uploadfile" class="btn btn-primary" name="submit">Send Job</button>
       </div>
     </div>
   </div>
