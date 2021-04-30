@@ -218,17 +218,18 @@ class MainController extends Controller
         $request->validate([
             'email'=>'required|email',
             'subject'=>'required',
-            'filename'=>'required|mimes:ex4,ex5,mq4,mq5,jpg,png|max:50000',
+            'filename.*'=>'required|mimes:ex4,ex5,mq4,mq5,jpg,png|max:50000',
             'description'=>'required'
         ]);
 
         if($request->hasFile('filename')) {
+            
+            //$Test = 
+            //dd('testing');
+            
             foreach($request->filename as $file){
-                 $exactname = $file->getClientOrginalName();
-                 $file->move(public_path('images'),$exactname);
-
-                //$newImageName = time() . '-' . $file->getClientOriginalName();
-                //$file->move(public_path('images'), $newImageName);
+                $exactname = time() . '-' . $file->getClientOriginalName();
+                $file->move(public_path('images'),$exactname);
 
                 $job = new Job;
                 $job->email = $request->email;

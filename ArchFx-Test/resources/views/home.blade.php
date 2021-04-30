@@ -97,7 +97,7 @@
               <input type="text" class="form-control subject" id="recipient-name" name="subject" readonly="readonly" onfocus="blur();">
             </div>
             <div class="col">
-              <input type="file" name="filename[]" id="fileToUpload" multiple="multiple">
+              <input type="file" name="filename[]" id="fileToUpload" multiple>
             </div>
           </div>
           <div class="mb-3">
