@@ -213,53 +213,36 @@ class MainController extends Controller
 
     //send jobs into Job database
     function sendJob(Request $request){
-        //return $request->input();
-
-        //methods that can use request considering image
-        //$test = $request->file('filename')->guessExtention()
-        //dd($test)    for testing
-
-        //getMimeType()
-        //store()
-        //asStore()
-        //storePublicly()
-        //move()
-        //getClientOriginalName()
-        //getClientMimeType()
-        //getClientExtension()
-        //getSize()
-        //getError()
-        //isValid()
-
+        
         //validate request
         $request->validate([
             'email'=>'required|email',
             'subject'=>'required',
-            'filename'=>'required|mimes:ex4,ex5,mq4,mq5,jpg,png|max:500000',
+            'filename'=>'required|mimes:ex4,ex5,mq4,mq5,jpg,png|max:50000',
             'description'=>'required'
         ]);
 
-        //$newImageName = time() . '-' . $request->filename . '.' . $request->filename->extension();
+        if($request->hasFile('filename')) {
+            foreach($request->filename as $file){
+                 $exactname = $file->getClientOrginalName();
+                 $file->move(public_path('images'),$exactname);
 
+                //$newImageName = time() . '-' . $file->getClientOriginalName();
+                //$file->move(public_path('images'), $newImageName);
 
-        $newImageName = time() . '-' . $request->file('filename')->getClientOriginalName();
+                $job = new Job;
+                $job->email = $request->email;
+                $job->subject = $request->subject;
+                $job->filename = $exactname;
+                $job->message = $request->description;
+                $save = $job->save();
 
-        $request->filename->move(public_path('images'), $newImageName);
-
-        //dd($newImageName);
-        //insert data
-        $job = new Job;
-        $job->email = $request->email;
-        $job->subject = $request->subject;
-        $job->filename = $request->file('filename')->getClientOriginalName();
-        $job->message = $request->description;
-        $save = $job->save();
-
-        if($save){
-            return back()->with('success','Your job has been sent to the technical department');
-        }else{
-            return back()->with('fail','something is missing');
+                if($save){
+                    return back()->with('success','Your job has been sent to the technical department');
+                }else{
+                    return back()->with('fail','something is missing');
+                }
+            }
         }
     }
-
 }
