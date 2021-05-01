@@ -225,7 +225,7 @@ class MainController extends Controller
         if($request->hasFile('filename')) {
             $collatefiles = $request->file('filename');
             foreach($collatefiles as $file){
-                $exactname = $file->getClientOriginalName();
+                $exactname = time() . '-' . $file->getClientOriginalName();
                 $file->move(public_path('images'),$exactname);
                 $data[] = $exactname;
              }

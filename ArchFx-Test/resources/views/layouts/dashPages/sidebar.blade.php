@@ -6,18 +6,18 @@
               <a class="nav-link text-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#">Forex - Beginners   +</a>
               <div class="collapse" id="collapseExample1">
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page2','Page1');">
+                  <a class="nav-link" href="{{ route('admin.dashboard') }}" onclick="return show('Page2','Page1');">
                     Definition
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
+                  <a class="nav-link" href="{{ route('page2') }}" onclick="return show('Page3',value);">
+                    Major Currencies
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Forex trading session
+                  <a class="nav-link" href="{{ route('page3') }}" onclick="return show('Page3',value);">
+                    Currency pairs
                   </a>
                 </li>
                 <li class="nav-item">

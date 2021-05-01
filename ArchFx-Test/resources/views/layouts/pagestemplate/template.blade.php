@@ -26,18 +26,7 @@
               <div class="row">
                 @yield('content')
 
-                <p>
-                <div class="container-fluid">
-                  <div class="row justify-content-between">
-                    <div class="col-1">
-                      <a class="bg-light text-decoration-none text-start" href="{{ route('admin.dashboard') }}">Prev</a>
-                    </div>
-                    <div class="col-1">
-                      <a class="bg-light text-decoration-none text-end" href="{{ route('page2') }}">Next</a>
-                    </div>
-                  </div>
-                </div>
-                </p>
+                
               </div>
           </div>
         </div>
