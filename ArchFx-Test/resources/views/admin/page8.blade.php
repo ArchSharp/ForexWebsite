@@ -16,9 +16,9 @@
             Realized profits or losses are the profits or losses contained in the closed trades.
             <li class="fw-bold text-primary">Equity</li>
             Equity = <span class="fw-bold text-primary">Balance</span> + <span class="fw-bold text-primary">Unrealized Profit/Loss</span> <br>
-            If your current trades are in loss, these losses are subtracted from your Balance. If your current trades are in profit, these losses are added to your Balance. <br>
+            If your current trades are in loss, these losses are subtracted from your Balance. If your current trades are in profit, these profits are added to your Balance. <br>
             By above assumptions, Your Equity = $1,000 - $9.98 = $990.02<br>
-            Note: Don't forget <span class="fw-bold text-primary">Unrealized Profit/Loss</span> is used, it means Equity will keepchanging as <span class="fw-bold text-primary">Unrealized Profit/Loss</span> keeps changing.
+            Note: Don't forget <span class="fw-bold text-primary">Unrealized Profit/Loss</span> is used, it means Equity will keep changing as <span class="fw-bold text-primary">Unrealized Profit/Loss</span> keeps changing.
             <li class="fw-bold text-primary">Margin</li>
             Margin = margin requirements x 100,000 x opening/entry price x lot size <br>
             margin requirements is gotten from your account leverage. If your leverage is 1:500, <br>
@@ -38,9 +38,9 @@
             <span class="text-danger fw-bold">Read the last two carefully and make sure you understand what you read. </span><br>
             <li class="fw-bold text-primary">Margin Call</li>
             Many Traders don't usually pay attention to Margin call. Margin call is a specific percentage that if <span class="fw-bold text-primary">Margin Level</span>
-            gets to, you should start to be more carefull not to open any trades, this percentage is usually contained in account information on your broker website. 
+            gets to, you should start to be more carefull not to open any trades, this percentage is usually contained in your account information on your broker website. 
             This percentage is a signal that you may lose more than 70% of your trading capital if the market continues in the current direction.
-             But if the market reverse direction from the current direction, you may still have account recovered.  This percentage vary according to broker, but usually stop out is around 60% - 100%.
+             But if the market reverse direction from the current direction, you may still have account recovered.  This percentage vary according to broker, but usually <span class="fw-bold text-primary">Margin Call</span> is around 60% - 100%.
             <li class="fw-bold text-primary">Stop Out</li>
             Stop out is also a percentage, but this time a <span class="text-danger fw-bold">death percentage </span>. If margin level gets to stop out percentage, 
             the broker will start closing your trades starting from the highest loss trades. This percentage vary according to broker, but usually stop out is around 30% - 50%.
