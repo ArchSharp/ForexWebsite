@@ -52,7 +52,12 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('page10') }}" onclick="return show('Page3',value);">
-                    Brokers
+                    Factors: Broker Selection
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('page10') }}" onclick="return show('Page3',value);">
+                    Open Forex Trading Account: How?
                   </a>
                 </li>
               </div>
