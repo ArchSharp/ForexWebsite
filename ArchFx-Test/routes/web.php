@@ -50,9 +50,13 @@ Route::group(['middleware'=>['AuthCheck']], function(){
     Route::get('/auth/register', [MainController::class, 'register'])->name('auth.register');
 
     //only accessible to registered and signed in user
+    Route::get('/admin/dashboard', [MainController::class, 'dashboard'])->name('admin.dashboard');
     Route::get('/admin/page2', [PagesController::class, 'page2'])->name('page2');
     Route::get('/admin/page3', [PagesController::class, 'page3'])->name('page3');
-    Route::get('/admin/dashboard', [MainController::class, 'dashboard'])->name('admin.dashboard');
+    Route::get('/admin/page4', [PagesController::class, 'page4'])->name('page4');
+    Route::get('/admin/page5', [PagesController::class, 'page5'])->name('page5');
+    Route::get('/admin/page6', [PagesController::class, 'page6'])->name('page6');
+    
 });
 
 Route::get('home', [contactController::class, 'index']);

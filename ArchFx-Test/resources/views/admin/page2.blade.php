@@ -1,5 +1,6 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
+<div class="section mb-5">
   <div class="col justify-content-center text-center">
     <p>
       <table class="table table-responsive caption-top">
@@ -79,4 +80,5 @@
       </div>
     </div>
     </p>
+</div>
 @endsection

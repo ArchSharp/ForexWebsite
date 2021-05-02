@@ -21,18 +21,18 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Who trade Forex market?
+                  <a class="nav-link" href="{{ route('page4') }}" onclick="return show('Page3',value);">
+                    Forex Terminologies
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Advantages of forex trading
+                  <a class="nav-link" href="{{ route('page5') }}" onclick="return show('Page3',value);">
+                    Forex Order Types
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Effects of Margin in forex trading
+                  <a class="nav-link" href="{{ route('page6') }}" onclick="return show('Page3',value);">
+                    Forex Trading Time (or Session)
                   </a>
                 </li>
                 <li class="nav-item">

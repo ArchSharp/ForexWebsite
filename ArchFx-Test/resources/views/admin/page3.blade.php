@@ -1,7 +1,8 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
+<div class="section mb-5">
   <h4 class="text-primary fw-bold">Currency Pairs</h4>
-  <div class="col justify-content-start text-center">
+  <div class="col justify-content-start text-left">
     <p>
         Forex currencies are always traded in pairs (i.e. buying/selling of a currency against another currency), 
         e.g EURUSD is a currency pair (i.e EUR + USD = EURUSD).
@@ -34,9 +35,10 @@
           <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page2') }}">Prev</a>
         </div>
         <div class="col-1">
-          <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page3') }}">Next</a>
+          <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page4') }}">Next</a>
         </div>
       </div>
     </div>
     </p>
+</div>
 @endsection
