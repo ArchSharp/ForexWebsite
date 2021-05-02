@@ -56,6 +56,9 @@ Route::group(['middleware'=>['AuthCheck']], function(){
     Route::get('/admin/page4', [PagesController::class, 'page4'])->name('page4');
     Route::get('/admin/page5', [PagesController::class, 'page5'])->name('page5');
     Route::get('/admin/page6', [PagesController::class, 'page6'])->name('page6');
+    Route::get('/admin/page7', [PagesController::class, 'page7'])->name('page7');
+    Route::get('/admin/page8', [PagesController::class, 'page8'])->name('page8');
+    Route::get('/admin/page9', [PagesController::class, 'page9'])->name('page9');
     
 });
 
