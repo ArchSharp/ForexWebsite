@@ -45,6 +45,11 @@
                     Account Metrics and Meanings
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('page9') }}" onclick="return show('Page3',value);">
+                    Brokers
+                  </a>
+                </li>
               </div>
             </ul>
           </li>
