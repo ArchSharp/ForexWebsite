@@ -45,7 +45,7 @@
             <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page10') }}">Prev</a>
             </div>
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page11') }}">Next</a>
+            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page12') }}">Next</a>
             </div>
         </div>
         </div>

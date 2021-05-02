@@ -56,8 +56,23 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{ route('page10') }}" onclick="return show('Page3',value);">
+                  <a class="nav-link" href="{{ route('page11') }}" onclick="return show('Page3',value);">
                     Open Forex Trading Account: How?
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('page12') }}" onclick="return show('Page3',value);">
+                    Market Analysis
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('page13') }}" onclick="return show('Page3',value);">
+                    Video Recap
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('page14') }}" onclick="return show('Page3',value);">
+                    Remarks
                   </a>
                 </li>
               </div>
