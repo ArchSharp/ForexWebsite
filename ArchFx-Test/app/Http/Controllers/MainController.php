@@ -218,31 +218,40 @@ class MainController extends Controller
         $request->validate([
             'email'=>'required|email',
             'subject'=>'required',
-            'filename.*'=>'required|mimes:ex4,ex5,mq4,mq5,jpg,png|max:50000',
+            'filename.*'=>'required|max:50000',
             'description'=>'required'
         ]);
-
+        $detectwrongExt = false;
+        global $data, $save;
         if($request->hasFile('filename')) {
             $collatefiles = $request->file('filename');
             foreach($collatefiles as $file){
-                $exactname = time() . '-' . $file->getClientOriginalName();
-                $file->move(public_path('images'),$exactname);
-                $data[] = $exactname;
-             }
-             $job = new Job;
-             $job->email = $request->email;
-             $job->subject = $request->subject;
-             $job->filename = json_encode($data);
-             $job->message = $request->description;
-             $save = $job->save();
-            //  echo "<pre>";
-            //  Print_r($data);
-            //  die;
-             if($save){
-                return back()->with('success','Your job has been sent to the technical department');
-             }else{
-                return back()->with('fail','something is missing');
-             }
+                $getExtension = $file->getClientOriginalExtension();
+                if($getExtension === "png" || $getExtension === "jpg" || $getExtension === "ex4" || $getExtension === "ex5" || $getExtension === "mq4" || $getExtension === "mq5"){
+                    $exactname = time() . '-' . $file->getClientOriginalName();
+                    $file->move(public_path('images/newJob'),$exactname);
+                    $data[] = $exactname;
+                }
+                //echo "<pre>";
+                //Print_r($getExtension);
+                //var_dump($getExtension);
+             }  //die;
+
+                if($data != null){
+                    $job = new Job;
+                    $job->email = $request->email;
+                    $job->subject = $request->subject;
+                    $job->filename = json_encode($data);
+                    $job->message = $request->description;
+                    $save = $job->save();
+                }
+             
+                    if($save && $data != null){
+                        return back()->with('success','Your job has been sent to the technical department');
+                    }else{
+                        return back()->with('fail','Make sure file end with any of these extension: .png, .jpg, .ex4, .ex5, .mq4, .mq5');
+                    }
+                
         }
     }
 }

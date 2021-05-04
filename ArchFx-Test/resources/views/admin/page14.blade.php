@@ -42,6 +42,12 @@
                 <td>500</td>
               </tr>
               <tr>
+                <th scope="row">Expiry</th>
+                <td>6 months</td>
+                <td>1 year</td>
+                <td>Life Time</td>
+              </tr>
+              <tr>
                 <th scope="row">Capital Protection</th>
                 <td>
                     <i class="fa fa-star text-success" aria-hidden="true"></i>

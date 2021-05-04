@@ -135,6 +135,12 @@
               <td>500</td>
             </tr>
             <tr>
+              <th scope="row">Expiry</th>
+              <td>6 months</td>
+              <td>1 year</td>
+              <td>Life Time</td>
+            </tr>
+            <tr>
               <th scope="row">Capital Protection</th>
               <td>
                   <i class="fa fa-star text-success" aria-hidden="true"></i>
@@ -212,7 +218,7 @@
           @endif
   
           @if(Session::get('fail'))
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <div class="alert alert-danger fixed-top-alert alert-dismissible fade show" role="alert">
               {{ Session::get('fail') }}
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
