@@ -100,6 +100,96 @@
 </div>
 <!--              End of Modal                     -->
 
+<!-- modal for buying -->
+<div class="modal fade" id="buymodal" tabindex="-1" aria-labelledby="buymodalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <table class="table table-responsive caption-top">
+          <caption><span class="fs-4">EA ( Robot )</span>  - Buy one and make money while you sleep</caption>
+          <thead>
+            <tr>
+              <th scope="col">Requirements</th>
+              <th scope="col">AIsCapital</th>
+              <th scope="col">AImCapital</th>
+              <th scope="col">AIbCapital</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Price ( $ )</th>
+              <td>100</td>
+              <td>300</td>
+              <td>500</td>
+            </tr>
+            <tr>
+              <th scope="row">Monthly ROI</th>
+              <td>>= 10%</td>
+              <td>>= 10%</td>
+              <td>>= 10%</td>
+            </tr>
+            <tr>
+              <th scope="row">Minimum Capital ( $ )</th>
+              <td>50</td>
+              <td>300</td>
+              <td>500</td>
+            </tr>
+            <tr>
+              <th scope="row">Capital Protection</th>
+              <td>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+              </td>
+              <td>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+              </td>
+              <td>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+                <i class="fa fa-star text-success" aria-hidden="true"></i>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Verified by</th>
+              <td><a href="#">MyFxBook</a></td>
+              <td><a href="#">MyFxBook</a></td>
+              <td><a href="#">MyFxBook</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Currency Pair</th>
+              <td>EURUSD</td>
+              <td>EURUSD</td>
+              <td>EURUSD</td>
+            </tr>
+            <tr>
+              <th scope="row">Accuracy</th>
+              <td>> 90%</td>
+              <td>> 90%</td>
+              <td>> 90%</td>
+            </tr>
+            <tr>
+              <th scope="row">Buy and Smile</th>
+              <td><a href="https://ravesandbox.flutterwave.com/pay/lgvtkrlohgym" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
+              <td><a href="#" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
+              <td><a href="#" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
+            </tr>
+          </tbody>
+        </table>  
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of modal forbuying -->
+
             <!--                    home section                -->
 <section id="home">
   <div class="container-fluid home">
@@ -108,7 +198,7 @@
         <div class="text-1">Hello, my name is</div>
           <div class="text-2">ArchInfinity</div>
           <div class="text-3">I'm a <span class="typing"></span></div>
-          <a class="btn btn-primary" href="#">Buy me</a>
+          <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#buymodal" data-bs-whatever="Indicator">Buy me</a>
         </div>
       </div>
       <div class="col ms-5" style="margin-top:70px;">

@@ -6,14 +6,14 @@
         <p>
            Now that you have gone through Beginners level, You are one step into trading. The sincere truth is not everyone have the time to sit down to trade. In my years of experience 
            you need to be sufficiently equiped to trade Forex profitably, yes profitably not everyone that trade are profitable. Its no longer a news that we all need additional income and trading Forex 
-           is one of the option you can consider. But we understand that trading forex profitably may still be a challenge even after going through series of Forex training so we at <strong class="text-success">ArchFxGlobe Ltd</strong> 
-           have come up with a solution which is creating a profitable <span class="text-success fw-bold">ROBOT</span> for you. You can check our track record on <span class="text-primary">MQL5 Signal</span> to see 
+           is one of the option you can consider. But we understand that trading forex profitably may still be a challenge even after going through series of Forex training so we at <strong class="companyName">ArchFxGlobe Ltd</strong> 
+           have come up with a solution which is creating a profitable <span class="text-success fw-bold">ROBOT</span> for you. You can check our track record on <span class="text-primary fw-bold">MQL5 Signal</span> to see 
            for yourself. <br>
            Depending on your capital strength, we have ROBOT that requires just $50 you can try that out. If you have been trading you would have know now that ROBOT that can trade $50 is very rare so consider this as a rare opportunity 
            we also have Robot that requires capital up to $1,000,000.
         </p>
         <table class="table table-responsive caption-top">
-            <caption><span class="fs-4">Major Currencies</span>  - These are the major currencies in the Forex market</caption>
+            <caption><span class="fs-4">EA ( Robot )</span>  - Buy one and make money while you sleep</caption>
             <thead>
               <tr>
                 <th scope="col">Requirements</th>
@@ -43,23 +43,26 @@
               </tr>
               <tr>
                 <th scope="row">Capital Protection</th>
-                <td><i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                <td>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
                 </td>
-                <td><i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                <td>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
                 </td>
-                <td><i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                <td>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                    <i class="fa fa-star text-success" aria-hidden="true"></i>
                 </td>
               </tr>
               <tr>
@@ -69,16 +72,16 @@
                 <td><a href="#">MyFxBook</a></td>
               </tr>
               <tr>
-                <th scope="row">6</th>
-                <td>CAD</td>
-                <td>Canada</td>
-                <td>Dollar</td>
+                <th scope="row">Currency Pair</th>
+                <td>EURUSD</td>
+                <td>EURUSD</td>
+                <td>EURUSD</td>
               </tr>
               <tr>
-                <th scope="row">7</th>
-                <td>CHF</td>
-                <td>Switzerland</td>
-                <td>Franc</td>
+                <th scope="row">Accuracy</th>
+                <td>> 90%</td>
+                <td>> 90%</td>
+                <td>> 90%</td>
               </tr>
               <tr>
                 <th scope="row">Buy and Smile</th>

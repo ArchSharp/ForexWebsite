@@ -67,6 +67,10 @@ function show(shown, hidden) {
     return false;
 }
 
-
+var buttons = document.querySelectorAll('.btn')
+buttons.forEach(function (button) {
+  var button = new bootstrap.Button(button)
+  button.toggle()
+})
 
 });

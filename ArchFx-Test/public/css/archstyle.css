@@ -20,6 +20,9 @@
   width: 30%;
   z-index: 1030;
 }
+.companyName{
+  color: darkcyan;
+}
 .login_home{
     color: black;
     font-family: 'Ubuntu', sans-serif;
