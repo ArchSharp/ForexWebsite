@@ -18,12 +18,12 @@
     <script type="text/javascript" src="{{ URL::asset('js/app.js') }}" defer></script>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}" >
+    <link rel="stylesheet" type="text/css" href="{{ url('css/app.css') }}" >
 
     {{-- <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script> --}}
-    <script type="text/javascript" src={{ asset('js/archjs.js') }} ></script>
+    <script type="text/javascript" src={{ url('js/archjs.js') }} ></script>
     
-    <link rel="stylesheet" href="{{ URL::asset('css/archstyle.css') }}" >
+    <link rel="stylesheet" type="text/css" href="{{ url('css/archstyle.css') }}" >
     
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
