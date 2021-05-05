@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
     <link rel="stylesheet" href="archstyle.css">
     
+    
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script>
       function show(shown, hidden) {
@@ -16,13 +17,16 @@
     </script>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/archjs.js') }}" defer></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/archstyle.css') }}" rel="stylesheet">
 
-    <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script>
+
+    {{-- <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script> --}}
     
-    <link rel="stylesheet" href="{{ URL::asset('css/archstyle.css') }}" >
+    {{-- <link rel="stylesheet" href="{{ URL::asset('css/archstyle.css') }}" > --}}
     
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
