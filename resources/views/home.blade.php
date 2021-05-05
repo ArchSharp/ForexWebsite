@@ -644,7 +644,7 @@
 <!-- modal end for terms and condition -->
 
 
-<script src="../js/archjs.js"></script>
+<script src={{ ("js/archjs.js") }}></script>
 {{-- <script src="{{ asset('js/archjs.js') }}" defer></script> --}}
 <!--<script src="bootstrap5/js/bootstrap.js"></script>-->
 </body>
