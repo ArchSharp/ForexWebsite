@@ -15,14 +15,12 @@
       }
     </script>
      <!-- Scripts -->
-    <script type="text/javascript" src="{{ url('js/app.js') }}" defer></script>
-    <script type="text/javascript" src={{ url('js/archjs.js') }} defer></script>
+
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ url('css/app.css') }}" >
     <link rel="stylesheet" type="text/css" href="{{ url('css/archstyle.css') }}" >
 
-    {{-- <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script> --}}
     
     
     
