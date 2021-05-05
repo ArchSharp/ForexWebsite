@@ -2,8 +2,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArchFX - Ease your Forex trading</title>
-    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
-    <link rel="stylesheet" href="archstyle.css">
+    {{-- <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
+    <link rel="stylesheet" href="archstyle.css"> --}}
     
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script>
@@ -20,7 +20,8 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}" >
 
-    <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script>
+    {{-- <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script> --}}
+    <script type="text/javascript" src={{ asset("js/archjs.js") }} defer></script>
     
     <link rel="stylesheet" href="{{ URL::asset('css/archstyle.css') }}" >
     
