@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}" >
 
     {{-- <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script> --}}
-    <script type="text/javascript" src={{ asset('js/archjs.js') }} defer></script>
+    <script type="text/javascript" src={{ asset('js/archjs.js') }} ></script>
     
     <link rel="stylesheet" href="{{ URL::asset('css/archstyle.css') }}" >
     
