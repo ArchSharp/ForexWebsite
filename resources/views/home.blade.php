@@ -234,18 +234,22 @@
 <!-- about section start -->
 <section class="mt-5" id="about">
   <div class="container">
-  <div class="row justify-content-center">
-      <div class="col offset-5">
+    <div class="row justify-content-center">
+      <div class="col text-center text-md-right">
         <h2 class="about">About us</h2>
       </div>
-  </div>
-    <div class="row justify-content-center mt-1">
-      <div class="col-5 mt-4 mb-3"><img src={{ asset("images/office.jpg") }} class="img-fluid img-thumbnail" alt=""></div>
-      <div class="col ms-5 mt-4 mb-3" style="text-align: justify;">ArchFxGlobe is a Forex company ready to help with one of the most profitable strategies in the World!. We accomodate the three types of forex traders (Beginners, Intermediate, and Advanced traders).
-                                      knowing that profitability in Forex can be difficult sometimes, we created super trading robot to help you trade profitably. Our indicators are also available for you.
-                                      We can also help you convert your strategies to trading tools (i.e. Expert advisors (Robot), indicators, and scripts). We also provide VPS to host your Expert advisors.</div>
     </div>
-</div>
+    <div class="row justify-content-center mt-1">
+      <div class="col-sm mt-4 mb-3">
+        <img src={{ asset("images/office.jpg") }} class="img-fluid img-thumbnail" alt="">
+      </div>
+      <div class="col-sm ms-5 mt-4 mb-3" style="text-align: justify;">
+        ArchFxGlobe is a Forex company ready to help with one of the most profitable strategies in the World!. We accomodate the three types of forex traders (Beginners, Intermediate, and Advanced traders).
+        knowing that profitability in Forex can be difficult sometimes, we created super trading robot to help you trade profitably. Our indicators are also available for you.
+        We can also help you convert your strategies to trading tools (i.e. Expert advisors (Robot), indicators, and scripts). We also provide VPS to host your Expert advisors.
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- begin testing api -->
@@ -285,7 +289,7 @@
 <section id="products" class="mt-5">
   <div class="container">
     <div class="row">
-      <div class="col offset-5">
+      <div class="col text-center text-md-right">
         <h2 class="user">Our Products</h2>
       </div>
     </div>
@@ -412,11 +416,11 @@
 <section id="testimonies" class="mt-5">
   <div class="container">
     <div class="row">
-      <div class="col offset-5">
+      <div class="col text-center text-md-right">
         <h2 class="user">User Review</h2>
       </div>
       <div class="row mt-3">
-        <div class="col bg-light me-2 border-start border-primary border-2">
+        <div class="col-sm bg-light me-2 border-start border-primary border-2">
           <p class="py-5 px-3">Your robot is among the top ten list of best robot in the Forex industry, thanks for the intelligent work put into the Expert advisor<br>
             <br>
               <span class="text-muted">
@@ -427,10 +431,10 @@
                 <i class="fa fa-star" aria-hidden="true"></i> - Phillip, 
                 Virginia USA.
               </span>
-        </p>
-      </div>
-      <div class="col bg-light me-2 border-start border-primary border-2">
-        <p class="py-5 px-3">Genuinely reliable. I have been using this Robot for quite some time and I have never had my account blown.<br>
+          </p>
+        </div>
+        <div class="col-sm bg-light me-2 border-start border-primary border-2">
+          <p class="py-5 px-3">Genuinely reliable. I have been using this Robot for quite some time and I have never had my account blown.<br>
             <br>
               <span class="text-muted">
                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -438,10 +442,10 @@
                 <i class="fa fa-star" aria-hidden="true"></i> - Raphael, 
                 Lagos Nigeria.
               </span>
-        </p>
-      </div>
-      <div class="col bg-light me-2 border-start border-primary border-2">
-        <p class="py-5 px-3">Without a doubt, this is a good Robot. Always close daily with profit, it gives at least 10% ROI on a monthly basis.<br>
+          </p>
+        </div>
+        <div class="col-sm bg-light me-2 border-start border-primary border-2">
+          <p class="py-5 px-3">Without a doubt, this is a good Robot. Always close daily with profit, it gives at least 10% ROI on a monthly basis.<br>
             <br>
               <span class="text-muted">
                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -451,8 +455,8 @@
                 <i class="fa fa-star" aria-hidden="true"></i> - Paul, 
                 California USA.
               </span>
-        </p>
-      </div>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -461,11 +465,11 @@
 <section id="contactUs" class="mt-5">
   <div class="container">
     <div class="row">
-      <div class="col offset-5">
+      <div class="col text-center text-md-right">
         <h2 class="contact">Contact us</h2>
       </div>
       <div class="row justify-content-center mt-1">
-        <div class="col-5 mt-4 mb-3">
+        <div class="col-sm mt-4 mb-3">
           <h4>Get in touch</h4>
           <p>
             Pay us visit using our Office address below. Note: Visit should be made in-case of high priority issues.
@@ -483,7 +487,7 @@
             <div class="col">support@ArchFxGlobe.com</div>
           </div>
         </div>
-        <div class="col ms-5 mt-4 mb-3">
+        <div class="col-sm ms-5 mt-4 mb-3">
           <form class="form-inline" name="home" id="home" method="post" action="{{url('store-form')}}">
            @csrf
             <div class="form-group">
@@ -529,7 +533,7 @@
 <footer class="footer mt-auto py-3 bg-light">
   <div class="container">
     <div class="row">
-      <div class="col offset-3">
+      <div class="col-sm offset-3">
         <span class="text-muted">
           &copy; <?php
           $fromYear = 2018;
