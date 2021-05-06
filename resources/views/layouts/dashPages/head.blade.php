@@ -13,14 +13,8 @@
       }
     </script>
      <!-- Scripts -->
-    {{-- <script type="text/javascript" src="{{ URL::asset('js/archjs.js') }}" defer></script> 
-    <script type="text/javascript" src="{{ URL::asset('js/app.js') }}" defer></script>
-
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/app.css') }}" >
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/archstyle.css') }}" > --}}
-    <script type="text/javascript" src="{{ asset('/js/archjs.js') }}" defer></script> 
-    <script type="text/javascript" src="{{ asset('/js/app.js') }}" defer></script>
+     <script type="text/javascript" src="/js/archjs.js" defer></script> 
+     <script type="text/javascript" src="/js/app.js" defer></script>
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="/css/app.css" >
