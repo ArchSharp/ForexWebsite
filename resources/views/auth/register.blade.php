@@ -67,7 +67,7 @@
             <div class="input-group">
               <input onkeyup="active_2()" type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm Password" id="pswrd_2" name="confirm_password" required disabled>
               <div class="input-group-append">
-                <button class="btn btn-outline-none d-none fw-bold text-primary show" type="button" id="decide">Show</button>
+                <button class="btn btn-outline-none d-none fw-bold text-primary show" type="button" id="decide"><i class="fa fa-eye-slash"></i></button>
               </div>
             </div>
             <div class="alert-danger text-danger d-none justify-content-center rounded p-2 confPassError"></div>
@@ -183,14 +183,18 @@ function active_2(){
       if((pswrd_1.type == "password") && (pswrd_2.type == "password")){
         pswrd_1.type = "text";
         pswrd_2.type = "text";
+        $('.fa').removeClass("fa-eye-slash");
+        $('.fa').addClass("fa-eye");
         //document.getElementById('decide').innerText = "Hide";
-        this.textContent = "Hide";
+        //this.textContent = "Hide";
       }else{
         $('.show').removeClass("d-none");
         pswrd_1.type = "password";
         pswrd_2.type = "password";
+        $('.fa').removeClass("fa-eye");
+        $('.fa').addClass("fa-eye-slash");
         //document.getElementById('decide').innerText = "Show";
-        this.textContent = "Show";
+        //this.textContent = "Show";
         
       }
     }

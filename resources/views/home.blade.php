@@ -648,5 +648,3 @@
 <!--<script src="bootstrap5/js/bootstrap.js"></script>-->
 </body>
 </html>
-<script src="{{ url('js/app.js') }}" defer></script>
-<script src={{ url('js/archjs.js') }} defer></script>
