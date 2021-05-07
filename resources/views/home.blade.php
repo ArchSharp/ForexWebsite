@@ -200,7 +200,7 @@
 <section id="home">
   <div class="container-fluid home">
     <div class="row">
-      <div class="col offset-2 position-fixed" style="margin-top:200px;">
+      <div class="col" style="margin-top:200px; margin-left:100px;">
         <div class="text-1">Hello, my name is</div>
           <div class="text-2">ArchInfinity</div>
           <div class="text-3">I'm a <span class="typing text-info"></span></div>
