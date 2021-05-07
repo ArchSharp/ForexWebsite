@@ -1,29 +1,24 @@
 <div class="container">
-    <div class="row">
-      <div class="col offset-3">
-        <span class="text-muted">
-          &copy; <?php
-          $fromYear = 2018;
-          $thisYear = (int)date('Y');
-          echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?> ArchFxGlobe Ltd.
-        </span>
-        {{-- <span class="ms-4"><a href="#">Privacy policy</a></span>
-        <span class="ms-4"><a href="#">Terms of reference</a></span>
-      </div>
-    </div>
-  </div> --}}
-  <span class="ms-4"><a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy policy</a></span>
-        <span class="ms-4"><a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms of reference</a></span>
-      </div>
+  <div class="row">
+    <div class="col-sm text-center">
+      <span class="text-muted">
+        &copy; <?php
+        $fromYear = 2018;
+        $thisYear = (int)date('Y');
+        echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?> ArchFxGlobe Ltd.
+      </span>
+      <span class="ms-4"><a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy policy</a></span>
+      <span class="ms-4"><a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms of reference</a></span>
     </div>
   </div>
+</div>
 </footer>
 
 <!-- modal for  privacy policy-->
 <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header justify-content-center">
         <h5 class="modal-title" id="exampleModalLabel">OUR PRIVACY POLICY</h5>
       </div>
       <div class="modal-body">
@@ -71,7 +66,7 @@
           </ol>
         </div>
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer justify-content-center">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
@@ -83,11 +78,12 @@
 <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header justify-content-center">
         <h5 class="modal-title" id="exampleModalLabel">TERMS OF REFERENCE</h5>
       </div>
       <div class="modal-body">
         <div class="col">
+          
           <ol>
             <li>No professional advice or investment recommendation.</li>
             Any recommendations on the website should not be considered as a solicitation to buy or an offer to sell. The recommendations are not individual recommendations to a specific user. ARCHFXGLOBE is not an investment adviser, therefore, any trade ideas or signals should not be taken as investment advice. The users are solely responsible for the investment decisions they make. Users should consult a tax professional or attorney to understand their tax or legal obligations.
@@ -110,7 +106,7 @@
           </ol>
         </div>
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer justify-content-center">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
