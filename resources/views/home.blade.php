@@ -243,10 +243,10 @@
       </div>
     </div>
     <div class="row justify-content-center mt-1">
-      <div class="col-sm mt-4 mb-3">
+      <div class="col-md mt-4 mb-3">
         <img src={{ asset("images/office.jpg") }} class="img-fluid img-thumbnail" alt="">
       </div>
-      <div class="col-sm ms-5 mt-4 mb-3" style="text-align: justify;">
+      <div class="col-md ms-5 mt-4 mb-3" style="text-align: justify;">
         ArchFxGlobe is a Forex company ready to help with one of the most profitable strategies in the World!. We accomodate the three types of forex traders (Beginners, Intermediate, and Advanced traders).
         knowing that profitability in Forex can be difficult sometimes, we created super trading robot to help you trade profitably. Our indicators are also available for you.
         We can also help you convert your strategies to trading tools (i.e. Expert advisors (Robot), indicators, and scripts). We also provide VPS to host your Expert advisors.
@@ -468,7 +468,7 @@
         <h2 class="contact">Contact us</h2>
       </div>
       <div class="row justify-content-center mt-1">
-        <div class="col-sm mt-4 mb-3">
+        <div class="col-md mt-4 mb-3">
           <h4>Get in touch</h4>
           <p>
             Pay us visit using our Office address below. Note: Visit should be made in-case of high priority issues.
@@ -486,7 +486,7 @@
             <div class="col">support@ArchFxGlobe.com</div>
           </div>
         </div>
-        <div class="col-sm ms-5 mt-4 mb-3">
+        <div class="col-md justify-content-center ms-5 mt-4 mb-3">
           <form class="form-inline" name="home" id="home" method="post" action="{{url('store-form')}}">
            @csrf
             <div class="form-group">
