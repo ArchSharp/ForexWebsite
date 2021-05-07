@@ -203,10 +203,10 @@
 <section id="home">
   <div class="container-fluid home">
     <div class="row">
-      <div class="col ms-5 d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" style="margin-top:200px;">
-        <div class="text-1">Hello, my name is</div>
-          <div class="text-2">ArchInfinity</div>
-          <div class="text-3">I'm a Robot<span class="typing text-info"></span></div>
+      <div class="col ms-5" style="margin-top:200px;">
+        <div class="text-1 d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">Hello, my name is</div>
+          <div class="text-2 d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">ArchInfinity</div>
+          <div class="text-3 d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">I'm a <span class="typing text-info"></span></div>
           <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#buymodal" data-bs-whatever="Indicator">Buy me</a>
         </div>
       </div>

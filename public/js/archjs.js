@@ -39,7 +39,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [" with a lot of experience in the Forex market"],
+        strings: [" Robot with a lot of experience in the Forex market"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
