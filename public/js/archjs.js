@@ -3,8 +3,12 @@ $(document).ready(function(){
         // sticky navbar on scroll script
         if(this.scrollY > 20){
             $('.onlyhome').addClass("bg-primary");
-        }else{
+            $('.onlyhome').removeClass("navbar-light");
+            $('.onlyhome').addClass("navbar-dark");
+        }else if(this.scrollY < 20){
             $('.onlyhome').removeClass("bg-primary");
+            $('.onlyhome').removeClass("navbar-dark");
+            $('.onlyhome').addClass("navbar-light");
         }
         
         // scroll-up button show/hide script

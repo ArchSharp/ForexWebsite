@@ -54,6 +54,20 @@
     font-size: 25px;
     color: blue;
 }
+.nav-link{
+  color: white !important;
+  font-size: 15px !important;
+  font-weight: 5000 !important;
+  }
+  .navbar-brand{
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: 5000 !important;
+  }
+/* am trying to override bootstrap class
+ #onlyhome .navbar .navbar-dark{
+  color: inherit;
+} */
 /*contact us*/
 
 /*

@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder onlyhome">
+<nav class="navbar navbar-expand-md fixed-top bg-primary fw-bolder onlyhome">{{-- navbar-light navbar-dark --}}
   <div class="container-fluid">
   <a class="navbar-brand" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px; ">ArchFxGlobe</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -200,10 +200,10 @@
 <section id="home">
   <div class="container-fluid home">
     <div class="row">
-      <div class="col ms-5" style="margin-top:200px;">
+      <div class="col offset-2 position-fixed" style="margin-top:200px;">
         <div class="text-1">Hello, my name is</div>
           <div class="text-2">ArchInfinity</div>
-          <div class="text-3">I'm a <span class="typing"></span></div>
+          <div class="text-3">I'm a <span class="typing text-info"></span></div>
           <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#buymodal" data-bs-whatever="Indicator">Buy me</a>
         </div>
       </div>
@@ -533,7 +533,7 @@
 <footer class="footer mt-auto py-3 bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-sm offset-3">
+      <div class="col-sm text-center">
         <span class="text-muted">
           &copy; <?php
           $fromYear = 2018;
