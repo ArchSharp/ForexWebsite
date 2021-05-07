@@ -7,7 +7,7 @@
 
 <nav class="navbar navbar-expand-md fixed-top bg-primary fw-bolder onlyhome">{{-- navbar-light navbar-dark --}}
   <div class="container-fluid">
-  <a class="navbar-brand" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px; ">ArchFxGlobe</a>
+  <a class="navbar-brand homenavlink" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px; ">ArchFxGlobe</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -15,7 +15,7 @@
           <ul class="navbar-nav ms-auto mb-2 mb-md-0">
           @if(isset( $LoggedUserInfo['firstname']))
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">{{ $LoggedUserInfo['firstname'] }}</a>
+              <a class="nav-link homenavlink dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">{{ $LoggedUserInfo['firstname'] }}</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown10">
                   <a class="dropdown-item" aria-current="page" href="{{ route('admin.dashboard') }}">Dasboard</a>
                   <a class="dropdown-item" aria-current="page" href="{{ route('auth.logout') }}">Log Out</a>
@@ -24,15 +24,15 @@
             </li>
           @elseif(!isset($LoggedUserInfo['firstname']))
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active homenavlink" aria-current="page" href="#home">Home</a>
             </li>
           @endif
             
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link homenavlink" href="#about">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+              <a class="nav-link homenavlink dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
               <ul class="dropdown-menu" aria-labelledby="dropdown10">
                 <h1 class="dropdown-header">Learn</h1>
                 
@@ -50,13 +50,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#products">Products</a>
+              <a class="nav-link homenavlink" href="#products">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonies">Testimonies</a>
+              <a class="nav-link homenavlink" href="#testimonies">Testimonies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactUs">Support</a>
+              <a class="nav-link homenavlink" href="#contactUs">Support</a>
             </li>
           </ul>
         </div>
