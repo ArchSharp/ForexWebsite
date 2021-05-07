@@ -423,7 +423,7 @@
         <h2 class="user">User Review</h2>
       </div>
       <div class="row mt-3">
-        <div class="col-sm bg-light me-2 border-start border-primary border-2">
+        <div class="col-sm bg-light me-2 border-start border-primary border-2 text-center text-md-right">
           <p class="py-5 px-3">Your robot is among the top ten list of best robot in the Forex industry, thanks for the intelligent work put into the Expert advisor<br>
             <br>
               <span class="text-muted">
@@ -436,7 +436,7 @@
               </span>
           </p>
         </div>
-        <div class="col-sm bg-light me-2 border-start border-primary border-2">
+        <div class="col-sm bg-light me-2 border-start border-primary border-2 text-center text-md-right">
           <p class="py-5 px-3">Genuinely reliable. I have been using this Robot for quite some time and I have never had my account blown.<br>
             <br>
               <span class="text-muted">
@@ -447,7 +447,7 @@
               </span>
           </p>
         </div>
-        <div class="col-sm bg-light me-2 border-start border-primary border-2">
+        <div class="col-sm bg-light me-2 border-start border-primary border-2 text-center text-md-right">
           <p class="py-5 px-3">Without a doubt, this is a good Robot. Always close daily with profit, it gives at least 10% ROI on a monthly basis.<br>
             <br>
               <span class="text-muted">

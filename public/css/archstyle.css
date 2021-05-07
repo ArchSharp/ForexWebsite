@@ -68,6 +68,10 @@
     color: blue !important;
     font-size: 20px !important;
   }
+  .fa-star{
+    color: blue !important;
+    font-size: 15px !important;
+  }
 /* am trying to override bootstrap class
  #onlyhome .navbar .navbar-dark{
   color: inherit;
