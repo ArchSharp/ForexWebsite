@@ -104,8 +104,8 @@
 <div class="modal fade" id="buymodal" tabindex="-1" aria-labelledby="buymodalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-body">
-        <table class="table table-responsive caption-top">
+      <div class="modal-body table-responsive">
+        <table class="table caption-top">
           <caption><span class="fs-4">EA ( Robot )</span>  - Buy one and make money while you sleep</caption>
           <thead>
             <tr>
@@ -207,7 +207,7 @@
         <div class="text-1 d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">Hello, my name is</div>
           <div class="text-2 d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">ArchInfinity</div>
           <div class="text-3 d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">I'm a <span class="typing text-info"></span></div>
-          <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#buymodal" data-bs-whatever="Indicator">Buy me</a>
+          <a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#buymodal">Buy me</a>
         </div>
       </div>
       <div class="col ms-5" style="margin-top:70px;">

@@ -45,6 +45,9 @@ $(document).ready(function(){
         loop: true
     });
 
+
+    $('#myModal').modal('show')
+    
     var exampleModal = document.getElementById('exampleModal')
     exampleModal.addEventListener('show.bs.modal', function (event) {
     // Button that triggered the modal
