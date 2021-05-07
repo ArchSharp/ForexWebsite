@@ -262,11 +262,7 @@
       <h1>Recommended Broker</h1>
       <h4 class="underline text-primary fw-bold text-decoration-underline">FXTM</h4>
       <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      <?php //makeAPICall("https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///"); ?>
-        <!-- https://www.myfxbook.com/api/login.xml?email=elvis@yahoo.com&password=letsboogie
-        my session is zrqN7QMXubatiSRbIrN31985378
-        https://www.myfxbook.com/api/login.json?email=raphael.tunji@yahoo.com&password=Ruth1///
-        https://www.myfxbook.com/api/get-my-accounts.json?session=DSL07vu14QxHWErTIAFrH40-->
+      
     </div>
   </main>
 
