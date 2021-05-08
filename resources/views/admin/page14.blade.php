@@ -12,7 +12,8 @@
            Depending on your capital strength, we have ROBOT that requires just $50 you can try that out. If you have been trading you would have know now that ROBOT that can trade $50 is very rare so consider this as a rare opportunity 
            we also have Robot that requires capital up to $1,000,000.
         </p>
-        <table class="table table-responsive caption-top">
+        <div class="table-responsive">
+          <table class="table caption-top">
             <caption><span class="fs-4">EA ( Robot )</span>  - Buy one and make money while you sleep</caption>
             <thead>
               <tr>
@@ -25,15 +26,15 @@
             <tbody>
               <tr>
                 <th scope="row">Price ( $ )</th>
-                <td>100</td>
-                <td>300</td>
-                <td>500</td>
+                <td>400</td>
+                <td>400</td>
+                <td>400</td>
               </tr>
               <tr>
                 <th scope="row">Monthly ROI</th>
                 <td>>= 10%</td>
-                <td>>= 10%</td>
-                <td>>= 10%</td>
+                <td>>= 12%</td>
+                <td>>= 15%</td>
               </tr>
               <tr>
                 <th scope="row">Minimum Capital ( $ )</th>
@@ -43,9 +44,9 @@
               </tr>
               <tr>
                 <th scope="row">Expiry</th>
-                <td>6 months</td>
-                <td>1 year</td>
-                <td>Life Time</td>
+                <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
+                <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
+                <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
               </tr>
               <tr>
                 <th scope="row">Capital Protection</th>
@@ -57,18 +58,18 @@
                     <i class="fa fa-star text-success" aria-hidden="true"></i>
                 </td>
                 <td>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
                 </td>
                 <td>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
-                    <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
+                  <i class="fa fa-star text-success" aria-hidden="true"></i>
                 </td>
               </tr>
               <tr>
@@ -91,12 +92,13 @@
               </tr>
               <tr>
                 <th scope="row">Buy and Smile</th>
-                <td><a href="#" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
-                <td><a href="#" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
-                <td><a href="#" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
+                <td><a href="https://flutterwave.com/pay/archfxglobeltdzauw" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
+                <td><a href="https://flutterwave.com/pay/archfxglobeltdzauw" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
+                <td><a href="https://flutterwave.com/pay/archfxglobeltdzauw" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
               </tr>
             </tbody>
           </table>
+        </div>
         
         <!-- <iframe width="640" height="345" src="https://www.youtube.com/embed/ilFZ0FJnUJ4?autoplay=0&mute=0&controls=1">
         </iframe> -->

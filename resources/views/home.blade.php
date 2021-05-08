@@ -118,15 +118,15 @@
           <tbody>
             <tr>
               <th scope="row">Price ( $ )</th>
-              <td>100</td>
-              <td>300</td>
-              <td>500</td>
+              <td>400</td>
+              <td>400</td>
+              <td>400</td>
             </tr>
             <tr>
               <th scope="row">Monthly ROI</th>
               <td>>= 10%</td>
-              <td>>= 10%</td>
-              <td>>= 10%</td>
+              <td>>= 12%</td>
+              <td>>= 15%</td>
             </tr>
             <tr>
               <th scope="row">Minimum Capital ( $ )</th>
@@ -136,9 +136,9 @@
             </tr>
             <tr>
               <th scope="row">Expiry</th>
-              <td>6 months</td>
-              <td>1 year</td>
-              <td>Life Time</td>
+              <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
+              <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
+              <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
             </tr>
             <tr>
               <th scope="row">Capital Protection</th>
@@ -189,7 +189,7 @@
               <td><a href="https://flutterwave.com/pay/archfxglobeltdzauw" class="btn btn-primary btn-sm" tabindex="-1" role="button">PAY WITH FLUTTERWAVE</a></td>
             </tr>
           </tbody>
-        </table>  
+        </table>
       </div>
       <div class="modal-footer justify-content-center">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
