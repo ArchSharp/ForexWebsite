@@ -43,49 +43,51 @@
             <div class="d-flex justify-content-center mt-3">
                 <img src="{{ asset("../images/graduation-brokers.png") }}" alt="" style="width: 40%;">
             </div> <br>
-            <table class="table table-responsive caption-top">
+            <div class="table-responsive">
+              <table class="table caption-top">
                 <caption><span class="fs-4">DD Vs NDD Brokers</span>  - These are the major difference between these two brokers</caption>
                 <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Dealing Desk <br>(Market Maker)</th>
-                    <th scope="col">No Dealing Desk <br>(STP)</th>
-                    <th scope="col">No Dealing Desk <br>(STP+ECN)</th>
-                  </tr>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Dealing Desk <br>(Market Maker)</th>
+                      <th scope="col">No Dealing Desk <br>(STP)</th>
+                      <th scope="col">No Dealing Desk <br>(STP+ECN)</th>
+                    </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Fixed Spreads</td>
-                    <td>Most have variable spreads</td>
-                    <td>Variable spreads or commission fees</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Take the opposite side of your trade</td>
-                    <td>Simply a bridge between client and liquidity provider</td>
-                    <td>A bridge between client and liquidity provider and other participants</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Artificial quotes</td>
-                    <td>Prices come from liquidity providers</td>
-                    <td>Prices come from liquidity providers and other ECN participants</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Orders are filled by broker on a discretionary basis</td>
-                    <td>Automatic execution, no re-quotes</td>
-                    <td>Automatic, no re-quotes</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">5</th>
-                    <td></td>
-                    <td></td>
-                    <td>Displays the Depth of Market (DOM) or liquidity information</td>
-                  </tr>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Fixed Spreads</td>
+                      <td>Most have variable spreads</td>
+                      <td>Variable spreads or commission fees</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Take the opposite side of your trade</td>
+                      <td>Simply a bridge between client and liquidity provider</td>
+                      <td>A bridge between client and liquidity provider and other participants</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Artificial quotes</td>
+                      <td>Prices come from liquidity providers</td>
+                      <td>Prices come from liquidity providers and other ECN participants</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Orders are filled by broker on a discretionary basis</td>
+                      <td>Automatic execution, no re-quotes</td>
+                      <td>Automatic, no re-quotes</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td></td>
+                      <td></td>
+                      <td>Displays the Depth of Market (DOM) or liquidity information</td>
+                    </tr>
                 </tbody>
               </table>
+            </div>
         </ul>
         <span class="text-primary fw-bold">Note : </span> All Brokers makes money from spread and/or commission, see row 1 in above table.
         
