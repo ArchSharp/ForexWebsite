@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+
+    public function vmail(){
+        $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
+        return view('layouts.mail.email_temp',$data);
+    }
+
     public function dashboard(){
         $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
         return view('admin.dashboard',$data);

@@ -45,6 +45,9 @@ Route::get('home', [contactController::class, 'index']);
 Route::post('store-form', [contactController::class, 'store']);
 
 
+//designing verification mail
+Route::get('/layouts/mail/vmail', [PagesController::class, 'vmail'])->name('vmail');
+
 Route::group(['middleware'=>['AuthCheck']], function(){
     Route::get('/auth/login', [MainController::class, 'login'])->name('auth.login');
     Route::get('/auth/register', [MainController::class, 'register'])->name('auth.register');
