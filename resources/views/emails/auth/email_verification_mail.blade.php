@@ -10,7 +10,10 @@
 
 <body>
 
-Hello {{$user->firstname}},
+Hello {{$user->firstname}}, <br>
+
+<span class="text-primary fw-bolder">ArchFxGlobe Ltd</span> is welcoming you to the world of Forex. <br>
+Complete your registration and lets get <span class="text-decoration-underline text-primary fw-bolder">started</span>. <br>
 
 @component('mail::button', ['url' => route('verify_email',$user->email_verification_code)])
 Clcik here to verify your email address
@@ -24,7 +27,8 @@ Clcik here to verify your email address
 </p>
 
 Thanks,<br>
-{{ config('app.name') }}
+{{ config('app.name') }}.
+
 </body>
 
 </html>
