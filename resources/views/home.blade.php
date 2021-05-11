@@ -7,7 +7,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary fw-bolder onlyhome">{{-- navbar-light navbar-dark --}}
   <div class="container-fluid">
-  <a class="navbar-brand homenavlink" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px; ">ArchFxGlobe</a>
+  <a class="navbar-brand homenavlink" href="#"><img src="../images/fxGlobe.gif" alt="LOGO" style="width:30px;">ArchFxGlobe</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

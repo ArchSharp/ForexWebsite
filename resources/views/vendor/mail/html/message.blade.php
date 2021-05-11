@@ -1,7 +1,7 @@
 @component('mail::layout')
 {{-- Header --}}
 @slot('header')
-@component('mail::header', ['url' => config('#')])
+@component('mail::header', ['url' => 'https://archfxglobe.com']){{--config('app.url')--}}
 {{ config('app.name') }}
 @endcomponent
 @endslot
