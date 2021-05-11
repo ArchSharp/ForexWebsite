@@ -193,7 +193,7 @@ class MainController extends Controller
 
     //resend verification mail
 
-    function resendverification(Request $request){
+    function resend(Request $request){
         //return $request->input();
 
         //validate
