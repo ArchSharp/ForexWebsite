@@ -2,8 +2,9 @@
 
 Hello {{$user->firstname}}, <br>
 @component('mail::panel')
-<span class="text-primary fw-bolder">ArchFxGlobe Ltd</span> is welcome you to the world of Forex. <br>
-Complete your registration and lets get <span class="text-decoration-underline text-primary fw-bolder">started</span>. <br>
+You requested for a <span class="text-primary fw-bolder">verification mail</span> to be resend. kindly ignore/delete this mail 
+if the request was not made by you or if you change your mind <br>
+<span class="text-decoration-underline text-primary fw-bolder">See below</span>. <br>
 @endcomponent
 
 @component('mail::button', ['url' => route('verify_email',$user->email_verification_code)])
