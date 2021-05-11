@@ -20,6 +20,7 @@ Route::get('/', function () {
 });
 */
 
+Route::get('/auth/resend_verification_code', [MainController::class, 'resendverification'])->name('auth.resend_verification_code');
 Route::get('/auth/reset_password', [MainController::class, 'resetpassword'])->name('auth.resetpassword');
 Route::post('/auth/resetpass', [MainController::class, 'resetpass'])->name('auth.resetpass');
 //route for saving updating new password in database
