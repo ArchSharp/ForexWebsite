@@ -29,7 +29,7 @@ class EmailVerificationMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.auth.resend_verification_code')->with([
+        return $this->markdown('emails.auth.resend_verification_mail')->with([
             'user'=>$this->user
         ]);
     }
