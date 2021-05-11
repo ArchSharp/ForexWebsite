@@ -13,6 +13,7 @@ use GuzzleHttp\Client;
 use Illuminate\Support\Str;
 use App\Mail\EmailVerificationMail;
 use App\Mail\PasswordVerificationMail;
+use App\Mail\ResendVerificationMail;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
