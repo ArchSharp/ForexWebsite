@@ -29,8 +29,8 @@
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title text-center">Reset Password</h5>
-          <form action="{{ route('auth.resetpass') }}" class="mt-5 form-inline" name="home" id="home" method="post">
+          <h5 class="card-title text-center">Resnd Verification Mail</h5>
+          <form action="{{ route('auth.resend') }}" class="mt-5 form-inline" name="home" id="home" method="post">
             
             @if(Session::get('success'))
               <div class="alert alert-success alert-dismissible fade show" role="alert">

@@ -164,7 +164,7 @@ class MainController extends Controller
             return redirect()->route('auth.resend_verification_code')->with('fail','First verify your email address by clicking the link that was once sent to you \n,
                                                                                      if email verification mail was lost/deleted re-enter your email address to receive email verification mail, then click the link to verify');
         }elseif($save && $checkUserEmail && $checkUserEmail->email_verified_at != null){
-            Mail::to($request->email)->send(new ResendVerificationCode($checkUserEmail, $checkUserEmail));
+            //Mail::to($request->email)->send(new ResendVerificationCode($checkUserEmail, $checkUserEmail));
             return back()->with('success','Click the link sent to your email address to change your password.');
         }
     }
@@ -188,6 +188,29 @@ class MainController extends Controller
                 return redirect()->route('auth.resetpasswordform')->with('success','Reset your password');
                 //return view('auth.resetpassword_form');
             }
+        }
+    }
+
+    //resend verification mail
+
+    function resendverification(Request $request){
+        //return $request->input();
+
+        //validate
+        $request->validate([
+            'email'=>'required|email'
+        ]);
+
+        //check the user email
+        $checkUserEmail = Admin::where('email','=',$request->email)->first();
+        
+        if(!$checkUserEmail){
+            return back()->with('fail','Email address not recognized, Please Sign Up');
+        }elseif($checkUserEmail && $checkUserEmail->email_verified_at == null){
+            Mail::to($request->email)->send(new ResendVerificationCode($checkUserEmail, $checkUserEmail));
+            return back()->with('success','Verification mail has been resend to your email address, click the link to verify.');
+        }elseif($checkUserEmail && $checkUserEmail->email_verified_at != null){
+            return back()->with('success','You are a verified user, login or click forgot password to reset your password');
         }
     }
 
