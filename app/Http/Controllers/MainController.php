@@ -42,7 +42,7 @@ class MainController extends Controller
     }
 
     function resendverification(){
-        return view('auth.resend_verification_code');
+        return view('auth.resend_verification_mail');
     }
 
     
