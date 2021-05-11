@@ -37,7 +37,7 @@
                     <span class="text-muted" >
                         &copy; <?php
                         $thisYear = (int)date('Y');
-                        echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?> ArchFxGlobe Ltd. All rights reserved.
+                        echo $thisYear;?> ArchFxGlobe Ltd. All rights reserved.
                         ?>
                     </span>
                 </div>
