@@ -166,7 +166,7 @@ class MainController extends Controller
             return redirect()->route('auth.resend_verification_code')->with('fail','First verify your email address by clicking the link that was once sent to you \n,
                                                                                      if email verification mail was lost/deleted re-enter your email address to receive email verification mail, then click the link to verify');
         }elseif($save && $checkUserEmail && $checkUserEmail->email_verified_at != null){
-            Mail::to($request->email)->send(new PasswordVerificationMail($checkUserEmail));
+            Mail::to($request->email)->send(new PasswordVerificationMail($userpassreset, $checkUserEmail));
             return back()->with('success','Click the link sent to your email address to change your password.');
         }
     }
