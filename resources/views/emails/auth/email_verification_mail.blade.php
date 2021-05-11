@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
 <body>
-
+    @component
     <div class="container">
         <div class="row">
             <div class="col-fluid border bg-light">
@@ -70,6 +70,7 @@
             </div>
         </div>
     </div>
+    @endcomponent
 
 </body>
 
