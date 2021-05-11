@@ -207,7 +207,7 @@ class MainController extends Controller
         if(!$checkUserEmail){
             return back()->with('fail','Email address not recognized, Please Sign Up');
         }elseif($checkUserEmail && $checkUserEmail->email_verified_at == null){
-            Mail::to($request->email)->send(new ResendVerificationCode($checkUserEmail, $checkUserEmail));
+            Mail::to($request->email)->send(new ResendVerificationMail($checkUserEmail, $checkUserEmail));
             return back()->with('success','Verification mail has been resend to your email address, click the link to verify.');
         }elseif($checkUserEmail && $checkUserEmail->email_verified_at != null){
             return back()->with('success','You are a verified user, login or click forgot password to reset your password');
