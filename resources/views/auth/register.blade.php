@@ -62,7 +62,7 @@
             </div>
             <div class="alert-danger text-danger d-none justify-content-center rounded p-2 confemailError">Email cannot be empty</div>
             <div class="input-group">
-              <input onkeyup="active()" type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Password" id="pswrd_1" name="password" required>
+              <input onkeyup="active()" type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Enter Password  min: 6 length " id="pswrd_1" name="password" required>
             </div>
             <div class="input-group">
               <input onkeyup="active_2()" type="password" class="form-control mb-2 mr-sm-2 border-start-0 border-end-0 border-top-0" placeholder="Confirm Password" id="pswrd_2" name="confirm_password" required disabled>

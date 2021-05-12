@@ -83,18 +83,18 @@
               <a class="nav-link text-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Forex - Intermediate   +</a>
               <div class="collapse" id="collapseExample2">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Definition
+                  <a class="nav-link" href="{{ route('page15') }}">
+                    Support and Resistance
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
+                  <a class="nav-link" href="{{ route('page16') }}" onclick="return show('Page3',value);">
+                    Trend and Trend channels
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Forex trading session
+                  <a class="nav-link" href="{{ route('page17') }}" onclick="return show('Page3',value);">
+                    Candlestick pattern
                   </a>
                 </li>
                 <li class="nav-item">
