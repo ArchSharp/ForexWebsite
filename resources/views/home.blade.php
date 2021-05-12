@@ -309,27 +309,27 @@
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363063/large.jpg" alt="Widget" style="width:100%">
                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aibigcapital/8363063" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aibigcapital/8363063" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
                 <!--<img src="..." class="card-img-top" alt="...">-->
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363076/large.jpg" alt="Widget" style="width:100%">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aimedcapital/8363076" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4 mb-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aimedcapital/8363076" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
                 <!--<img src="..." class="card-img-top" alt="...">-->
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363086/large.jpg" alt="Widget" style="width:100%">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aismallcapital/8363086" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aismallcapital/8363086" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
             </div>
@@ -341,27 +341,27 @@
                 <!--<img src="..." class="card-img-top" alt="...">-->
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363063/large.jpg" alt="Widget" style="width:100%">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aibigcapital/8363063" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aibigcapital/8363063" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
                 <!--<img src="..." class="card-img-top" alt="...">-->
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363076/large.jpg" alt="Widget" style="width:100%">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aimedcapital/8363076" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4 mb-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aimedcapital/8363076" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
                 <!--<img src="..." class="card-img-top" alt="...">-->
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363086/large.jpg" alt="Widget" style="width:100%">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aismallcapital/8363086" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aismallcapital/8363086" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
             </div>
@@ -373,27 +373,27 @@
                 <!--<img src="..." class="card-img-top" alt="...">-->
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363063/large.jpg" alt="Widget" style="width:100%">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aibigcapital/8363063" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aibigcapital/8363063" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
                 <!--<img src="..." class="card-img-top" alt="...">-->
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363076/large.jpg" alt="Widget" style="width:100%">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aimedcapital/8363076" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4 mb-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aimedcapital/8363076" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
               <div class="card ms-2 border">
                 <!--<img src="..." class="card-img-top" alt="...">-->
                 <img class="card-img-top" src="https://widgets.myfxbook.com/widgets/8363086/large.jpg" alt="Widget" style="width:100%">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <p class="card-text"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aismallcapital/8363086" class="btn btn-primary" target="_blank">See Results</a></small></p>
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                  <p class="card-text offset-4"><small class="text-muted"><a href="https://www.myfxbook.com/members/ArchRaphaelFx/aismallcapital/8363086" class="btn btn-primary" target="_blank">See Results</a></small></p>
                 </div>
               </div>
             </div>
