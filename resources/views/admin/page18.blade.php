@@ -1,7 +1,7 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
-    <h4 class="text-primary fw-bold">Candlestick pattern</h4>
+    <h4 class="text-primary fw-bold">Chart Indicators</h4>
     <div class="col justify-content-start text-left">
         <p>
             Candlestick pattern usually form at a market price/level where market will most likely change direction. If you understand this definition, it simply means you don't 

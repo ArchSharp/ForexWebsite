@@ -98,8 +98,8 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Who trade Forex market?
+                  <a class="nav-link" href="{{ route('page18') }}" onclick="return show('Page3',value);">
+                    Chart Indicators
                   </a>
                 </li>
                 <li class="nav-item">
