@@ -19,12 +19,17 @@
             </div> <br>
 
             <h5>How to draw/identify a Trend channels in forex market</h5>
-            Just like trend, we also have three types of trend channel, 
-            It can be identified by drawing a diagonal line. Two or Three tops/bottoms of candle must touch the drawn diagonal line before you can call it a trend line. 
-            The tops and bottoms that must touch the trend line must be significantly separated.
+            Just like trend, we also have three types of trend channel, <br>
+            <ul>
+                <li>Up channel</li>
+                <li>Down channel</li>
+                <li>Sideways channel</li>
+            </ul>
+            It can be identified by drawing two diagonal trend lines and these two line must be parallel to each other. Two or Three tops/bottoms of candle must touch the drawn diagonal line before you can call it a trend line. 
+            The tops and bottoms that must touch the trend channel line must be significantly separated.
 
             <div class="d-flex justify-content-center mt-3">
-                <img src="{{ asset("../images/trendline.png") }}" alt="" style="width: 60%;">
+                <img src="{{ asset("../images/channel.png") }}" alt="" style="width: 60%;">
             </div> <br>
         </p>
         
