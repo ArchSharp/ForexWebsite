@@ -26,27 +26,27 @@
             <tbody>
               <tr>
                 <th scope="row">Price ( $ )</th>
-                <td>400</td>
-                <td>400</td>
-                <td>400</td>
+                <td>150</td>
+                <td>150</td>
+                <td>150</td>
               </tr>
               <tr>
                 <th scope="row">Monthly ROI</th>
-                <td>>= 10%</td>
-                <td>>= 12%</td>
-                <td>>= 15%</td>
+                <td>5 - 10%</td>
+                <td>5 - 12%</td>
+                <td>5 - 15%</td>
               </tr>
               <tr>
                 <th scope="row">Minimum Capital ( $ )</th>
-                <td>50</td>
                 <td>300</td>
-                <td>500</td>
+                <td>300</td>
+                <td>1000</td>
               </tr>
               <tr>
                 <th scope="row">Expiry</th>
-                <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
-                <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
-                <td>Life Time <span type="button" class="btn-secondary btn-sm rounded-circle fw-bolder" data-bs-toggle="tooltip" data-bs-placement="top" title="Pay $100 for 3 months expiry, write to our support for your request">?</span></td>
+                <td>Life Time</td>
+                <td>Life Time</td>
+                <td>Life Time</td>
               </tr>
               <tr>
                 <th scope="row">Capital Protection</th>
@@ -74,9 +74,9 @@
               </tr>
               <tr>
                 <th scope="row">Verified by</th>
-                <td><a href="#">MyFxBook</a></td>
-                <td><a href="#">MyFxBook</a></td>
-                <td><a href="#">MyFxBook</a></td>
+                <td><a href="#" class="fw-bold">MyFxBook</a></td>
+                <td><a href="#" class="fw-bold">MyFxBook</a></td>
+                <td><a href="#" class="fw-bold">MyFxBook</a></td>
               </tr>
               <tr>
                 <th scope="row">Currency Pair</th>
