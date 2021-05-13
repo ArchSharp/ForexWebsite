@@ -31,7 +31,7 @@
                             <img class="card-img-top" src="{{ asset("../images/inverted-hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Inverted Hammer</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
@@ -39,7 +39,7 @@
                             <!--<img src="..." class="card-img-top" alt="...">-->
                             <img class="card-img-top" src="{{ asset("../images/hanging-man.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Hanging-Man</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
@@ -47,7 +47,7 @@
                             <!--<img src="..." class="card-img-top" alt="...">-->
                             <img class="card-img-top" src="{{ asset("../images/hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Hammer</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
@@ -59,7 +59,7 @@
                             <img class="card-img-top" src="{{ asset("../images/evening-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Evening-Star</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
@@ -67,7 +67,7 @@
                             <!--<img src="..." class="card-img-top" alt="...">-->
                             <img class="card-img-top" src="{{ asset("../images/shooting-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Shooting-Star</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
@@ -75,7 +75,7 @@
                             <!--<img src="..." class="card-img-top" alt="...">-->
                             <img class="card-img-top" src="{{ asset("../images/morning-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Morning-Star</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
@@ -87,7 +87,7 @@
                             <img class="card-img-top" src="{{ asset("../images/bullish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Bullish Engulfing</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
@@ -95,7 +95,7 @@
                             <!--<img src="..." class="card-img-top" alt="...">-->
                             <img class="card-img-top" src="{{ asset("../images/bearish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Bearish Engulfing</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>

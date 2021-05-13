@@ -35,77 +35,41 @@
                     <div class="carousel-inner">
                         <div class="card-group">
                             <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/inverted-hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/hanging-man.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
+                                <!--<img src="..." class="card-img-top" alt="...">-->
+                                <img class="card-img-top" src="{{ asset("../images/regbulDiv.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                                {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary fw-bold">Regular Bullish Divergence</h5>
+                                    <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                </div>
                             </div>
                             <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
+                                <!--<img src="..." class="card-img-top" alt="...">-->
+                                <img class="card-img-top" src="{{ asset("../images/regDiv.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary fw-bold">Regular Bearish Divergence</h5>
+                                    <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="card-group mt-2">
                             <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/evening-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/shooting-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
+                                <!--<img src="..." class="card-img-top" alt="...">-->
+                                <img class="card-img-top" src="{{ asset("../images/hidbearDiv.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                                {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary fw-bold">Hidden Bearish Divergence</h5>
+                                    <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                </div>
                             </div>
                             <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/morning-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="card-group mt-2">
-                            <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/bullish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/bearish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
+                                <!--<img src="..." class="card-img-top" alt="...">-->
+                                <img class="card-img-top" src="{{ asset("../images/hidbulDiv.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary fw-bold">Hidden Bullish Divergence</h5>
+                                    <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

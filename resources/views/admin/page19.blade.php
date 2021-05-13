@@ -41,26 +41,26 @@
                         <div class="card-group mt-2">
                             <div class="card">
                             <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/evening-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                            <img class="card-img-top" src="{{ asset("../images/dTop.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Double top</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
                             <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/shooting-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                            <img class="card-img-top" src="{{ asset("../images/ascendingTriangle.jpeg") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Ascending Triangle</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
                             <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/morning-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                            <img class="card-img-top" src="{{ asset("../images/descendingTriangle.jpg") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Descending Triangle</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
@@ -69,18 +69,18 @@
                         <div class="card-group mt-2">
                             <div class="card">
                             <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/bullish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                            <img class="card-img-top" src="{{ asset("../images/symetricalTriangle.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Symetrical Triangle</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
                             <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/bearish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                            <img class="card-img-top" src="{{ asset("../images/risenfallwedge.jpeg") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
-                                <h5 class="card-title">Details</h5>
+                                <h5 class="card-title text-primary fw-bold">Risng and Falling Wedge</h5>
                                 <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
                             </div>
                             </div>
