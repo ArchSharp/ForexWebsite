@@ -1,7 +1,7 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
-    <h4 class="text-primary fw-bold">Divergence</h4>
+    <h4 class="text-primary fw-bold">Fundamental Analysis</h4>
     <div class="col justify-content-start text-left">
         <p>
             Divergence is a strategy used to know the most likely market movement before it happens, i.e used to know market direction ahead of other traders. 
@@ -121,10 +121,10 @@
         <div class="container-fluid">
         <div class="row justify-content-between">
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page19') }}">Prev</a>
+            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page20') }}">Prev</a>
             </div>
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page21') }}">Next</a>
+            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page22') }}">Next</a>
             </div>
         </div>
         </div>
