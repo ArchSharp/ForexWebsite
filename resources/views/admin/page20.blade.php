@@ -1,7 +1,7 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
-    <h4 class="text-primary fw-bold">Chart Patterns</h4>
+    <h4 class="text-primary fw-bold">Divergence</h4>
     <div class="col justify-content-start text-left">
         <p>
             Chart pattern is different from Candlestick pattern. Chart pattern requires 20 or more candles to form a chart pattern while candlestick pattern requires 2 - 3 candles to form a candlestick pattern. 
@@ -98,7 +98,7 @@
         <div class="container-fluid">
         <div class="row justify-content-between">
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page18') }}">Prev</a>
+            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page19') }}">Prev</a>
             </div>
             <div class="col-1">
             <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page20') }}">Next</a>

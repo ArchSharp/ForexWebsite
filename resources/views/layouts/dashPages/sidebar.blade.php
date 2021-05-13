@@ -108,8 +108,8 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
+                  <a class="nav-link" href="{{ route('page20') }}" onclick="return show('Page3',value);">
+                    Divergence
                   </a>
                 </li>
                 <li class="nav-item">
