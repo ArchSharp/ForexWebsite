@@ -1,27 +1,12 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
-    <h4 class="text-primary fw-bold">Candlestick pattern</h4>
+    <h4 class="text-primary fw-bold">Chart Patterns</h4>
     <div class="col justify-content-start text-left">
         <p>
-            Candlestick pattern usually form at a market price/level where market will most likely change direction or continue its previous direction. If you understand this definition, it simply means you don't 
-            always need to pay attention to every candlestick pattern. Only pay attention to candlestick pattern at a support or resistance level in the market. <br>
-
-            But before that, you need to know what a candlestick is. Candlestick is object that represent market price and its movement. Below image is a 
-            is a typical candlestick.
+            Chart pattern is different from Candlestick pattern. Chart pattern requires 20 or more candles to form a chart pattern while candlestick pattern requires 2 - 3 candles to form a candlestick pattern. 
+            Just like Candlestick pattern, Chart pattern usually form at a market price/level where market will most likely change direction or continue previous direction.
             
-            <div class="d-flex justify-content-center mt-3">
-                <img src="{{ asset("../images/candlestick.jpg") }}" alt="" style="width: 60%;">
-            </div>
-
-            Green and Red are the typical color most people use to represent buy and sell candle. Green candle is a buy candle while red candle is a sell candle.
-            Notice that the open for buy candle is down while close is up. The open for sell candle is up while close is down. Open, Close, High and Low are all price on the chart.
-            <ul>
-                <li>Open is the price where the candle starts from.</li>
-                <li>Close is the price the candle close with.</li>
-                <li>High and Low are price where market got to but did not close there.</li>
-            </ul>
-
             <div class="container">
                 <div class="row">
                     <div class="carousel-inner">

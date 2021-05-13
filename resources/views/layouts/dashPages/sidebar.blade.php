@@ -103,8 +103,8 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Advantages of forex trading
+                  <a class="nav-link" href="{{ route('page19') }}" onclick="return show('Page3',value);">
+                    Chart Patterns
                   </a>
                 </li>
                 <li class="nav-item">

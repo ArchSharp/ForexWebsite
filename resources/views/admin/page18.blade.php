@@ -4,11 +4,16 @@
     <h4 class="text-primary fw-bold">Chart Indicators</h4>
     <div class="col justify-content-start text-left">
         <p>
-            Chart indicators pattern usually form at a market price/level where market will most likely change direction. If you understand this definition, it simply means you don't 
-            always need to pay attention to every candlestick pattern. Only pay attention to candlestick pattern at a support or resistance level in the market. <br>
-
-            But before that, you need to know what a candlestick is. Candlestick is object that represent market price and its movement. Below image is a 
-            is a typical candlestick.
+            Indicators are tools that can assist in analyzing the market before buying/selling an asset. Chart indicators are of two classes.
+            <ul>
+                <li>Lagging indicators or trend-following indicators</li>
+                A lagging indicator gives a signal after the trend or reversal has started. Leading indicators typically work by measuring how “overbought” or “oversold” something is. 
+                It is bestto use lagging indicators. Examples of Lagging indicators are RSI, Stochastic, MACD, etc.
+                <li>Leading indicators or oscillators</li>
+                A leading indicator gives a signal before the new trend or reversal occurs. They don’t warn you of any upcoming changes in prices though, they simply tell you what prices are doing (rising or falling) so that you can trade accordingly. 
+                Examples of Lagging indicators are Moving averages.
+            </ul>
+            The general approach is that you should use lagging indicators during trending markets and leading indicators during sideways markets.
             
             <div class="d-flex justify-content-center mt-3">
                 <img src="{{ asset("../images/candlestick.png") }}" alt="" style="width: 60%;">
@@ -105,10 +110,10 @@
         <div class="container-fluid">
         <div class="row justify-content-between">
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page16') }}">Prev</a>
+            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page17') }}">Prev</a>
             </div>
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page18') }}">Next</a>
+            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page19') }}">Next</a>
             </div>
         </div>
         </div>

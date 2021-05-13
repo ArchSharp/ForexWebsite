@@ -102,4 +102,9 @@ class PagesController extends Controller
         return view('admin.page18',$data);
     }
 
+    public function page19(){
+        $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
+        return view('admin.page19',$data);
+    }
+
 }
