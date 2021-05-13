@@ -130,13 +130,13 @@
               <a class="nav-link text-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Forex - Advanced   +</a>
               <div class="collapse" id="collapseExample3">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Definition
+                  <a class="nav-link" href="{{ route('page23') }}">
+                    Correlation
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
+                  <a class="nav-link" href="{{ route('page24') }}" onclick="return show('Page3',value);">
+                    Money management
                   </a>
                 </li>
                 <li class="nav-item">
