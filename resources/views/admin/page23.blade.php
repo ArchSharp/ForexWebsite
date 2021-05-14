@@ -5,105 +5,38 @@
     <h4 class="text-primary fw-bold">Correlation</h4>
     <div class="col justify-content-start text-left">
         <p>
-            correlation is a statistical measure of how two securities move in relation to each other.
-            <ul>
-                <li class="fw-bold">Regular divergence</li>
-                It usually signal possible trend reversal.
-                    <ul>
-                        <li class="fw-bold">Regular bullish divergence</li>
-                            If the price is making lower lows (LL), but the oscillator is making higher lows (HL), this is considered to be regular bullish divergence.
-                            This normally occurs at the end of a DOWNTREND.
-                        <li class="fw-bold">Regular bearish divergence</li>
-                            if the price is making a higher high (HH), but the oscillator is lower high (LH), then you have regular bearish divergence.
-                            This type of divergence can be found in an UPTREND.
-                    </ul>
-                <li class="fw-bold">Hidden divergence</li>
-                It usually signal possible trend continuation.
-                    <ul>
-                        <li class="fw-bold">Hidden bullish divergence</li>
-                            If the price is making lower lows (HL), but the oscillator is making higher lows (LL), this is considered to be hidden bullish divergence.
-                            This normally occurs at the end of a UPTREND.
-                        <li class="fw-bold">Hidden bearish divergence</li>
-                            if the price is making a higher high (LH), but the oscillator is lower high (HH), then you have regular hidden divergence.
-                            This type of divergence can be found in an DOWNTREND.
-                    </ul>
-            </ul>
-            <div class="container">
+            Correlation is a statistical measure of how two securities move in relation to each other. With Currency correlation, we can know when two currency
+             pairs move in the same, opposite, or totally random direction, over some period of time.
+            <br>
+            <h5>How correlation is done</h5>
+            Lets us pick USD, EUR, JPY and GBP.
+            if we combine these curency in two(s) (i.e. in pairs) we wil have EURUSD, EURJPY, EURGBP, GBPUSD, GBPJPY, and USDJPY.
+             We will now individually look at what is happening to these currencies. <br>
+             Starting with USD. <br>
+             Looking at USD we will look at currency pairs that has USD and they are EURUSD, GBPUSD and USDJPY. <br>
+             if EURUSD is buying (i.e. going up) it means EUR is getting stronger against USD while USD is getting weaker against EUR. <br>
+             if GBPUSD is buying (i.e. going up) it means GBP is getting stronger against USD while USD is getting weaker against GBP. <br>
+             if USDJPY is buying (i.e. going up) it means USD is getting stronger against JPY while USD is getting weaker against JPY. <br>
+
+             if we use "s" to represent stronger, it means we have 1s for USD. <br> But if USDJPY is selling it means USD is also weaker against JPY so we will be having 0s. Meaning USD is not stronger in any place, meaning USD is totally weak. 
+             The same calculation goes for other currency, <br>
+             <span class="fw-bold">Assignment : </span> How many "s" is EUR having if EURJPY, EURUSD are selling and EURGBP is buying? <br>
+
+             <span class="text-primary fw-bold">Announcement</span> <br>
+             We at ArchFxGlobe came up a custom indicator for the correlation. It will tell you the strongest currency on all timeframes. See Below picture. Contact us if you want a copy and it will be send to your email.
+             <br> <br>
+            <div class="container mt-1">
                 <div class="row">
                     <div class="carousel-inner">
                         <div class="card-group">
                             <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/inverted-hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/hanging-man.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="card-group mt-2">
-                            <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/evening-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/shooting-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/morning-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="card-group mt-2">
-                            <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/bullish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/bearish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
+                                <!--<img src="..." class="card-img-top" alt="...">-->
+                                <img class="card-img-top" src="{{ asset("../images/correlation.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                                {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary fw-bold">Correlation indicator</h5>
+                                    <p class="card-text">Developed by <span class="text-primary fw-bold">ArchFxGlobe</span> Engineers</p>
+                                </div>
                             </div>
                         </div>
                     </div>

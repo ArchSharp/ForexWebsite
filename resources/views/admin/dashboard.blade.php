@@ -1,6 +1,7 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
+  <h2 class="text-primary fw-bold">Beginners Class</h2>
   <h4>What is Forex?</h4>
   <div class="col justify-content-center text-center">
     <p>Forex derive its name from "Foreign" and "Exchange". It is an international market where currencies (such as $, €, £, ¥, etc)

@@ -1,6 +1,7 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
+    <h2 class="text-primary fw-bold">Intermediate Class</h2>
     <h4 class="text-primary fw-bold">Support and Resistance</h4>
     <div class="col justify-content-start text-left">
         <p>
