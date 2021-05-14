@@ -17,23 +17,27 @@
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Inverted Head and Shoulder</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">It usually happen toward the end of an downtrend, when the market has stretched in downward you can expect to see this pattern formed. But it does not happen everytime.
+                                    Trade is usually taken after the price has moved above right shoulder.
+                                </p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/dBot.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title text-primary fw-bold">Double bottom</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
+                                <!--<img src="..." class="card-img-top" alt="...">-->
+                                <img class="card-img-top" src="{{ asset("../images/dBot.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary fw-bold">Double bottom</h5>
+                                    <p class="card-text">It usually happen toward the end of an downtrend, when the market has stretched in downward you can expect to see this pattern formed. But it does not happen everytime.
+                                        Trade is usually taken after the price has moved above Neckline.</p>
+                                </div>
                             </div>
                             <div class="card ms-2 border">
                             <!--<img src="..." class="card-img-top" alt="...">-->
                             <img class="card-img-top" src="{{ asset("../images/headnshoulder.jpg") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Head and Shoulder</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">It usually happen toward the end of an uptrend, when the market has stretched in uptrend you can expect to see this pattern formed. But it does not happen everytime.
+                                    Trade is usually taken after the price has moved below Neckline.</p>
                             </div>
                             </div>
                         </div>
@@ -45,7 +49,8 @@
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Double top</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">It usually happen toward the end of an uptrend, when the market has stretched in uptrend you can expect to see this pattern formed. But it does not happen everytime.
+                                    Trade is usually taken after the price has moved below Neckline.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -53,7 +58,8 @@
                             <img class="card-img-top" src="{{ asset("../images/ascendingTriangle.jpeg") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Ascending Triangle</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">It may happen anywhere in the market, it may also happen toward the end of a downtrend, when the market has stretched in downtrend you can expect to see this pattern formed. But it does not happen everytime.
+                                    Trade is usually taken after the price has break above triangle.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -61,7 +67,8 @@
                             <img class="card-img-top" src="{{ asset("../images/descendingTriangle.jpg") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Descending Triangle</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">It may happen anywhere in the market, it may also happen toward the end of an uptrend, when the market has stretched in downtrend you can expect to see this pattern formed. But it does not happen everytime.
+                                    Trade is usually taken after the price has break below triangle.</p>
                             </div>
                             </div>
                         </div>
@@ -73,7 +80,8 @@
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Symetrical Triangle</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">It may happen anywhere in the market, it may also happen toward the end of an uptrend or downtrend, when the market has stretched in downtrend you can expect to see this pattern formed. But it does not happen everytime.
+                                    Trade is usually taken after the price has break below or above the triangle.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -81,7 +89,9 @@
                             <img class="card-img-top" src="{{ asset("../images/risenfallwedge.jpeg") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Risng and Falling Wedge</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">Rising Wedge usually appears in a downtrend market while falling wedge appears in a uptrend. Both are a continuation of the 
+                                    trend, the wedges are retracement.
+                                </p>
                             </div>
                             </div>
                         </div>

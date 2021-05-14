@@ -32,7 +32,8 @@
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Inverted Hammer</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">It is called inverted hammer because this time the upper wick is longest, while the lower wick is short.
+                                    It indicates a buying pressure, followed by a selling pressure that was not strong enough to drive the market price down. Inverted hammer suggests that buyers will soon have control of the market.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -40,7 +41,8 @@
                             <img class="card-img-top" src="{{ asset("../images/hanging-man.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Hanging-Man</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">This pattern is the bearish equivalent of a hammer pattern; it has the same shape but it forms at the end of an uptrend.
+                                    It signals that there was a significant sell-off during the day, but that buyers were able to push the price up again. The large sell-off is often seen as an indication that the bulls are losing control of the market.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -48,7 +50,8 @@
                             <img class="card-img-top" src="{{ asset("../images/hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Hammer</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">This candlestick pattern has a short body with a long lower wick, and is found at the bottom of a downward trend. <br>
+                                    This candlestick pattern shows that although there were selling pressures during the day, ultimately a strong buying pressure drove the price back up. The colour of the body can vary, but green hammers indicate a stronger bull market than red hammers.</p>
                             </div>
                             </div>
                         </div>
@@ -60,7 +63,8 @@
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Evening-Star</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">This candlestick is formed by three-candlestick pattern, it is the equivalent of the bullish morning star. It is formed of a short candle sandwiched between a long green candle and a large red candlestick.
+                                    It signals the reversal of an uptrend, and is particularly strong when the third candlestick erases the gains of the first candle.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -68,7 +72,8 @@
                             <img class="card-img-top" src="{{ asset("../images/shooting-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Shooting-Star</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">This pattern has the same shape just as the inverted hammer, but it is formed in an uptrend: it has a small lower body, and a long upper wick.
+                                    Usually, the market will gap slightly higher on opening and rally to an intra-day high before closing at a price just above the open – like a star falling to the ground.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -76,7 +81,8 @@
                             <img class="card-img-top" src="{{ asset("../images/morning-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Morning-Star</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">This candlestick pattern is usually considered a sign of hope in a market downtrend. It is composed of three-candlestick pattern: one short-bodied candle between a long red and a long green. usually, the ‘star’ will have no overlap with the longer bodies, as the market gaps both on open and close.
+                                    It indicates that the selling pressure of the first day is dying, and a bull market is on the horizon.</p>
                             </div>
                             </div>
                         </div>
@@ -88,7 +94,8 @@
                             {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Bullish Engulfing</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">This pattern is formed by two candlesticks. The first candle is a short red body that is completely engulfed by a larger green candle.
+                                    Though the second day opens lower than the first, the bullish market pushes the price up, culminating in an obvious win for buyers.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -96,7 +103,8 @@
                             <img class="card-img-top" src="{{ asset("../images/bearish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Bearish Engulfing</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
+                                <p class="card-text">This pattern occurs at the end of an uptrend. The first candle has a small green body that is engulfed by a subsequent long red candle.
+                                    It indicates a peak or slowdown of price movement, and is a sign of an impending market downward movement. The lower the second candle goes, the more significant the likelyhood of the market downtrend.</p>
                             </div>
                             </div>
                         </div>

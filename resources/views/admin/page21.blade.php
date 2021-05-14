@@ -4,108 +4,57 @@
     <h4 class="text-primary fw-bold">Fundamental Analysis</h4>
     <div class="col justify-content-start text-left">
         <p>
-            Divergence is a strategy used to know the most likely market movement before it happens, i.e used to know market direction ahead of other traders. 
-            This isacheived by combining market price action and an Indicator movement. The Indicators that are mostly used are RSI, MACD, and Stochastic. we recommend using MACD<br>
-            The best thing about divergences is that you’re usually buying near the bottom or selling near the top.
-            There are two types of divergence,
+            Fundamental analysis deals with the economic aspect of forex. All currencies such as Dollar, Euro, Japanese Yen, etc. belong to a country. 
+            What determines the value of these currencies are the economic factors of the country in question. These factors are usually reveal during News release which can be found in 
+            <a href="https://forexfactory.com" target="_blank">Forex Factory</a>. <br>
+            There are many economic factors to look at but we will talk on the most important and explain how to interpret the data on <a href="https://forexfactory.com" target="_blank">Forex Factory</a>. 
+            The most important economic data to watch for include:
             <ul>
-                <li class="fw-bold">Regular divergence</li>
-                It usually signal possible trend reversal.
-                    <ul>
-                        <li class="fw-bold">Regular bullish divergence</li>
-                            If the price is making lower lows (LL), but the oscillator is making higher lows (HL), this is considered to be regular bullish divergence.
-                            This normally occurs at the end of a DOWNTREND.
-                        <li class="fw-bold">Regular bearish divergence</li>
-                            if the price is making a higher high (HH), but the oscillator is lower high (LH), then you have regular bearish divergence.
-                            This type of divergence can be found in an UPTREND.
-                    </ul>
-                <li class="fw-bold">Hidden divergence</li>
-                It usually signal possible trend continuation.
-                    <ul>
-                        <li class="fw-bold">Hidden bullish divergence</li>
-                            If the price is making lower lows (HL), but the oscillator is making higher lows (LL), this is considered to be hidden bullish divergence.
-                            This normally occurs at the end of a UPTREND.
-                        <li class="fw-bold">Hidden bearish divergence</li>
-                            if the price is making a higher high (LH), but the oscillator is lower high (HH), then you have regular hidden divergence.
-                            This type of divergence can be found in an DOWNTREND.
-                    </ul>
+                <li>Interest Rates</li>
+                A currency’s interest rate is probably the biggest factor in determining the perceived value of a currency. 
+                Generally, higher interest rates increase the value of a given country's currency while lower interest rates decrease the value of a given country's currency. The higher interest rates that can be earned tend to attract foreign investment, increasing the demand for and value of the home country's currency.
+                <li>Inflation</li>
+                Inflation is a steady increase in the prices of goods and services. Higher inflation reduces the value of a country's currency while lower inflation reduces the value of a country's currency.
+                <li>GDP (Gross Domestic Product)</li>
+                <li>Employment Data</li>
+                Employment data includes Unemployment and employment rate.
             </ul>
+            Fundamental analysis is a valuable tool in estimating the future conditions of an economy, but not so much for predicting currency price direction. But whenever the data for 
+            economic factors are released, there is usually a very fast or slow reaction in forex market to this News release.
+            <br> <br>
+            <h5>How to interpret <a href="https://forexfactory.com" target="_blank">Forex Factory</a> data</h5> <br>
+            
             <div class="container">
                 <div class="row">
                     <div class="carousel-inner">
                         <div class="card-group">
                             <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/inverted-hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/hanging-man.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/hammer.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="card-group mt-2">
-                            <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/evening-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/shooting-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/morning-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="card-group mt-2">
-                            <div class="card">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/bullish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
-                            </div>
-                            <div class="card ms-2 border">
-                            <!--<img src="..." class="card-img-top" alt="...">-->
-                            <img class="card-img-top" src="{{ asset("../images/bearish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Details</h5>
-                                <p class="card-text">Few informations such as drawdown and current ROI% can be seen in above image, all informations you need to convince you about the profitability can be seen by clicking "See Results", it will take you MyFxBook.</p>
-                            </div>
+                                <!--<img src="..." class="card-img-top" alt="...">-->
+                                <img class="card-img-top" src="{{ asset("../images/high.png") }}" alt="Widget" style="width:100%; height: 100%;">
+                                {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold"><span style="color: red;">High</span>, <span style="color:chocolate;">Medium</span>, and <span style="color:yellow;">Low</span> impact, <span style="color:grey;">Holidays</span> </h5>
+                                    <p class="card-text">We have three types of impact, 
+                                        <ul>
+                                            <li><span class="fw-bold" style="color: red;">High</span> impact</li>
+                                            When News with high impact are released, it usually have the highest volatility (in other words "great force/speed") in the market.
+                                            <li><span class="fw-bold" style="color:chocolate;">Medium</span> impact</li>
+                                            When News with medium impact are released, it usually have the high volatility second to high impact in the market.
+                                            <li><span class="fw-bold" style="color:yellow;">Low</span> impact</li>
+                                            When News with low impact are released, it usually have the lowest volatility in the market.
+                                        </ul>
+                                        and three types of values,
+                                        <ul>
+                                            <li>Actual value</li>
+                                            This is the most recent value, when the value is released in red color it means the news for that currency is a bad one, 
+                                            when the value is released in green color it means the news for the currency is a good one.
+                                            <li>Forecast value</li>
+                                            This is the most recent value, This does not have a significant effect, it is a collective view/prediction of the economist about a currency.
+                                            <li>Previous value</li>
+                                            This is the last value that was released for the news of the currency in question.
+                                        </ul>
+                                        What you are checking here is </p>
+                                </div>
                             </div>
                         </div>
                     </div>

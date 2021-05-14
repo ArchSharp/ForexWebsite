@@ -1,13 +1,11 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
+    <h2 class="text-primary fw-bold">Advance Class</h2>
     <h4 class="text-primary fw-bold">Correlation</h4>
     <div class="col justify-content-start text-left">
         <p>
-            Divergence is a strategy used to know the most likely market movement before it happens, i.e used to know market direction ahead of other traders. 
-            This isacheived by combining market price action and an Indicator movement. The Indicators that are mostly used are RSI, MACD, and Stochastic. we recommend using MACD<br>
-            The best thing about divergences is that you’re usually buying near the bottom or selling near the top.
-            There are two types of divergence,
+            correlation is a statistical measure of how two securities move in relation to each other.
             <ul>
                 <li class="fw-bold">Regular divergence</li>
                 It usually signal possible trend reversal.
