@@ -139,36 +139,6 @@
                     Money management
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Forex trading session
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Who trade Forex market?
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Advantages of forex trading
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
-                  </a>
-                </li>
               </div>
             </ul>
           </li>
@@ -178,42 +148,11 @@
               <div class="collapse" id="collapseExample4">
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    Definition
+                    Disclaimer
                   </a>
-                </li>
-                <li class="nav-item">
+                </li><li class="nav-item">
                   <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Forex trading session
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Who trade Forex market?
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    Advantages of forex trading
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
-                    How to trade forex profitably
+                    Our Strategy
                   </a>
                 </li>
               </div>
