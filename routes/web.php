@@ -57,31 +57,31 @@ Route::group(['middleware'=>['AuthCheck']], function(){
     Route::get('/auth/register', [MainController::class, 'register'])->name('auth.register');
 
     //only accessible to registered and signed in user
-    Route::get('/Learn/Forex/Definition', [MainController::class, 'dashboard'])->name('admin.dashboard');
-    Route::get('/Learn/Forex/Major+Currencies', [PagesController::class, 'page2'])->name('page2');
-    Route::get('/Learn/Forex/Currency+Pairs', [PagesController::class, 'page3'])->name('page3');
-    Route::get('/Learn/Forex/Forex+Terminologies', [PagesController::class, 'page4'])->name('page4');
-    Route::get('/Learn/Forex/Forex+Order+Types', [PagesController::class, 'page5'])->name('page5');
-    Route::get('/Learn/Forex/Forex+Trading+Session', [PagesController::class, 'page6'])->name('page6');
-    Route::get('/Learn/Forex/Forex+Participants', [PagesController::class, 'page7'])->name('page7');
-    Route::get('/Learn/Forex/Account+Metrics', [PagesController::class, 'page8'])->name('page8');
-    Route::get('/Learn/Forex/Brokers', [PagesController::class, 'page9'])->name('page9');
-    Route::get('/Learn/Forex/Factors+for+selecting+broker', [PagesController::class, 'page10'])->name('page10');
-    Route::get('/Learn/Forex/How+to+open+forex+account', [PagesController::class, 'page11'])->name('page11');
-    Route::get('/Learn/Forex/Market+Analysis', [PagesController::class, 'page12'])->name('page12');
-    Route::get('/Learn/Forex/Vedio+Recap', [PagesController::class, 'page13'])->name('page13');
-    Route::get('/Learn/Forex/Remarks', [PagesController::class, 'page14'])->name('page14');
-    Route::get('/Learn/Forex/Support+and+Resistance', [PagesController::class, 'page15'])->name('page15');
-    Route::get('/Learn/Forex/Trend+and+Trend+channels', [PagesController::class, 'page16'])->name('page16');
-    Route::get('/Learn/Forex/Candlestick+pattern', [PagesController::class, 'page17'])->name('page17');
-    Route::get('/Learn/Forex/Chart+Indicators', [PagesController::class, 'page18'])->name('page18');
-    Route::get('/Learn/Forex/Chart+Patterns', [PagesController::class, 'page19'])->name('page19');
-    Route::get('/Learn/Forex/Divergence', [PagesController::class, 'page20'])->name('page20');
-    Route::get('/Learn/Forex/Fundamental+Analysis', [PagesController::class, 'page21'])->name('page21');
-    Route::get('/Learn/Forex/Sentimental+Analysis', [PagesController::class, 'page22'])->name('page22');
-    Route::get('/Learn/Forex/Correlation', [PagesController::class, 'page23'])->name('page23');
-    Route::get('/Learn/Forex/Risk+Management', [PagesController::class, 'page24'])->name('page24');
-    Route::get('/Learn/Forex/Overall+Recap', [PagesController::class, 'page25'])->name('page25');
+    Route::get('/Forex/Definition', [PagesController::class, 'dashboard'])->name('admin.dashboard');
+    Route::get('/Forex/Major+Currencies', [PagesController::class, 'page2'])->name('page2');
+    Route::get('/Forex/Currency+Pairs', [PagesController::class, 'page3'])->name('page3');
+    Route::get('/Forex/Forex+Terminologies', [PagesController::class, 'page4'])->name('page4');
+    Route::get('/Forex/Forex+Order+Types', [PagesController::class, 'page5'])->name('page5');
+    Route::get('/Forex/Forex+Trading+Session', [PagesController::class, 'page6'])->name('page6');
+    Route::get('/Forex/Forex+Participants', [PagesController::class, 'page7'])->name('page7');
+    Route::get('/Forex/Account+Metrics', [PagesController::class, 'page8'])->name('page8');
+    Route::get('/Forex/Brokers', [PagesController::class, 'page9'])->name('page9');
+    Route::get('/Forex/Factors+for+selecting+broker', [PagesController::class, 'page10'])->name('page10');
+    Route::get('/Forex/How+to+open+forex+account', [PagesController::class, 'page11'])->name('page11');
+    Route::get('/Forex/Market+Analysis', [PagesController::class, 'page12'])->name('page12');
+    Route::get('/Forex/Vedio+Recap', [PagesController::class, 'page13'])->name('page13');
+    Route::get('/Forex/Remarks', [PagesController::class, 'page14'])->name('page14');
+    Route::get('/Forex/Support+and+Resistance', [PagesController::class, 'page15'])->name('page15');
+    Route::get('/Forex/Trend+and+Trend+channels', [PagesController::class, 'page16'])->name('page16');
+    Route::get('/Forex/Candlestick+pattern', [PagesController::class, 'page17'])->name('page17');
+    Route::get('/Forex/Chart+Indicators', [PagesController::class, 'page18'])->name('page18');
+    Route::get('/Forex/Chart+Patterns', [PagesController::class, 'page19'])->name('page19');
+    Route::get('/Forex/Divergence', [PagesController::class, 'page20'])->name('page20');
+    Route::get('/Forex/Fundamental+Analysis', [PagesController::class, 'page21'])->name('page21');
+    Route::get('/Forex/Sentimental+Analysis', [PagesController::class, 'page22'])->name('page22');
+    Route::get('/Forex/Correlation', [PagesController::class, 'page23'])->name('page23');
+    Route::get('/Forex/Risk+Management', [PagesController::class, 'page24'])->name('page24');
+    Route::get('/Forex/Overall+Recap', [PagesController::class, 'page25'])->name('page25');
     
 });
 
