@@ -23,7 +23,7 @@
              <span class="fw-bold">Assignment : </span> How many "s" is EUR having if EURJPY, EURUSD are selling and EURGBP is buying? <br>
 
              <span class="text-primary fw-bold">Announcement</span> <br>
-             We at ArchFxGlobe came up a custom indicator for the correlation. It will tell you the strongest currency on all timeframes. See Below picture. Contact us if you want a copy and it will be send to your email.
+             We at ArchFxGlobe came up with a custom indicator for the correlation. It will tell you the strongest currency on all timeframes. See Below picture. Contact us if you want a copy and it will be send to your email.
              <br> <br>
             <div class="container mt-1">
                 <div class="row">
@@ -52,10 +52,10 @@
         <div class="container-fluid">
         <div class="row justify-content-between">
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page20') }}">Prev</a>
+            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page22') }}">Prev</a>
             </div>
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page22') }}">Next</a>
+            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page24') }}">Next</a>
             </div>
         </div>
         </div>

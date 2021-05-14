@@ -1,35 +1,22 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
-    <h4 class="text-primary fw-bold">Money management</h4>
+    <h4 class="text-primary fw-bold">Risk management</h4>
     <div class="col justify-content-start text-left">
         <p>
-            Divergence is a strategy used to know the most likely market movement before it happens, i.e used to know market direction ahead of other traders. 
-            This isacheived by combining market price action and an Indicator movement. The Indicators that are mostly used are RSI, MACD, and Stochastic. we recommend using MACD<br>
-            The best thing about divergences is that you’re usually buying near the bottom or selling near the top.
-            There are two types of divergence,
-            <ul>
-                <li class="fw-bold">Regular divergence</li>
-                It usually signal possible trend reversal.
-                    <ul>
-                        <li class="fw-bold">Regular bullish divergence</li>
-                            If the price is making lower lows (LL), but the oscillator is making higher lows (HL), this is considered to be regular bullish divergence.
-                            This normally occurs at the end of a DOWNTREND.
-                        <li class="fw-bold">Regular bearish divergence</li>
-                            if the price is making a higher high (HH), but the oscillator is lower high (LH), then you have regular bearish divergence.
-                            This type of divergence can be found in an UPTREND.
-                    </ul>
-                <li class="fw-bold">Hidden divergence</li>
-                It usually signal possible trend continuation.
-                    <ul>
-                        <li class="fw-bold">Hidden bullish divergence</li>
-                            If the price is making lower lows (HL), but the oscillator is making higher lows (LL), this is considered to be hidden bullish divergence.
-                            This normally occurs at the end of a UPTREND.
-                        <li class="fw-bold">Hidden bearish divergence</li>
-                            if the price is making a higher high (LH), but the oscillator is lower high (HH), then you have regular hidden divergence.
-                            This type of divergence can be found in an DOWNTREND.
-                    </ul>
-            </ul>
+            This is one of the most important part of forex trading. You need to know how to manage risk else you will be gambling ifyou don't. 
+            The hard truth is that loosing is part of the game. When any forex said he made money this weekor this month, it does not mean he did not lose in-between 
+            The money he is saying he made is made in a long-run. Don't learn to trade forex with a get-rich-quick mindset, it is a dangerous path many people who have thread this path 
+            lost their whole investment, some was arrested, etc.
+
+            <h5>Rules of risk management</h5>
+
+            <ol>
+                <li class="fw-bold">
+                    Never risk more than one percent on one trade
+                </li>
+                <li class="fw-bold">We recommend that your risk-to-reward ratio be 3:1, i.e</li>
+            </ol>
             <div class="container">
                 <div class="row">
                     <div class="carousel-inner">
