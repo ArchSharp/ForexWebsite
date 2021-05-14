@@ -24,7 +24,7 @@
             <li class="text-primary fw-bold">Fundamental analysis</li>
             This analysis involves studying economic data reports and news headlines. 
             Fundamental analysis is a way of looking at the forex market by analyzing economic, social, and political forces that may affect currency prices. 
-            In the intermeidiate class, we will elaborate on this analysis, in the mean time, <a href="#">Forexfactory</a> is what we will use to explain what fundamental analysis is and 
+            In the intermeidiate class, we will elaborate on this analysis, in the mean time, <a href="https://forexfactory.com" target="blank">Forexfactory</a> is what we will use to explain what fundamental analysis is and 
             how it affect your trading.
             <li class="text-primary fw-bold">Sentimental analysis</li>
             This analysis is used to gauge how other traders feel, whether it’s about the overall currency market or about a particular currency pair. 

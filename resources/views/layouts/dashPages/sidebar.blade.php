@@ -136,7 +136,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('page24') }}" onclick="return show('Page3',value);">
-                    Money management
+                    Risk management
                   </a>
                 </li>
               </div>
