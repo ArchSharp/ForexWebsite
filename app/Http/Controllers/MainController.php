@@ -96,7 +96,7 @@ class MainController extends Controller
         }else{
             if(Hash::check($request->password, $userInfo->password) && $userInfo->email_verified_at != null){
                 $request->session()->put('LoggedUser',$userInfo->id);
-                return redirect('admin/dashboard');
+                return redirect('Forex/Definition');
             }elseif($userInfo->email_verified_at == null){
                 return back()->with('fail', 'Please verify your email to continue');
             }else{
@@ -118,11 +118,7 @@ class MainController extends Controller
         }
     }
 
-    function dashboard(){
-        $data = ['LoggedUserInfo'=>Admin::where('id','=',session('LoggedUser'))->first()];
-        return view('admin.dashboard', $data);
-    }
-
+    
     public function verify_email($verification_code){
         // You were quering the users table instead of the admins
         // Also the field is email_verification_code not email_verified_at
