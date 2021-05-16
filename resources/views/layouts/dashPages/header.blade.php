@@ -14,7 +14,7 @@
                 <a class="dropdown-item" aria-current="page" href="{{ route('auth.resetpassword') }}">Reset Password</a>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
               <ul class="nav flex-column">
                 <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#">Forex - Beginners   +</a>
                 <div class="collapse" id="collapseExample1">
@@ -91,7 +91,7 @@
                 </div>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
               <ul class="nav flex-column">
                 <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Forex - Intermediate   +</a>
                 <div class="collapse" id="collapseExample2">
@@ -138,7 +138,7 @@
                 </div>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
               <ul class="nav flex-column">
                 <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Forex - Advanced   +</a>
                 <div class="collapse" id="collapseExample3">
@@ -155,7 +155,7 @@
                 </div>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
               <ul class="nav flex-column">
                 <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Our strategy   +</a>
                 <div class="collapse" id="collapseExample4">
