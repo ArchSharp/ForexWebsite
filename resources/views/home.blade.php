@@ -486,6 +486,11 @@
             <div class="col-2"><i class="fas fa-envelope"></i></div>
             <div class="col">support@<span class="text-primary fw-bold">ArchFxGlobe</span>.com</div>
           </div>
+          <div class="row mt-5">
+            <div class="col">
+              <a href="https://www.digitalocean.com/?refcode=cff6bd9ae592&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
+            </div>
+          </div>
         </div>
         <div class="col-md justify-content-center ms-5 mt-4 mb-3">
           <form class="form-inline" name="home" id="home" method="post" action="{{url('store-form')}}">

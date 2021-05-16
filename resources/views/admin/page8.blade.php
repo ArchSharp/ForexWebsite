@@ -29,7 +29,7 @@
             Note Margin does not change until another trade is executed.
             <li class="fw-bold text-primary">Free Margin</li>
             Free margin = <span class="fw-bold text-primary">Equity</span> - <span class="fw-bold text-primary">Margin</span> <br>
-            By above assumptions, Your Free marging will be = $990.02 - $12.31 <br>
+            By above assumptions, Your Free margin will be = $990.02 - $12.31 <br>
             Free margin = $977.71
             <li class="fw-bold text-primary">Margin Level</li>
             Margin level = ( Equity / Margin ) x 100% <br>
