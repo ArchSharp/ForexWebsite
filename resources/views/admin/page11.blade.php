@@ -4,7 +4,7 @@
     <h4 class="text-primary fw-bold">How to open a Forex Trading Account</h4>
     <div class="col justify-content-start text-left">
         <p>
-            <a href="http://www.forextime.com/refer-a-friend?raf=6c7a4294" target="blank" class="fw-bold">FXTM</a> is the broker we recommend, they have a good track records. So you will be opening your account with them. Opening any forex account usually has three steps: 
+            <a href="http://www.forextime.com/refer-a-friend?raf=6c7a4294" target="_blank" class="fw-bold">FXTM</a> is the broker we recommend, they have a good track records. So you will be opening your account with them. Opening any forex account usually has three steps: 
         </p>
         <ul>
             <li class="text-primary fw-bold">Selecting an account type</li>

@@ -6,11 +6,11 @@
         <p>
             Since every forex trader always have an opinion about the market, this analysis focuses on the combined opinion of the majrity of forex traders. 
             These majority usually submit their opinion about every assets (or currency pairs). The question is how do I know/can I find the data that tells me the opinion of the majority in Forex. 
-            The answer to that is <a href="https://www.cftc.gov/" class="text-success fw-bold" target="blank">Commitment of Traders</a>.
+            The answer to that is <a href="https://www.cftc.gov/" class="text-success fw-bold" target="_blank">Commitment of Traders</a>.
             <span class="fw-bold">Commitment of Traders</span> is a data report that is usually reported by those majority on every Wednessday and released to the general public on Friday. There are two websites where you can get this report from: 
             <ul>
-                <li><a href="https://www.cftc.gov/" class="text-primary fw-bold" target="blank">CFTC</a></li>
-                <li><a href="https://www.tradingster.com/" class="text-primary fw-bold" target="blank">Tradingster</a></li>
+                <li><a href="https://www.cftc.gov/" class="text-primary fw-bold" target="_blank">CFTC</a></li>
+                <li><a href="https://www.tradingster.com/" class="text-primary fw-bold" target="_blank">Tradingster</a></li>
                 We are recommending to use Tradingster because of the well-structured presentation of those datas.
             </ul>
             <div class="container">
@@ -23,7 +23,7 @@
                                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold text-primary">COT</h5>
-                                    <p class="card-text">After clicking on <a href="https://www.tradingster.com/" class="text-primary fw-bold" target="blank">Tradingster</a> scroll down a litlle on their websites 
+                                    <p class="card-text">After clicking on <a href="https://www.tradingster.com/" class="text-primary fw-bold" target="_blank">Tradingster</a> scroll down a litlle on their websites 
                                     you will see above table containing Currencies, COT legacy, and COT. Click on COT legacy of any currency you want to see its COT data.</p>
                                 </div>
                             </div>
