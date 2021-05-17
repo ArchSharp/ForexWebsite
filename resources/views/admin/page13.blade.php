@@ -12,7 +12,7 @@
                                 <!--<img src="..." class="card-img-top" alt="...">-->
                                 {{-- <img class="card-img-top" src="{{ asset("../images/inverted-hammer.png") }}" alt="Widget" style="width:100%; height: 100%;"> --}}
                                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                                <iframe style="width:100%;" height="480" src="https://www.youtube.com/embed/RlOZeRlhvVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" style="width:100%;" height="480" src="https://www.youtube.com/embed/RlOZeRlhvVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <div class="card-body">
                                     <h5 class="card-title text-primary fw-bold">Inverted Hammer</h5>
                                     <p class="card-text">It is called inverted hammer because this time the upper wick is longest, while the lower wick is short.
