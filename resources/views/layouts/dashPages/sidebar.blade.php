@@ -152,11 +152,11 @@
               <a class="nav-link text-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#" onclick="return show('Page1','Page2');">Our strategy   +</a>
               <div class="collapse" id="collapseExample4">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="{{ route('page26') }}">
                     Disclaimer
                   </a>
                 </li><li class="nav-item">
-                  <a class="nav-link" href="#" onclick="return show('Page3',value);">
+                  <a class="nav-link" href="{{ route('page27') }}" onclick="return show('Page3',value);">
                     Our Strategy
                   </a>
                 </li>
