@@ -49,7 +49,7 @@
                 <li>Retail traders (Small Speculators) or Non-reportable traders</li>
                 The number of open interest positions that do not meet the reportable requirements of the CFTC like retail traders.
             </ul> 
-                <span class="fw-bold">Since commercial are always found at the extreme to or bottom of the market, speculative positioning indicates trend direction while commercial positioning could signal reversals. <br>
+                <span class="fw-bold">Since commercial are always found at the extreme top or bottom of the market, speculative positioning indicates trend direction while commercial positioning could signal reversals. <br>
                     The basic rule is this: every market top or bottom is accompanied by a sentiment extreme, but not every sentiment extreme results in a market top or bottom. This means we will look at commercial data for last 3 or 4 weeks to present to see where 
                     there could be a major reversal.
                 </span>

@@ -139,6 +139,11 @@
                     Risk management
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('page25') }}" onclick="return show('Page3',value);">
+                    Overall Recap
+                  </a>
+                </li>
               </div>
             </ul>
           </li>
