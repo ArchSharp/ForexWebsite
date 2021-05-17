@@ -1,7 +1,7 @@
 @extends('layouts/pagestemplate.template')
 @section('content')
 <div class="section mb-5">
-    <h4 class="text-primary fw-bold">Overall Recap</h4>
+    <h4 class="text-primary fw-bold">Disclaimer</h4>
     <div class="col justify-content-start text-left">
         <p>
             This is one of the most important part of forex trading. You need to know how to manage risk else you will be gambling ifyou don't. 
@@ -26,10 +26,10 @@
         <div class="container-fluid">
         <div class="row justify-content-between">
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page24') }}">Prev</a>
+            <a class="bg-light text-decoration-none text-start fw-bold" href="{{ route('page25') }}">Prev</a>
             </div>
             <div class="col-1">
-            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page26') }}">Next</a>
+            <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page27') }}">Next</a>
             </div>
         </div>
         </div>

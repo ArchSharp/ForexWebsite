@@ -82,6 +82,8 @@ Route::group(['middleware'=>['AuthCheck']], function(){
     Route::get('/Forex/Correlation', [PagesController::class, 'page23'])->name('page23');
     Route::get('/Forex/Risk+Management', [PagesController::class, 'page24'])->name('page24');
     Route::get('/Forex/Overall+Recap', [PagesController::class, 'page25'])->name('page25');
+    Route::get('/Forex/Disclaimer', [PagesController::class, 'page26'])->name('page26');
+    Route::get('/Forex/Our+Strategy', [PagesController::class, 'page27'])->name('page27');
     
 });
 

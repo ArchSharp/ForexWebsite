@@ -14,9 +14,9 @@
   <p>
       <div class="container-fluid">
       <div class="row justify-content-between">
-          <div class="col-1">
+          {{-- <div class="col-1">
           <a class="bg-light text-decoration-none text-start fw-bold" href="#">Prev</a>
-          </div>
+          </div> --}}
           <div class="col-1">
           <a class="bg-light text-decoration-none text-end fw-bold" href="{{ route('page2') }}">Next</a>
           </div>
