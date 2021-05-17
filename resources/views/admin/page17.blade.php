@@ -11,7 +11,7 @@
             is a typical candlestick.
             
             <div class="d-flex justify-content-center mt-3">
-                <img src="{{ asset("../images/candlestick.jpg") }}" alt="" style="width: 60%;">
+                <img src="{{ asset("../images/Candlestick.jpg") }}" alt="" style="width: 60%;">
             </div>
 
             Green and Red are the typical color most people use to represent buy and sell candle. Green candle is a buy candle while red candle is a sell candle.
