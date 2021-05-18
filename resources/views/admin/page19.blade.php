@@ -58,8 +58,8 @@
                             <img class="card-img-top" src="{{ asset("../images/ascendingTriangle.png") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Ascending Triangle</h5>
-                                <p class="card-text">It may happen anywhere in the market, it may also happen toward the end of a downtrend, when the market has stretched in downtrend you can expect to see this pattern formed. But it does not happen everytime.
-                                    Trade is usually taken after the price has break above triangle.</p>
+                                <p class="card-text">It may happen anywhere in the market, it may also happen toward the end of an uptrend, when the market has stretched in downtrend you can expect to see this pattern formed. But it does not happen everytime.
+                                    Trade is usually taken after the price has break below triangle.</p>
                             </div>
                             </div>
                             <div class="card ms-2 border">
@@ -67,8 +67,8 @@
                             <img class="card-img-top" src="{{ asset("../images/descendingTriangle.jpeg") }}" alt="Widget" style="width:100%; height: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title text-primary fw-bold">Descending Triangle</h5>
-                                <p class="card-text">It may happen anywhere in the market, it may also happen toward the end of an uptrend, when the market has stretched in downtrend you can expect to see this pattern formed. But it does not happen everytime.
-                                    Trade is usually taken after the price has break below triangle.</p>
+                                <p class="card-text">It may happen anywhere in the market, it may also happen toward the end of a downtrend, when the market has stretched in downtrend you can expect to see this pattern formed. But it does not happen everytime.
+                                    Trade is usually taken after the price has break above triangle.</p>
                             </div>
                             </div>
                         </div>
