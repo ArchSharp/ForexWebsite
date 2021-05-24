@@ -13,36 +13,19 @@
                                 {{-- <img class="card-img-top" src="{{ asset("../images/inverted-hammer.png") }}" alt="Widget" style="width:100%; height: 100%;"> --}}
                                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                                 <iframe class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" style="width:100%;" height="480" src="https://www.youtube.com/embed/RlOZeRlhvVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <div class="card-body">
-                                    <h5 class="card-title text-primary fw-bold">Inverted Hammer</h5>
-                                    <p class="card-text">It is called inverted hammer because this time the upper wick is longest, while the lower wick is short.
-                                        It indicates a buying pressure, followed by a selling pressure that was not strong enough to drive the market price down. Inverted hammer suggests that buyers will soon have control of the market.</p>
+                                <div class="text-center">
+                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com" target="_blank">Forex Beginners</a>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="card-group mt-5">
-                            <div class="card">
-                                <!--<img src="..." class="card-img-top" alt="...">-->
-                                <img class="card-img-top" src="{{ asset("../images/evening-star.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                                {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                                 <div class="card-body">
-                                    <h5 class="card-title text-primary fw-bold">Evening-Star</h5>
-                                    <p class="card-text">This candlestick is formed by three-candlestick pattern, it is the equivalent of the bullish morning star. It is formed of a short candle sandwiched between a long green candle and a large red candlestick.
-                                        It signals the reversal of an uptrend, and is particularly strong when the third candlestick erases the gains of the first candle.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-group mt-5">
-                            <div class="card">
-                                <!--<img src="..." class="card-img-top" alt="...">-->
-                                <img class="card-img-top" src="{{ asset("../images/bullish-engulfing.png") }}" alt="Widget" style="width:100%; height: 100%;">
-                                {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
-                                <div class="card-body">
-                                    <h5 class="card-title text-primary fw-bold">Bullish Engulfing</h5>
-                                    <p class="card-text">This pattern is formed by two candlesticks. The first candle is a short red body that is completely engulfed by a larger green candle.
-                                        Though the second day opens lower than the first, the bullish market pushes the price up, culminating in an obvious win for buyers.</p>
+                                    <h5 class="card-title text-primary fw-bold">Summary</h5>
+                                    <p class="card-text">Carefully watch this video, 
+                                        <span class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                                            Click the video link above it will take you to the <a href="#" class="text-primary fw-bold">Youtube</a> video, <span class="fw-bold text-primary">There is a bonus for those who subscribe, comment and like after watching the video</span>.
+                                        </span>
+                                        <span class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                                            Go to <a href="https://www.youtube.com" target="_blank" class="text-primary fw-bold">Youtube</a> to subscribe, comment and like <span class="fw-bold text-primary">to qualify for a bonus</span> .
+                                        </span>
+                                    </p>
                                 </div>
                             </div>
                         </div>

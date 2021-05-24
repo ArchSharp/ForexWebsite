@@ -12,10 +12,12 @@
             <h5>Rules of risk management</h5>
 
             <ol>
-                <li class="fw-bold">
-                    Never risk more than one percent on one trade
+                <li>
+                    Never risk more than one percent on one trade. If your Balance/Capital is less than or equal to $100 always use 0.01 on a trade, If greater than $150 and less than or equal to $200 use 0.02, etc.
                 </li>
-                <li class="fw-bold">We recommend that your risk-to-reward ratio be 3:1, i.e </li>
+                <li>We recommend that your risk-to-reward ratio be 3:1, i.e if your TakeProfit (Tp) is 30 pips then your StopLoss (Sl) should be 10 pips, if Tp is 45 pips Sl should be 15 pips, etc.
+                    You can also use 1:2, if Tp is 30 pips Sl should be 15 pips, if Tp is 45 pips Sl should be 23 pips (approximate value of 22.5 pips).
+                </li>
             </ol>
         </p>
         
