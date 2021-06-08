@@ -4,7 +4,7 @@
     <h4 class="text-primary fw-bold">Forex Terminologies</h4>
     <div class="col justify-content-start text-left">
         <p>
-            The following terms are the common terms you will have know always when trading the Forex market.
+            The following terms are the common terms you must know when trading the Forex market.
         </p>
         <ul>
             <li class="fw-bold text-primary">How to read cuurency pairs</li>
@@ -16,8 +16,8 @@
                     <span class="text-primary fw-bolder">GBP</span> is getting stronger while <span class="text-success fw-bolder">USD</span>
                     is getting weaker, if the pair is falling, it means <span class="text-primary fw-bolder">GBP</span> is getting weaker while 
                     <span class="text-success fw-bolder">USD</span> is getting stronger. <br>
-                    So if you are buying a currency pair you are buying the <span class="text-primary fw-bolder">base currency</span> and selling the <span class="text-success fw-bolder">quote currency, </span>
-                    if you are selling a currency pair you are selling the <span class="text-primary fw-bolder">base currency</span> and buying the <span class="text-success fw-bolder">quote currency.</span>
+                    So if you are buying a currency pair you are buying the <span class="text-primary fw-bolder">quote currency</span> and selling the <span class="text-success fw-bolder">base currency, </span>
+                    if you are selling a currency pair you are selling the <span class="text-primary fw-bolder">quote currency</span> and buying the <span class="text-success fw-bolder">base currency.</span>
                 </p>
             <li class="fw-bold text-primary">Long and Short</li>
             Long (or longing) is another word for buy (or buying), while Short is another word for sell (or selling).
@@ -30,7 +30,7 @@
                             <img src="{{ asset("../images/bid-ask-spread.gif") }}" alt="" style="width: 400px;">
                         </div>
              <li class="fw-bold text-primary">Pips</li>
-             <span class="fw-bold">Pips</span> <br> In market prices, there is 5 (e.g 1.10987) and 4 digits (e.g 1.1098) price mostly seen in many pairs.
+             In market prices, there is 5 digits (e.g 1.10987) and 4 digits (e.g 1.1098) prices, and are mostly seen in many pairs.
              For the 5 digits price, the last digit is called <span class="fw-bold">Pipettes or points or fractional pips</span>, for the 4 digits there is no <span class="fw-bold">Pipettes or points or fractional pips</span>, 
              the last digit is called <span class="fw-bold">Pips</span>. <br>Also there are 3 (e.g 1.237) and 2 digits (e.g 1.23) mostly seen in Japanese yen pairs. What applies to 5 and 4 digits 
              also applies here, 3 digits has <span class="fw-bold">Pipettes or points or fractional pips</span> while 2 digits doe not have <span class="fw-bold">Pipettes or points or fractional pips</span> <br>

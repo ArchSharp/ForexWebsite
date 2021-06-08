@@ -20,8 +20,8 @@
         <li class="fw-bold text-primary">Minor Currency Pairs</li>
         These are currency pairs that has no USD combined with any of the eight currencies listed on <a class="text-secondary" href="{{ route('page2') }}">Page 2</a>. 
         They are also majorly traded but not as much as Major Currency Pairs, see their list below,<br>
-        EURCHF EURGBP EURCAD EURAUD EURNZD EURSEK EURNOK GBPCHF GBPAUD GBPCAD GBPNZD <br>
-        EURJPY GBPJPY CHFJPY CADJPY AUDJPY NZDJPY  .....e.t.c
+        EURCHF, EURGBP, EURCAD, EURAUD, EURNZD, EURSEK, EURNOK, GBPCHF, GBPAUD, GBPCAD, GBPNZD, <br>
+        EURJPY, GBPJPY, CHFJPY, CADJPY, AUDJPY, NZDJPY  .....e.t.c
         <li class="fw-bold text-primary">Exotic Currency Pairs</li>
         These currency pairs are made up of one major currency paired with the currency of a developing
          economy, such as Brazil, Mexico, Chile, Turkey, or Hungary. They are USDSAR (United States / Saudi Arabia), 
