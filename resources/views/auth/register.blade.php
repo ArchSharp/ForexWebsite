@@ -25,7 +25,9 @@
   <div class="container card my-5" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4 d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
-        <img src="..." alt="...">
+        <div>
+          <i class="far fa-user-circle text-primary offset-3" style="font-size: 100px; margin-top: 70%;"></i>
+        </div>
       </div>
       <div class="col-md-8">
         <div class="card-body">
