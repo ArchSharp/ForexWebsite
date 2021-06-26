@@ -14,7 +14,7 @@
                                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                                 <iframe class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" style="width:100%;" height="480" src="https://www.youtube.com/embed/IQArgpbjFHg?list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <div class="text-center">
-                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=IQArgpbjFHg&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=1" target="_blank">Forex Intermediate Video-1</a>
+                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=IQArgpbjFHg&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=1" target="_blank">Forex Beginners Video-1</a>
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-primary fw-bold">Summary</h5>
@@ -37,7 +37,7 @@
                                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                                 <iframe class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" style="width:100%;" height="480" src="https://www.youtube.com/embed/TuxjSvw0mqY?list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <div class="text-center">
-                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=TuxjSvw0mqY&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=2" target="_blank">Forex Intermediate Video-2</a>
+                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=TuxjSvw0mqY&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=2" target="_blank">Forex Beginners Video-2</a>
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-primary fw-bold">Summary</h5>
@@ -60,7 +60,7 @@
                                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                                 <iframe class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" style="width:100%;" height="480" src="https://www.youtube.com/embed/j9jKRqT3iGA?list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <div class="text-center">
-                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=j9jKRqT3iGA&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=3" target="_blank">Forex Intermediate Video-3</a>
+                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=j9jKRqT3iGA&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=3" target="_blank">Forex Beginners Video-3</a>
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-primary fw-bold">Summary</h5>
@@ -83,7 +83,7 @@
                                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                                 <iframe class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" style="width:100%;" height="480" src="https://www.youtube.com/embed/tdKbiqzhNmE?list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <div class="text-center">
-                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=tdKbiqzhNmE&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=4" target="_blank">Forex Intermediate Video-4</a>
+                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=tdKbiqzhNmE&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=4" target="_blank">Forex Beginners Video-4</a>
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-primary fw-bold">Summary</h5>
@@ -106,7 +106,7 @@
                                 {{-- <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/5cug?f=0"></iframe> --}}
                                 <iframe class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" style="width:100%;" height="480" src="https://www.youtube.com/embed/tF_ns17XRPw?list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <div class="text-center">
-                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=tF_ns17XRPw&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=5" target="_blank">Forex Intermediate Video-4</a>
+                                    <a class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none fw-bold" href="https://www.youtube.com/watch?v=tF_ns17XRPw&list=PLhPsoJ0uzsOpDmfbtykbGpMJ3z36XjuVK&index=5" target="_blank">Forex Beginners Video-5</a>
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-primary fw-bold">Summary</h5>
