@@ -261,7 +261,7 @@
 
     <div class="starter-template text-center py-5 px-3">
       <h1>Recommended Broker</h1>
-      <h4 class="underline text-primary fw-bold text-decoration-underline"><a href="http://www.forextime.com/refer-a-friend?raf=6c7a4294" target="_blank" class="fw-bold">FXTM</a></h4>
+      <h4 class="underline text-primary fw-bold text-decoration-underline"><a href="https://www.icmarkets.com/global/en/" target="_blank" class="fw-bold">IC Markets</a></h4>
       <p class="lead">Fast market executuion -- Fast Withdrawal and Deposit.<br> They have different account that suites your capital volume (whether small or big).</p>
       
     </div>
