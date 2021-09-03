@@ -263,6 +263,7 @@
       <h1>Recommended Broker</h1>
       <h4 class="underline text-primary fw-bold text-decoration-underline"><a href="https://icmarkets.com/?camp=59409" id="referalLink" target="_blank" class="fw-bold">IC Markets</a></h4>
       <p class="lead">Fast market executuion -- Fast Withdrawal and Deposit.<br> They have different account that suites your capital volume (whether small or big).</p>
+      <!--<iframe src="https://secure.icmarkets.com//Partner/Widget/PriceWidget/594091" width="273" frameborder="0"  height="480"></iframe>  -->
       
     </div>
   </main>
