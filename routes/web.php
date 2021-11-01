@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\contactController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PaymentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -98,4 +99,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/', [MainController::class, 'home'])->name('home');
 Route::post('/auth/sendJob', [MainController::class, 'sendJob'])->name('auth.sendJob');
 
-
+//This is where I want to get result of transaction (if it is successful or not)
+Route::any('payment-Page', [PaymentController::class, 'paymentGateway']);
+Route::any('verify-payment', [PaymentController::class, 'verify'])->name('verify');
